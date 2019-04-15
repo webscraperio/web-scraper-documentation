@@ -25,7 +25,7 @@ events triggered by the button.
  * delay - delay before element selection and delay between clicking. This
  should usually be specified because the data won't be loaded immediately from
  the server. More than 2000 ms might be a good choice if you you don't want to
- loose data because the server didn't respond fast enough.
+ lose data because the server didn't respond fast enough.
  * Discard initial elements - the selector will not return the elements that
  were available before clicking for the first time. This might be useful for
  duplicate removal.
@@ -55,6 +55,14 @@ When using *Click Once* only unique buttons will be clicked. When using
  * Unique HTML - buttons with identical HTML and stripped text content are 
  considered equal
  * Unique CSS Selector - buttons with identical CSS Selector are considered equal
+ 
+ ### Discard initial elements
+ 
+ * Never discard - scrapes data before and after click action
+ * Discard when click element exists - discards the initial set of data that is scraped before the click selector 
+ initiates the click action
+ * Always discard - always discards the initial set of data (Not recommended, as only available to accommodate 
+ sitemaps created pre-introduction of *Discard when click element exists* option)
 
 ## Use cases
 
@@ -80,6 +88,17 @@ type. In figure 2 you can see how to configure the *Element click selector*
 to extract data from this site.
 
  ![Fig. 2: Sitemap when using Click more type][image-click-more]
+
+#### When to select the *Discard when click element exists* option
+
+The *Discard when click element exists* option is picked when, for example, product pages, of an e-commerce website, 
+that are being scraped have an almost identical structure, with the only differentiator being the presence of a 
+variation option (size, color, quantity, etc.) that has to be iterated through in the product page.
+
+Due to the fact that the scraper will collect data before and after the click, by not having this option selected 
+scraping a page with multiple variations available, the scraper will extract information before initiating the click 
+and during the clicking process, resulting in duplicate or unusable row of data.
+
 
  [image-click-more]: ../images/selectors/element-click/click-more.png?raw=true
  [image-click-once]: ../images/selectors/element-click/click-once.png?raw=true
