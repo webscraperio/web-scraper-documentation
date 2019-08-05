@@ -64,7 +64,7 @@ Note that when creating selectors use Element preview and Data preview features
 to ensure that you have selected the correct elements with the correct data.
 
 More information about selector tree building is available in selector
-documentation. You should atleast read about these core selectors:
+documentation. You should at least read about these core selectors:
 
  * [Text selector][text-selector]
  * [Link selector][link-selector]

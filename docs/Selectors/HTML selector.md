@@ -1,5 +1,5 @@
 # HTML selector
-HMTL selector can extract HTML and text within the selected element. Only the
+HTML selector can extract HTML and text within the selected element. Only the
 inner HTML of the element will be extracted.
 
 ## Configuration options

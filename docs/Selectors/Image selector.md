@@ -31,13 +31,13 @@ Images are renamed to `<web-scraper-oder>-<selector-name>.ext`.
 
 ### macOS, Linux usage
 
-1. Install python if necessary through your package manager. Most likely you already have it preinstalled.
+1. Install python if necessary through your package manager. Most likely you already have it pre-installed.
 2. Download image downloader script from here:
 [https://github.com/webscraperio/image-downloader][image-downloader]
 3. Move `image-downloader.py` to `Downloads` directory
 4. Scrape the target site and export data in CSV format
 5. Save the CSV file in `Downloads` directory
-6. Open `Terminal` application. You should have one preinstalled
+6. Open `Terminal` application. You should have one pre-installed
 7. Change working to `Downloads` directory by typing:
     ```
     cd Downloads
