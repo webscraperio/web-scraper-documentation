@@ -23,6 +23,20 @@ CSS Selector `_parent_` allows a child selector of an
 example this CSS selector could be used in a case where you need to extract an
 attribute from the element that the *Element selector* returned.
 
+#### Selecting elements within iframe or shadow root
+
+A custom written CSS selector can be used to select elements within an iframe or
+shadow-root.
+
+To select data within iframe create a selector that would select the
+iframe element and then afterwards add `:iframe`. For example:
+`iframe:iframe .selector-within-iframe`
+
+Similarly a custom CSS selector can be used to select elements within a shadow root.
+First select the shadow root parent element and then add `:shadow-root` to
+the selector.
+For example: `.shadow-root-parent-element:shadow-root .selector-within-shadow-root`
+
  [css-selectors-wikipedia]: http://en.wikipedia.org/wiki/Cascading_Style_Sheets#Selector
  [css-selectors-jquery]: http://api.jquery.com/category/selectors/
  [w3schools-css-selector-reference]: http://www.w3schools.com/cssref/css_selectors.asp
