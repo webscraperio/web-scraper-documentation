@@ -21,8 +21,9 @@ resulting data.
 
 The regular expression attribute can be used to extract a substring of the text
 that the selector extracts. When a regular expression is used the whole match
-(group 0) will be returned as a result  [www.regexr.com] [regex-site] is a
-great site where you can learn about regular expressions and try them out.
+(group 0) will be returned as a result.
+  
+[www.regexr.com] [regex-site] is a great site where you can learn about regular expressions and try them out.
 
 Here are some examples that you might find useful:
 
