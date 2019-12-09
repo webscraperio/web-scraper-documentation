@@ -44,7 +44,7 @@ Images are renamed to `<web-scraper-oder>-<selector-name>.ext`.
     ```
 8. Run image downloader script by typing:
     ```
-    python image-downloader scraped_data.csv
+    python image-downloader.py scraped_data.csv
     ```
     
 ![Fig. 2: macOS image download][osx-image-download-script]
