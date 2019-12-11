@@ -4,8 +4,8 @@ Parser is a feature exclusive for [Cloud Web Scraper][cloud]. It can be used to 
 usually would be done by a custom user written script or manually in a spreadsheet software. 
 
 Its modular design allows you to chain multiple parsers for each column to easily create post processing methods, 
-ranging from simple to sophisticated. In case of a need to reorder the parsers, parser sequence can be changed by 
-dragging and dropping parser buttons within the row.
+ranging from simple to sophisticated. You can edit or delete parser by clicking on the specific parser's button. In case
+of a need to reorder the parsers, parser sequence can be changed by dragging and dropping parser buttons within the row.
 
 ![Fig. 1: Drag and drop to swap parsers][drag-n-drop]
 
