@@ -9,7 +9,7 @@ to. If you are selecting multiple links then check *multiple* property.
 Note! Link selector works only with `<a>` tags with `href` attribute. If the
 link selector is not working for you then you can try these workarounds:
 
- 1. Check that the link in the url bar changes after clicking an item. If the link doesn't change then the site is 
+ 1. Check that the link in the url bar changes after clicking an item. If the link doesn't change, then the site is 
  probably using ajax for data loading. Instead of using link selector you
  should use [Element click selector] [element-click].
  2. If the site opens a popup then you should use
