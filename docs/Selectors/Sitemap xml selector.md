@@ -33,6 +33,7 @@ We recommend using [Cloud Web Scraper][cloud-web-scraper] for large volume scrap
 ## Use cases
 
 Sitemap.xml files are usually used for sites that want to be indexed by search engines, sitemaps can be found for most:
+
 * e-commerce sites;
 * travel sites;
 * news sites;
