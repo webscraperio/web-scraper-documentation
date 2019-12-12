@@ -9,7 +9,6 @@ report it as a bug.
  * selector - [CSS selector] [css-selector] for the image element.
  * multiple - multiple records are being extracted. Usually should not be
  checked for Image selector.
- * download image - Removed. Previously was used to download images. Use image download script instead.
 
 ## Use cases
 See [Text selector] [text-selector] use cases.
