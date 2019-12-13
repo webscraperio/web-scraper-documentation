@@ -1,5 +1,5 @@
 # Regex match parser
-Extract a substring from a string by using a regular expressions. You can learn more about regular expressions on
+Regular Expression is used to extract a substring from a string. To learn more about regular expressions see
 [RegExr][regexr].
 
 ## Configuration options
