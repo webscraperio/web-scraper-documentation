@@ -1,9 +1,9 @@
 # Virtual column parser
-Create a new column by using data from one of the scraped columns. Virtual column can be created by clicking on 
+Allows to create a new column by using data from one of the scraped columns. Virtual column can be created by clicking on 
 `+ Add column` button at the bottom of the parser table.
 
 Virtual column returns raw data from source columns. Setting parsers for virtual column won't affect data in source 
-columns and vice versa. Virtual column parser can't be swapped with another parser by using drag and drop functionality.
+columns and vice versa. Virtual column parser can not be swapped with another parser by using drag and drop functionality.
 
 ## Configure options
  * Name - virtual column name. Must be unique.
