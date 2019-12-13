@@ -1,11 +1,11 @@
 # Parser
 
-Parser is a feature exclusive for [Cloud Web Scraper][cloud]. It can be used to automate data post processing that 
+Parser is a feature which is solely exclusive for the [Cloud Web Scraper][cloud]. It is used to automatize data post processing that
 usually would be done by a custom user written script or manually in a spreadsheet software. 
 
-Its modular design allows you to chain multiple parsers for each column to easily create post processing methods, 
-ranging from simple to sophisticated. You can edit or delete parser by clicking on the specific parser's button. In case
-of a need to reorder the parsers, parser sequence can be changed by dragging and dropping parser buttons within the row.
+Its modular design allows you to create and further on configure multiple parsers for each column to easily create the most suitable post processing methods, 
+ranging from very simple to more sophisticated. To edit or to delete a parser - click on the specific parser's button. 
+To reorder the parsers, parser sequence can be changed by dragging and dropping parser buttons within the row.
 
 ![Fig. 1: Drag and drop to swap parsers][drag-n-drop]
 
@@ -14,22 +14,21 @@ If parser is set, data will always be parsed when downloaded.
  ## Getting started
  
 To set up a parser for a sitemap, go to `Sitemap details` page in your [Cloud Web Scraper][cloud] account and open 
-`Parser` tab. You will see a table with 2 columns - `Column name` and `Parsers`. If you have some data already scraped, 
-you will have another table below with data preview that contains the first 10 scraped records. To add a parser click on 
-`Add parser` dropdown for the relevant row and select a parser type you wish to set up. On how each parser type works 
-and how to configure it check one of the related documentation pages listed in [Parser types](#parser-types) section. 
+`Parser` tab. A table with 2 columns - `Column name` and `Parsers` will be visible. If there is some data already scraped for the selected sitemap, 
+another table below with data preview containing the first 10 scraped records will show. To add a parser - click 
+`Add parser` dropdown for the relevant row and then select a parser type to set up. Information of how each parser type works and how to configure each, check one of the related documentation pages listed in [Parser types](#parser-types) section. 
 
-Virtual column can be created by clicking on `+ Add column` button at the bottom of the parser table.
+An additional, custom column, using and combining data from other columns, called a "Virtual column" can be created by clicking on `+ Add column` button at the bottom of the parser table.
 
-It is useful to have a basic knowledge of RegEx but it is not required as only one of the parser types are solely for 
+For more complex data processing some knowledge of RegEx is useful; however, it is not obligatory as only one of the parser types are solely for 
 using RegEx.
 
-As you configure your parser, data preview will be updated in real time for you to check and compare the applied 
-changes. Fields with more than 1000 characters will be truncated in the data preview. 
+The data preview will be updated automatically everytime a parser is configured, showing a comparison of the applied changes. 
+Fields with more than 1000 characters will be abbreviated in the data preview. 
 
-You can set multiple parsers of the same type for one column, this is extremely helpful for using [Replace text]
-[replace-parser] parser as you can achieve the same result by creating very simple replace text operations as having 
-only one parser with a complicated configuration.
+It is possible to set multiple parsers of the same type for one column, this is extremely helpful for using [Replace text]
+[replace-parser] parsers, because it allows to achieve the same result by creating very simple replace text operations as 
+only one parser with a more complicated configuration.
 
 ### Parser types
 
