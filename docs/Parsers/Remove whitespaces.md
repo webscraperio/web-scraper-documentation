@@ -1,5 +1,5 @@
 # Remove whitespaces parser
-Remove whitespaces and new lines. Useful for cleaning up fields scraped by [Text selector][text-selector].
+Parser allows to remove whitespaces and new lines. It is useful for cleaning up fields scraped by [Text selector][text-selector].
 
 ## Configure options
  * Remove whitespaces - replaces all spaces and tabs with a single space. Removes whitespaces from the beginning and end 
