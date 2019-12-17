@@ -9,7 +9,7 @@ Column can be removed or restored by toggling the rightmost button.
 
 ![Fig. 1: Remove columns][remove-columns]
 
-By removing virtual column, the parser will be deleted with all its child parsers and it will not be possible to restore
+By removing the virtual column, the parser will be deleted with all its child parsers and it will not be possible to restore
 them.
 
 ![Fig. 1: Remove virtual column][remove-virtual-column]
