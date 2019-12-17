@@ -36,14 +36,14 @@ Regular expression to extract `ZIP code`: `\d+$`
 Virtual column in combination with [Replace text][replace-parser] parser can be used to create a column with a default 
 value. In order to do this:  
 
-    1. Create a Virtual column parser by clicking on "+ Add column" button at the bottom of the parser table.
-    2. Name your column and add any column as a source column.
-    3. Save your parser.
-    4. Create a Replace text parser and add the following configuration: 
-        * Text to replace: [\s\S]+  
-        * Text to place: your default value  
-        * Use Regex: checked
-    5. Save your parser and download the data file with the new column.
+1. Create a Virtual column parser by clicking on "+ Add column" button at the bottom of the parser table.
+2. Name your column and add any column as a source column.
+3. Save your parser.
+4. Create a Replace text parser and add the following configuration: 
+    * Text to replace: `[\s\S]+`  
+    * Text to place: `your default value`  
+    * Use Regex: `checked`
+5. Save your parser and download the data file with the new column.
 
 [replace-parser]: Replace%20parser.md
 [selectors]: ../Selectors.md
