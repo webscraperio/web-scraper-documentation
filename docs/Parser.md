@@ -11,7 +11,7 @@ To reorder the parsers, parser sequence can be changed by dragging and dropping 
 
 If parser is set, data will always be parsed when downloaded.
 
- ## Getting started
+## Getting started
  
 To set up a parser for a sitemap, go to `Sitemap details` page in your [Cloud Web Scraper][cloud] account and open 
 `Parser` tab. A table with 2 columns - `Column name` and `Parsers` will be visible. If there is some data already scraped for the selected sitemap, 
