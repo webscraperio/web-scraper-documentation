@@ -13,7 +13,7 @@ Regular Expression is used to extract a substring from a string. To learn more a
 ## Use cases
 **Extract text that is before or after specific keywords.**
 
-By using capture groups, it is easier to extract a specific string from text without writing complicated regular 
+By using capture groups, it is easier to extract a specific string from the text without writing complicated regular 
 expressions.
 
 | text                    	| regex                 | capture group     | result     	|
