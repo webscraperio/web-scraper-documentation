@@ -1,5 +1,5 @@
 # Strip HTML parser
-Remove HTML tags and decode [HTML entities][html-entities]. By removing HTML tags, text might miss some whitespaces that
+Remove HTML tags and decode [HTML entities][html-entities]. By removing HTML tags, the text might miss some whitespaces that
 previously were displayed by HTML so make sure to replace these HTML elements with [Replace text][replace-text]
 parser beforehand.
 
