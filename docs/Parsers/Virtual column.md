@@ -11,20 +11,6 @@ columns and vice versa. Virtual column parser can not be swapped with another pa
  * Separator - used if multiple `Source columns` are selected. Escape sequences as `\n\r\t` can be used.
  
 ## Use cases
-**Create columns with default values**  
-
-Virtual column in combination with [Replace text][replace-parser] parser can be used to create a column with a default 
-value. In order to do this:  
-
-    1. Create a Virtual column parser by clicking on "+ Add column" button at the bottom of the parser table.
-    2. Name your column and add any column as a source column.
-    3. Save your parser.
-    4. Create a Replace text parser and add the following configuration: 
-        * Text to replace: [\s\S]+  
-        * Text to place: your default value  
-        * Use Regex: checked
-    5. Save your parser and download the data file with the new column.
-
 **Split fields into multiple columns**  
 
 Sometimes data points like street address, city, ZIP code and state are contained in one HTML element and can't be 
@@ -43,6 +29,21 @@ Regular expression to extract `street`: `^[^\n]+`
 Regular expression to extract `city`: `\n([^\,]+)` - return capture group `1`.  
 Regular expression to extract `state`: `, ([^\s]+)` - return capture group `1`.  
 Regular expression to extract `ZIP code`: `\d+$`
+
+
+**Create columns with default values**  
+
+Virtual column in combination with [Replace text][replace-parser] parser can be used to create a column with a default 
+value. In order to do this:  
+
+    1. Create a Virtual column parser by clicking on "+ Add column" button at the bottom of the parser table.
+    2. Name your column and add any column as a source column.
+    3. Save your parser.
+    4. Create a Replace text parser and add the following configuration: 
+        * Text to replace: [\s\S]+  
+        * Text to place: your default value  
+        * Use Regex: checked
+    5. Save your parser and download the data file with the new column.
 
 [replace-parser]: Replace%20parser.md
 [selectors]: ../Selectors.md
