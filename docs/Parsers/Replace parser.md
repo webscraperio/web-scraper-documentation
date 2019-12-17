@@ -24,7 +24,7 @@ Text to place: `your text`
 Use Regex: `checked`
 
 **Insert text in the middle of the string**  
-By returning capture groups in `Text to place` field, it is possible to place a text within already existing string.  
+By returning capture groups in `Text to place` field, it is possible to place a text within an existing string.  
 
 Source text: 
 ```html
