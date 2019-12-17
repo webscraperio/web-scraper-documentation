@@ -37,4 +37,4 @@ If you were not able to setup the scheduler with any of previous scheduler types
 a [custom Cron expression][cron].
 
 [cloud]: https://www.webscraper.io/cloud-scraper
-[cron]: http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc01963.0510/doc/html/psh1360346725201.html
+[cron]: https://en.wikipedia.org/wiki/Cron
