@@ -29,9 +29,9 @@ value. In order to do this:
 
 Sometimes data points like street address, city, ZIP code and state are contained in one HTML element and can't be 
 scraped in separate fields by using [selectors][selectors]. This is where Virtual column parser and [Regex match]
-[regex-parser] parser come in handy. To split the address field, create a Virtual column for each data point you want to
-extract and create a [Regex match][regex-parser] parser to extract it. Below is an example but note that these regular 
-expressions are written specially for this address format.
+[regex-parser] parser comes in handy. To split the address field, create a Virtual column for each data point you want to
+extract and create a [Regex match][regex-parser] parser to extract it. See the example below. Please note that these regular 
+expressions are written specifically for this address format.
 
 Source address: 
 ```html
