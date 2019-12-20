@@ -1,22 +1,22 @@
 # Scheduler
 
-Scheduler is a feature for [Cloud Web Scraper][cloud] that lets you automatically start scraping jobs in a specific 
+Scheduler is a feature for [Cloud Web Scraper][cloud] which enables the user to automatize scraping jobs for a specific 
 time. It can be set by going to sitemap `Details page` and clicking on `Scheduler` tab. 
 
-New scheduled scraping job will be started only if previous one has finished scraping. If the scheduled scraping job 
-runs for longer than the scheduling interval, the new scraping job will be started only after the previous one has 
-finished.
+If a ongoing scraping job is in motion or it runs for longer than the scheduling interval, the new scheduled scraping job will start only when the previous one has finished scraping.
 
 ## Scheduler configurations options
 
-Configuration options will be used for all scheduled scraping jobs for the specific sitemap.
+The configuration options for scheduled sitemap scraping jobs are:
 
-* Scheduler Time Zone - time zone by which scraping jobs will be scheduled.
+* Scheduler Time Zone - time zone by which scraping jobs will be scheduled for.
 * Scheduler Type - one of the 3 scheduler types, each type has different configuration options.
 * Driver - `Full`(with JavaScript) or `Fast`(no JavaScript) driver.
 * Request interval - page request interval in milliseconds. 
 * Page load delay - time period that scraper will wait for page to load before extracting the data in milliseconds. 
 * Proxy - whether to use proxy while scraping the site. Custom proxy can be selected only by `Scale` plans.
+
+These configuration options will be applied for all scheduled scraping jobs, for the specific sitemap. 
 
 ## Scheduler types
 
@@ -24,7 +24,7 @@ There are 3 types of schedulers:
 
 #### Daily scheduler
 
-Select week days and time in which the scraping jobs should be started.
+Select the week days and the time for which the scraping jobs should be started. 
 
 #### Interval scheduler
 
@@ -33,8 +33,7 @@ round hours.
 
 #### Custom Cron expression scheduler
 
-If you were not able to setup the scheduler with any of previous scheduler types in your desired time, you can setup 
-a [custom Cron expression][cron].
+If a very customized and specific scheduler is needed, for which the previous scheduler types are not fit for, set up a [custom Cron expression][cron].
 
 [cloud]: https://www.webscraper.io/cloud-scraper
 [cron]: https://en.wikipedia.org/wiki/Cron
