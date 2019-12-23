@@ -3,7 +3,7 @@
 Scheduler is a feature for [Cloud Web Scraper][cloud] which enables the user to automatize scraping jobs for a specific 
 time. It can be set by navigating to sitemap `Details page` and clicking on `Scheduler` tab. 
 
-If an ongoing scraping job is in motion or it runs for longer than the scheduled interval, the new scheduled scraping job will start only when the previous one has finished.
+Note! If an ongoing scraping job is in motion or it runs for longer than the scheduled interval, the new scheduled scraping job will start only when the previous one has finished.
 
 ## Scheduler configurations options
 
