@@ -1,0 +1,29 @@
+// Execute POST request to https://api.webscraper.io/api/v1/sitemap?api_token=&lt;YOUR API TOKEN&gt;
+{
+	"_id": "webscraper-io-landing",
+	"startUrl": [
+		"http://webscraper.io/"
+	],
+	"selectors": [
+		{
+			"parentSelectors": [
+				"_root"
+			],
+			"type": "SelectorText",
+			"multiple": false,
+			"id": "title",
+			"selector": "h1",
+			"regex": "",
+			"delay": ""
+		}
+	]
+}
+
+
+// response
+{
+	"success": true,
+	"data": {
+		"id": 123
+	}
+}

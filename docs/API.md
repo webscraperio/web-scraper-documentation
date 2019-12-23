@@ -43,6 +43,27 @@ If more API calls are required, please contact support.
 
 ## API calls
 
+@include 'API.api-code-panel' as 'Create Sitemap'
+
+@include 'API.api-code-panel' as 'Get Sitemap'
+
+@include 'API.api-code-panel' as 'Get Sitemaps'
+
+@include 'API.api-code-panel' as 'Delete Sitemap'
+
+@include 'API.api-code-panel' as 'Create Scraping Job'
+
+@include 'API.api-code-panel' as 'Get Scraping Job'
+
+@include 'API.api-code-panel' as 'Get Scraping Jobs'
+
+@include 'API.api-code-panel' as 'Download scraped data in JSON format'
+
+@include 'API.api-code-panel' as 'Download scraped data in CSV format'
+
+@include 'API.api-code-panel' as 'Delete Scraping Job'
+
+@include 'API.api-code-panel' as 'Account info'
 
 [cloud]: https://www.webscraper.io/cloud-scraper
 [sdk]: https://github.com/webscraperio/api-client-php

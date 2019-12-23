@@ -1,0 +1,11 @@
+// Execute GET request to https://api.webscraper.io/api/v1/sitemap/&lt;Sitemap ID&gt;?api_token=&lt;YOUR API TOKEN&gt;
+
+// response
+{
+	"success": true,
+	"data": {
+		"id": 123
+		"name": "webscraper-io-landing",
+		"sitemap": "{\"_id\": \"webscraper-io-landing\", ...}",
+	}
+}

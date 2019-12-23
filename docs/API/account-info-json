@@ -1,0 +1,12 @@
+// Execute GET request to https://api.webscraper.io/api/v1/account?api_token=&lt;YOUR API TOKEN&gt;
+
+// response
+{
+	"success": true,
+	"data": {
+		"email": "user@example.com",
+		"firstname": "John",
+		"lastname": "Deere",
+		"page_credits": 500
+	}
+}
