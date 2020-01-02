@@ -8,10 +8,10 @@ Scraper browser extension to run scraping jobs.
 ### Proxy 
 
 Proxy is used in order to prevent scraper of being blocked by the target site or to access the site from a 
-non-restricted location. By the default, proxy uses IP addresses located in the US however it is possible to change 
-location if custom proxy is used(available only for `Scale` plan users). 
+non-restricted location. By the default, the proxy uses IP addresses located in the US however it is possible to change 
+location if a custom proxy is used(available only for `Scale` plan users). 
 
-When the proxy is enabled, scraper will rotate IP addresses every 5 minutes. If the page fails to load with proxy 
+When the proxy is enabled, the scraper will rotate IP addresses every 5 minutes. If the page fails to load with proxy 
 enabled, scraper changes the IP address and retries to scrape the page. 
 
 ### Other features
@@ -23,16 +23,16 @@ enabled, scraper changes the IP address and retries to scrape the page.
 
 ## Page credits
 
-A page credit represents a single page loaded by the Web Scraper Cloud. For example if the scraper has to go trough 
-100 pages then 100 page credits will be charged. If you are extracting 100 records from a single page only one page 
+A page credit represents a single page loaded by the Web Scraper Cloud. For example, if the scraper has to navigate through 
+100 pages, then 100 page credits will be charged. If you are extracting 100 records from a single page, only one page 
 credit will be charged.
 
 Page credits are not deducted for re-scraping empty and failed pages.
 
 ## Parallel tasks
 
-A parallel task count represents how many scraping jobs can be run at once. If all parallel tasks are already in use and 
-new scraping job is started, it will be scheduled and waiting for a task to free up. Scraping jobs can be manually 
+A parallel task count represents how many scraping jobs can run at once. If all parallel tasks are in use and 
+new scraping job is started, it will be scheduled and added to a cue whilst waiting for a task to free up. Scraping jobs can be manually 
 stopped and continued to free up a parallel task or change the order in which the scraping jobs will be executed.
 
 ## Drivers
@@ -50,7 +50,7 @@ Monitor scraping job progress:
 * Failed pages - pages that loaded with 4xx or 5xx response code or didn't finish loading at all.
 * Empty pages - pages that loaded successfully but selectors were not found.
 
-Our built in fail-over system automatically re-scrapes any empty and failed pages. If empty and/or failed pages are 
+Our built-in fail-over system automatically re-scrapes any empty and failed pages. If empty and/or failed pages are 
 still present after the scraping job has finished, it can be continued manually from the scraping job `Action` dropdown 
 menu.
 
@@ -61,9 +61,9 @@ found by navigating to scraping job `Inspect` page from the scraping job `Action
 
 ### Scraped data graph
 
-In scraping job `Inspect` page a scraped data graph is available while the scraping job is running and for the following
+In scraping job `Inspect` page a scraped data graph is available while the scraping job is running and which will remain there for the following
 7 days after the scraping job has finished. It can be used to monitor the activity of the scraping job and to estimate 
-the time necessary to complete the scraping job. The graph shows these values in 5 minute intervals:
+the time necessary to complete the scraping job. The graph shows these values in 5-minute intervals:
 * Scheduled pages.
 * Executed pages.
 * Records scraped.
@@ -75,16 +75,16 @@ the time necessary to complete the scraping job. The graph shows these values in
 * **Start URL limit** - 20'000.
 * **Selector limit** - 100.
 * **Selector execution time** - 15 minutes. Can be reached by using scroll down selector on infinite scroll down or 
-element click selector. If timeout is reached, no data will be scraped from that page.
+element click selector. If the timeout is reached, no data will be scraped from that page.
 
 ## Difference between scraping on Web Scraper Cloud and Web Scraper browser extension
 
 | Web Scraper Cloud | Web Scraper browser extension |
 |------------------ |------------------------------ |
 | **Browser data is cleared periodically** while <br>scraping. Combined with proxy, decreases the <br>chance of scraper getting blocked by the site. | **Browser data is not cleared** while <br>scraping. |
-| Scraped data is stored in **cloud storage** for all <br>scraping jobs within retention period. | Only the latest scraping job data is stored in <br>extension's **local storage**. |
+| Scraped data is stored in **cloud storage** for all <br>scraping jobs within the retention period. | Only the latest scraping job data is stored in <br>extension's **local storage**. |
 | **Images are not loaded** while scraping. This <br>decreases page load time as well as decreases <br>transferred data for custom proxy users. | **Images are loaded** while scraping. |
-| URLs are traversed in **pseudo random** order. <br>This ensures the most recent data is being <br>scraped when crawling larger sites. | URLs are traversed in **last in first out** order on <br>how they were discovered. This will discover first <br>records sooner but won't decrease the total time <br>required to scrape the site. |
+| URLs are traversed in **pseudo random** order. <br>This ensures the most recent data is being <br>scraped when crawling larger sites. | URLs are traversed in **last in first out** order on <br>how they were discovered. This will discover the initial <br>records sooner but won't decrease the total time <br>required to scrape the site. |
 
 
 [cloud]: https://cloud.webscraper.io/
