@@ -31,7 +31,7 @@ it finished with empty or failed pages.
 
 ## API call limit
 
-By default, each user has a limit of 200 API calls per 10 minutes. Limit can be tracked by API call response headers:
+By default, each user has a limit of 200 API calls per 15 minutes. Limit can be tracked by API call response headers:
 
 ```
 X-RateLimit-Limit: 200
