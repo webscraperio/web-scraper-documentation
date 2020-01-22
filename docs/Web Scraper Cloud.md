@@ -1,7 +1,7 @@
 # Web Scraper Cloud
 
 [Web Scraper Cloud][cloud] is a premium service that enriches Web Scraper with automation features, improves scraped 
-data consistency, is scalable and lets you monitor your scraping jobs. It uses sitemaps that are built by using Web 
+data consistency, is scalable and allows to monitor scraping jobs. It uses sitemaps that are built by using Web 
 Scraper browser extension to run scraping jobs.
 
 ## Features 
@@ -9,7 +9,7 @@ Scraper browser extension to run scraping jobs.
 
 Proxy is used in order to prevent scraper of being blocked by the target site or to access the site from a 
 non-restricted location. By the default, the proxy uses IP addresses located in the US however it is possible to change 
-location if a custom proxy is used(available only for `Scale` plan users). 
+location if a custom proxy is used (available only for `Scale` plan users). 
 
 When the proxy is enabled, the scraper will rotate IP addresses every 5 minutes. If the page fails to load with proxy 
 enabled, scraper changes the IP address and retries to scrape the page. 
@@ -38,7 +38,7 @@ stopped and continued to free up a parallel task or change the order in which th
 ## Drivers
 
 Web Scraper Cloud has 2 types of drivers to run scraping jobs on:
-* `Full` driver - loads the page the same as Web Scraper browser extension.
+* `Full` driver - loads the page the same as Web Scraper browser extension;
 * `Fast` driver - doesn't execute JavaScript in the page. Data is extracted from raw HTML. The page loads faster than 
 with `Full` driver or Web Scraper browser extension.
 
@@ -56,19 +56,19 @@ menu.
 
 ## Inspect scraping jobs
 
-When troubleshooting a scraping job, a list of empty and failed pages with screenshots(only for `Full` driver) can be 
+When troubleshooting a scraping job, a list of empty and failed pages with screenshots (only for `Full` driver) can be 
 found by navigating to scraping job `Inspect` page from the scraping job `Action` dropdown menu. 
 
 ### Scraped data graph
 
 In scraping job `Inspect` page a scraped data graph is available while the scraping job is running and which will remain there for the following
 7 days after the scraping job has finished. It can be used to monitor the activity of the scraping job and to estimate 
-the time necessary to complete the scraping job. The graph shows these values in 5-minute intervals:
-* Scheduled pages.
-* Executed pages.
-* Records scraped.
-* Empty pages.
-* Failed pages
+the time necessary until the full completion. The graph shows these values in 5-minute intervals:
+* Scheduled pages;
+* Executed pages;
+* Records scraped;
+* Empty pages;
+* Failed pages.
 
 ## Limits
 
