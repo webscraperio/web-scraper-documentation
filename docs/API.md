@@ -1,33 +1,32 @@
 # API
 
-[Cloud Web Scraper][cloud] offers an API that allows you to manage sitemaps and scraping jobs, download data and receive
-finished scraping job notifications. The API can be accessed via HTTP and JSON is used as a data exchanging format. If 
-you are developing in PHP you can also use the [API SDK][sdk].
+[Cloud Web Scraper][cloud] offers an API, which allows to manage sitemaps and scraping jobs, download data and receive
+finished scraping job notifications. The API can be accessed via HTTP; however, JSON is used as a data exchanging format. If developing in PHP, [API SDK][sdk] can be also used.
 
-API token can be found in your [Cloud Web Scraper account][api-page].
+API token can be found in [Cloud Web Scraper account][api-page].
 
 ## Notification endpoint
 
-Configure an URL on your server which will receive notifications from Web Scraper when a scraping job finishes. Web 
+Configure an URL on your server which will be the one designated to receive notifications from Web Scraper when a scraping job finishes. Web 
 Scraper will execute a POST form submit with scraping job metadata. When your server receives the notification it can 
-then download and import scraped data into your database. You can configure and test the notification endpoint in your 
+then download and import scraped data into your database. To configure and test the notification endpoint visit your 
 [Cloud Web Scraper account][api-page].
 
-Web Scraper will send the notification only once the job has completed. There are no status update notifications.
+Web Scraper will send the notification only once the job has completed; therefore, there are no status update notifications.
 
 ## Scraping job status
 
-Below is the list of statuses that a scraping job can have: 
+Scraping job can be:  
 
-* `waiting-to-be-scheduled` - the scraping job is waiting in a queue.
-* `scheduled` - a scraper server will start scraping in a moment.
-* `started` - the scraping job is running.
-* `failed` - the website returned more than 50% 4xx or 50xx responses or there were network errors. Job execution was 
-stopped. Scraping job is marked as failed but the user can continue it manually.
-* `finished` - the scraping job has completed successfully without any failed or empty pages.
-* `shelved` - the scraping job has been moved to cold storage. Either it stopped and then was moved to cold storage or 
-it finished with empty or failed pages.
-* `stopped` - the scraping job has been stopped manually by a user. It will change its status to shelved after 2 weeks.
+* `waiting-to-be-scheduled` - the scraping job is waiting in a queue to be scraped;
+* `scheduled` - a scraper server will start scraping it in a moment;
+* `started` - the scraping job is in motion;
+* `failed` - the website returned more than 50% 4xx or 50xx responses or there were network errors, which means that job execution was 
+stopped and scraping job marked as failed; however, the user can continue it manually;
+* `finished` - the scraping job has completed successfully without any failed or empty pages;
+* `shelved` - the scraping job has been moved to cold storage, meaning that either it stopped and then was moved to cold storage or 
+it finished with empty or failed pages;
+* `stopped` - the scraping job has been stopped manually by a user and will change its status to "shelved" after 2 weeks.
 
 ## API call limit
 
