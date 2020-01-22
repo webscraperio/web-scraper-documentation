@@ -1,7 +1,7 @@
 # API
 
 [Cloud Web Scraper][cloud] offers an API, which allows to manage sitemaps and scraping jobs, download data and receive
-finished scraping job notifications. The API can be accessed via HTTP; however, JSON is used as a data exchanging format. If developing in PHP, [API SDK][sdk] can be also used.
+finished scraping job notifications. The API can be accessed via HTTP; however, JSON is used as a data exchanging format. [API SDK][sdk] can be also used if developing in PHP.
 
 API token can be found in [Cloud Web Scraper account][api-page].
 
