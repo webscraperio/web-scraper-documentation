@@ -1,32 +1,10 @@
 # API
 
-[Web Scraper Cloud][cloud] offers an API, which allows to manage sitemaps and scraping jobs, download data and receive
-finished scraping job notifications. The API can be accessed via HTTP; however, JSON is used as a data exchanging format. [API SDK][sdk] can be also used if developing in PHP.
+[Web Scraper Cloud][cloud] can be managed via an HTTPS JSON API.
+The API allows to manage sitemaps, scraping jobs and download data.
+Use our [PHP SDK][sdk] when developing you application in PHP.
 
-API token can be found in [Web Scraper Cloud API page][api-page].
-
-## Notification endpoint
-
-Configure an URL on your server which will be the one designated to receive notifications from Web Scraper when a scraping job finishes. Web 
-Scraper will execute a POST form submit with scraping job metadata. When your server receives the notification it can 
-then download and import scraped data into your database. To configure and test the notification endpoint visit 
-[Web Scraper Cloud API page][api-page].
-
-Web Scraper will send the notification only once the job has completed; therefore, there are no status update notifications.
-
-## Scraping job status
-
-Scraping job can have one of these statuses:  
-
-* `waiting-to-be-scheduled` - the scraping job is waiting in a queue to be scraped;
-* `scheduled` - the scraping job is waiting for the scraper server and will start in a moment;
-* `started` - the scraping job is in motion;
-* `failed` - the website returned more than 50% 4xx or 50xx responses or there were network errors, which means that job execution was 
-stopped and scraping job marked as failed; however, the user can continue it manually;
-* `finished` - the scraping job has completed successfully without any failed or empty pages;
-* `shelved` - the scraping job has been moved to cold storage, meaning that either it stopped and then was moved to cold storage or 
-it finished with empty or failed pages;
-* `stopped` - the scraping job has been stopped manually by a user and will change its status to "shelved" after 2 weeks.
+API access token can be found in [Web Scraper Cloud API page][api-page].
 
 ## API call limit
 
