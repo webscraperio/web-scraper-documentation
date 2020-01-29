@@ -1,0 +1,20 @@
+name: Tag Release
+
+on:
+  push:
+    branches:
+      - documentation
+
+jobs:
+  tag-release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Bump version and push tag
+        id: tag_version
+        uses: martinsbalodis/github-tag-action@7663a7697b99c62632f0701bfe422aeb2ea48f8c
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          release_branches: documentation
+          default_bump: patch
+      - run: echo "${{ steps.tag_version.outputs.new_tag }}"
