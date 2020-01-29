@@ -1,0 +1,6 @@
+// Execute GET request to https://api.webscraper.io/api/v1/scraping-job/&lt;SCRAPING JOB ID&gt;/csv?api_token=&lt;YOUR API TOKEN&gt;
+
+// response - A CSV file
+web-scraper-order,title,Color
+1494492462-1,Fluffy Cat,blue
+1494492462-1,Fluffy Dog,white

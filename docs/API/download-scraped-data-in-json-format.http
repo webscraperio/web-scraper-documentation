@@ -1,0 +1,7 @@
+// Execute GET request to https://api.webscraper.io/api/v1/scraping-job/&lt;SCRAPING JOB ID&gt;/json?api_token=&lt;YOUR API TOKEN&gt;
+
+// Response - a file with one JSON string per line.
+{"title":"Nokia 123","price":"$24.99","description":"7 day battery"}
+{"title":"ProBook","price":"$739.99","description":"14\", Core i5 2.6GHz, 4GB, 500GB, Win7 Pro 64bit"}
+{"title":"ThinkPad X240","price":"$1311.99","description":"12.5\", Core i5-4300U, 8GB, 240GB SSD, Win7 Pro 64bit"}
+{"title":"Aspire E1-572G","price":"$581.99","description":"15.6\", Core i5-4200U, 8GB, 1TB, Radeon R7 M265, Windows 8.1"}
