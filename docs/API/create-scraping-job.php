@@ -1,4 +1,4 @@
-&lt;?php
+<?php
 $response = $client->createScrapingJob([
 	'sitemap_id' => 123,
 	'driver' => 'fast', // 'fast' or 'fulljs'

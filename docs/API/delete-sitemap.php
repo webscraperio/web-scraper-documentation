@@ -1,2 +1,2 @@
-&lt;?php
+<?php
 $client->deleteSitemap(123);

@@ -1,4 +1,4 @@
-&lt;?php
+<?php
 use WebScraper\ApiClient\Client;
 use WebScraper\ApiClient\Reader\JsonReader;
 

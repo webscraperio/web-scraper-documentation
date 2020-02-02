@@ -1,4 +1,4 @@
-&lt;?php
+<?php
 $client->getAccountInfo();
 
 // response
