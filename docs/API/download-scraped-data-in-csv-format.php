@@ -1,4 +1,4 @@
-&lt;?php
+<?php
 
 use League\Csv\Reader;
 

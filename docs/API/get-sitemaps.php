@@ -1,4 +1,4 @@
-&lt;?php
+<?php
 $sitemaps = $client->getSitemaps();
 
 // response (Iterator):

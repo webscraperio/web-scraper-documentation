@@ -1,4 +1,4 @@
-&lt;?php
+<?php
 $client->getScrapingJob(500);
 
 // response

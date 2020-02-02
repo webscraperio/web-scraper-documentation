@@ -1,2 +1,0 @@
-&lt;?php
-$client->deleteScrapingJob(500);

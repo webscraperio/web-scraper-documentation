@@ -1,4 +1,4 @@
-&lt;?php
+<?php
 $client->getScrapingJobs($sitemapId = null);
 
 // response (iterator)
