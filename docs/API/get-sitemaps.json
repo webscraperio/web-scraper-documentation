@@ -1,4 +1,4 @@
-// Execute GET request to https://api.webscraper.io/api/v1/sitemaps?api_token=&lt;YOUR API TOKEN&gt;
+// Execute GET request to https://api.webscraper.io/api/v1/sitemaps?api_token=<YOUR API TOKEN>
 
 // response
 {
@@ -19,4 +19,4 @@
 	"per_page": 100,
 }
 
-// Execute GET request to get second page https://api.webscraper.io/api/v1/sitemaps?api_token=&lt;YOUR API TOKEN&gt;&page=2
+// Execute GET request to get second page https://api.webscraper.io/api/v1/sitemaps?api_token=<YOUR API TOKEN>&page=2

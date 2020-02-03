@@ -1,4 +1,4 @@
-// Execute DELETE request to https://api.webscraper.io/api/v1/scraping-job/&lt;SCRAPING JOB ID&gt;?api_token=&lt;YOUR API TOKEN&gt;
+// Execute DELETE request to https://api.webscraper.io/api/v1/scraping-job/<SCRAPING JOB ID>?api_token=<YOUR API TOKEN>
 
 // response
 {
