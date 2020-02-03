@@ -1,12 +1,17 @@
 # Webhook notifications
 
 [Web Scraper Cloud][cloud] can notify your server when a scraping job has finished.
-Configure a URL on your server which will be designated to receive notifications from Web Scraper Cloud when a scraping job finishes.
+Configure a URL on your server which will receive notifications from Web Scraper Cloud when a scraping job finishes.
 Web Scraper will execute a POST FORM submit with scraping job metadata. 
 To configure and test the notification endpoint visit [Web Scraper Cloud API page][api-page].
 
 Web Scraper will send the notification only once the job has completed.
-Therefore, there are no status update notifications.
+After receiving the notification you can start or queue data import.
+No other notifications will be sent. 
+A webhook notification will be resent only in cases:
+* Response from your server isn't received within 10 seconds
+* Your server responds with HTTP status code error (>=400)
+* When data extraction from empty and failed urls has been rescheduled. ("Continue" button in website)
 
 Notification FORM data content example:
 ```
@@ -15,20 +20,6 @@ Notification FORM data content example:
 "sitemap_id": 12
 "sitemap_name": "my-sitemap"
 ```
-
-## Scraping job status
-
-Scraping job can have one of these statuses:  
-
-* `waiting-to-be-scheduled` - the scraping job is waiting in a queue to be scraped;
-* `scheduled` - the scraping job is waiting for the scraper server and will start in a moment;
-* `started` - the scraping job is in motion;
-* `failed` - the website returned more than 50% 4xx or 50xx responses or there were network errors, which means that job execution was 
-stopped and scraping job marked as failed; however, the user can continue it manually;
-* `finished` - the scraping job has completed successfully without any failed or empty pages;
-* `shelved` - the scraping job has been moved to cold storage, meaning that either it stopped and then was moved to cold storage or 
-it finished with empty or failed pages. This status will be removed in a future release;
-* `stopped` - the scraping job has been stopped manually by a user and will change its status to "shelved" after 2 weeks.
 
 ## Webhook handling
 When your server receives the notification, it has to respond with 2xx HTTP status code within 10 seconds.
