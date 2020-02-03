@@ -1,4 +1,4 @@
-// Execute POST request to https://api.webscraper.io/api/v1/scraping-job?api_token=&lt;YOUR API TOKEN&gt;
+// Execute POST request to https://api.webscraper.io/api/v1/scraping-job?api_token=<YOUR API TOKEN>
 {
 	"sitemap_id": 123,
 	"driver": "fast", // "fast" or "fulljs"

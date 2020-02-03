@@ -1,4 +1,4 @@
-// Execute POST request to https://api.webscraper.io/api/v1/sitemap?api_token=&lt;YOUR API TOKEN&gt;
+// Execute POST request to https://api.webscraper.io/api/v1/sitemap?api_token=<YOUR API TOKEN>
 {
 	"_id": "webscraper-io-landing",
 	"startUrl": [

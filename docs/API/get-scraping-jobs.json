@@ -1,8 +1,8 @@
-// Execute GET request to https://api.webscraper.io/api/v1/scraping-jobs?api_token=&lt;YOUR API TOKEN&gt;
+// Execute GET request to https://api.webscraper.io/api/v1/scraping-jobs?api_token=<YOUR API TOKEN>
 
-// Execute GET request to get second page https://api.webscraper.io/api/v1/scraping-jobs?api_token=&lt;YOUR API TOKEN&gt;&page=2
+// Execute GET request to get second page https://api.webscraper.io/api/v1/scraping-jobs?api_token=<YOUR API TOKEN>&page=2
 
-// Execute GET request to to filter by sitemap_id https://api.webscraper.io/api/v1/scraping-jobs?api_token=&lt;YOUR API TOKEN&gt;&page=2&sitemap_id=123
+// Execute GET request to to filter by sitemap_id https://api.webscraper.io/api/v1/scraping-jobs?api_token=<YOUR API TOKEN>&page=2&sitemap_id=123
 
 // response
 {
