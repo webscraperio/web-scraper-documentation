@@ -13,7 +13,6 @@ $sitemapName = $_POST['sitemap_name'];
 // Send web scraper a successful response that the notification is received and
 // continue working on it. This speeds up notification delivery on web scraper
 // part and the script won't be stopped after web scraper closes connection.
-// This can be removed if you use queue system described below.
 // More information here:
 // http://stackoverflow.com/questions/15273570/continue-processing-php-after-sending-http-response
 ignore_user_abort(true);
