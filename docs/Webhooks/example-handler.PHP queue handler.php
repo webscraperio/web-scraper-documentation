@@ -13,7 +13,7 @@ $client = new Client([
 ]);
 
 // download file locally
-$outputFile = "/tmp/scrapingjob{$scrapingJobId}.json";
+$outputFile = "/tmp/scrapingjob-data{$scrapingJobId}.json";
 try {
 	$client->downloadScrapingJobJSON($scrapingJobId, $outputFile);
 
@@ -21,10 +21,10 @@ try {
 	$reader = new JsonReader($outputFile);
 	$rows = $reader->fetchRows();
 	foreach($rows as $row) {
-		echo "ROW: ".json_encode($row)."\n";
+		// Import records into database. Importing records in bulk will speed up
+		// the process.
 	}
-}
-finally {
+} finally {
 	// make sure output file is always deleted
 	unlink($outputFile);
 }
