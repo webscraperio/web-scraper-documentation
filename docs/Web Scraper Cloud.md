@@ -77,14 +77,14 @@ The graph shows these values in 5-minute intervals:
 
 * **Start URL limit** - 20'000.
 * **Selector limit** - 100.
-* **Data extraction execution time from single URL** - 15 minutes. Can be reached by using scroll down selector on infinite scroll down or 
+* **Data extraction execution time from a single URL** - 15 minutes. Can be reached by using scroll down selector on infinite scroll down or 
 element click selector. If the timeout is reached, no data will be scraped from that page.
 
 ## Difference between scraping on Web Scraper Cloud and Web Scraper browser extension
 
 | Web Scraper Cloud | Web Scraper browser extension |
 |------------------ |------------------------------ |
-| **High site accessibility** while <br>scraping. Automatic failover, IP address rotation<br> and data extraction retry mechanisms decreases the <br>chance of the scraper access getting blocked. | **Limited access.** Only sites that you can access <br> via your browser can be scraped. For small data<br> extraction volumes this is good enough. |
+| **Consistent site accessibility** while <br>scraping. Automatic failover, IP address rotation<br> and data extraction retry mechanisms decreases the <br>chance of the scraper access getting blocked. | **Limited access.** Only sites that you can access <br> via your browser can be scraped. For small data<br> extraction volumes this is good enough. |
 | Scraped data is stored in **cloud storage** for all <br>scraping jobs within data retention period. | Only data from the latest scraping job is stored in <br>browsers's **local storage**. |
 | **Images are not loaded** while scraping. This <br>decreases page load time as well as decreases <br>transferred data for custom proxy users. | **Images are loaded** while scraping. |
 | URLs are traversed in **pseudo random** order. <br>This ensures the most recent data is being <br>scraped when crawling larger sites. | URLs are traversed in **last in first out** order on <br>how they were discovered. This will discover the initial <br>records sooner but won't decrease the total time <br>required to scrape the site. |
