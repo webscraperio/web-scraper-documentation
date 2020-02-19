@@ -9,19 +9,6 @@ This parser enables to replace or remove a string. To remove a string, leave `Te
  about regular expressions see [RegExr][regexr].
 
 ## Use cases
-**Add text at the beginning of the string**  
-`^` represents the beginning of the string in regular expressions, so replacing it adds a string.  
-
-Text to replace: `^`  
-Text to place: `your text`  
-Use Regex: `checked`
-
-**Add text at the end of the string**  
-`$` represents the end of the string in regular expressions, so replacing it adds a string.  
-
-Text to replace: `$`  
-Text to place: `your text`  
-Use Regex: `checked`
 
 **Insert text in the middle of the string**  
 By returning capture groups in `Text to place` field, it is possible to place a text within an existing string.  
