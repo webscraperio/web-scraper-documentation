@@ -35,6 +35,7 @@ only one parser with a more complicated configuration.
 These parsers can be used for data post processing:
 
  * [Append and prepend text] [append/prepend-parser]
+ * [Convert UNIX timestamp] [convertts-parser]
  * [Regex match] [regex-parser]
  * [Replace text] [replace-parser]
  * [Remove whitespaces] [whitespace-parser]
@@ -44,6 +45,7 @@ These parsers can be used for data post processing:
 
  
  [append/prepend-parser]: Parser/Append%20and%20prepend%20text.md
+ [convertts-parser]: Parser/Convert%20UNIX%20timestamp.md
  [regex-parser]: Parsers/Regex%20parser.md
  [replace-parser]: Parsers/Replace%20parser.md
  [whitespace-parser]: Parsers/Remove%20whitespaces.md
