@@ -8,7 +8,7 @@ The first thing you need to do when creating a *sitemap* is specifying the
 start url. This is the url from which the scraping will start. You can also
 specify multiple start urls if the scraping should start from multiple places.
 For example if you want to scrape multiple search results then you could create
-a separate start url for each search result. More URL input fields can be added 
+a separate start url for each search result. Additional URL input fields can be added 
 by pressing `+` next to the URL input. Once the sitemap is created, start URL 
 tab can be found by selecting `Edit metadata` in `Sitemap sitemap_name` 
 dropdown.
@@ -46,13 +46,13 @@ links like these:
 
 ## Create selectors
 
-After you have created the *sitemap* you can add selectors to it. In the
-*Selectors* panel you can add new selectors, modify them and navigate the
-selector tree.
-The selectors can be added in a tree type structure. The web scraper will
+After you have created a *sitemap* you can begin to add, modify, and navigate selectors in the 
+*Selectors* panel.
+
+The selectors are added in a tree type structure. The web scraper will
 execute the selectors in the order how they are organized in the tree
-structure. For example there is a news site and you want to scrape all articles
-whose links are available on the first page. In image 1 you can see this
+structure. For example there is a news site and you want to scrape all article links
+which are available on the first page. In image 1 you can see this
 example site.
 
 ![Fig. 2: News site][image-news-site]
@@ -65,8 +65,8 @@ should be built for the news site.
 
 ![Fig. 3: News site sitemap][image-news-site-sitemap]
 
-Note that when creating selectors use Element preview and Data preview features
-to ensure that you have selected the correct elements with the correct data.
+Note that when creating selectors, Element preview and Data preview features
+ensure that you have selected the correct elements with the correct data.
 
 More information about selector tree building is available in selector
 documentation. You should at least read about these core selectors:
