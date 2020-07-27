@@ -5,6 +5,7 @@ $client->getScrapingJobs($sitemapId = null);
 [
 	[
 		'id' => 500,
+		'custom_id' => 'custom-scraping-job-12',
 		'sitemap_name' => 'webscraper-io-landing',
 		'status' => 'scheduling',
 		'sitemap_id' => 123,

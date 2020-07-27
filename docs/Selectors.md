@@ -71,6 +71,40 @@ navigation links these links couldn't be logically joined in pairs. The correct
 way is to select a wrapper element with Element selector and add data selectors
 as child selectors to the element selector with multiple option not checked.
 
+## Selecting elements
+
+### Select tool
+
+Web Scraper has a point and click select tool that makes selecting elements 
+accessible for all users. It can be opened by clicking on `Select` in selector 
+creation interface. It will highlight elements that it will select on click in 
+yellow and already selected elements will be highlighted in red. Elements can 
+be deselected by clicking on them again while selector tool is still active.
+
+![Fig. 1: Point and click select tool][select-tool]
+
+#### Hotkeys
+
+Hotkeys can be enabled by clicking on a select tool after opening it or by 
+selecting an element.
+
+* **P**: expend the selected selector to a parent selector.
+* **C**: change selected selector to a child selector. Can be used only if 
+**P** key has been used prior.
+* **S**: select the highlighted element. Useful for selecting elements that 
+change or change something on the page when clicked on.
+* Hold **Shift**: select multiple element groups.
+
+![Fig. 2: Select elements with hotkeys][select-tool-hotkeys]
+
+### Manual element selection
+
+As we are always trying to improve the select tool to find the best CSS 
+selector for the selected elements, there are still situations 
+where it is required to manually specify a CSS selector. Some HTML and CSS 
+knowledge is required to write CSS selectors. You can find more info about CSS 
+selectors on [CSS selector][css-selectors] page.
+
 ## Related videos
 
 * [How to select elements without clicking on them]
@@ -100,3 +134,6 @@ https://www.webscraper.io/how-to-video/jquery-has-selector
 https://www.webscraper.io/how-to-video/jquery-not-contains-selector
 [How to select elements that don’t have a specific element]: 
 https://www.webscraper.io/how-to-video/jquery-not-has-selector
+[select-tool]: images/selectors/select-tool.png
+[select-tool-hotkeys]: images/selectors/select-tool-hotkeys.png
+[css-selectors]: CSS%20selector.md
