@@ -32,9 +32,14 @@ Page credits are not subtracted when re-scraping empty or failed pages.
 
 ## Parallel tasks
 
-A parallel task count represents how many scraping jobs can run at once. If all parallel tasks are in use and 
-new scraping job is started, it will be scheduled and added to a queue whilst waiting for a task to free up. Scraping jobs can be manually 
-stopped and continued to free up a parallel task or change the order in which the scraping jobs will be executed.
+A parallel task count represents how many scraping jobs can run at once. If all 
+parallel tasks are in use and new scraping job is started, it will be scheduled 
+and added to a queue whilst waiting for a task to free up. Scraping jobs can be 
+manually stopped and continued to free up a parallel task or change the order 
+in which the scraping jobs will be executed. Parallel active scraping job count 
+and scraping job count in queue can be found in [Subscription manager] page.
+
+ ![Fig. 1: Active parallel job count and queue][parallel-tasks]
 
 ## Drivers
 
@@ -54,15 +59,19 @@ In the scraping job table views you can track the progress of each scraping job:
 * Empty pages - pages that loaded successfully but selectors didn't extract any data.
 
 Our built-in fail-over system automatically re-scrapes any empty and failed pages. If empty and/or failed pages are 
-still present after the scraping job has finished, it can be continued manually from the scraping job `Action` dropdown 
-menu.
+still present after the scraping job has finished, it can be continued manually 
+in scraping job list view.
 
 ## Scraping job inspection and troubleshooting
 
 When troubleshooting a scraping job, a list of empty and failed pages with screenshots (only for `Full` driver) can be 
-found by navigating to scraping job `Inspect` page from the scraping job `Action` dropdown menu. 
+found by navigating to scraping job `Inspect` page from the scraping job list
+view. `Details` tab in scraping job `Inspect` page contains scraping job 
+configuration with sitemap and scraping job IDs and scraping duration. Scraping 
+duration represents time the scraper is actually scraping the site without any
+status changes and queue times.
 
-Additionally a performance graph is available while the scraping job is running. 
+Additionally, a performance graph is available while the scraping job is running. 
 Data in this graph is kept for 7 days. 
 It can be used to monitor the activity of the scraping job and to estimate the time necessary until the full completion.
 The graph shows these values in 5-minute intervals:
@@ -73,7 +82,7 @@ The graph shows these values in 5-minute intervals:
 * Empty pages;
 * Failed pages.
 
- ![Fig. 1: Scraping job performance graph][scraping-job-performance-graph]
+ ![Fig. 2: Scraping job performance graph][scraping-job-performance-graph]
 
 ## Limits
 
@@ -98,3 +107,6 @@ element click selector. If the timeout is reached, no data will be scraped from 
 [parser]: Parser.md
 [data-export]: Data%20Export.md
 [scraping-job-performance-graph]: ./images/cloud/scraping-job-performance-graph.png?raw=true
+[parallel-tasks]: images/cloud/parallel-tasks.png
+[Subscription manager]:
+https://cloud.webscraper.io/subscription-manager

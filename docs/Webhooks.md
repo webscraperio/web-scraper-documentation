@@ -20,6 +20,7 @@ Notification FORM data content example:
 "status": "finished"
 "sitemap_id": 12
 "sitemap_name": "my-sitemap"
+"custom_id": "custom-scraping-job-12"
 ```
 
 ## Webhook handling

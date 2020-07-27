@@ -9,6 +9,7 @@ $scrapingJobId = (int) $_POST['scrapingjob_id'];
 $status = $_POST['status'];
 $sitemapId = (int) $_POST['sitemap_id'];
 $sitemapName = $_POST['sitemap_name'];
+$customId = $_POST['custom_id'];
 
 // Send web scraper a successful response that the notification is received and
 // continue working on it. This speeds up notification delivery on web scraper
