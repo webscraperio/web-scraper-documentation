@@ -20,5 +20,11 @@ infinitely then this selector will be stuck in an infinite loop.
 ## Use cases
 See [Element selector] [element-selector] use cases.
 
+## Related videos
+
+* [How to scrape products using scroll selector]
+
  [element-selector]: Element%20selector.md
  [css-selector]: ../CSS%20selector.md
+[How to scrape products using scroll selector]:
+https://www.webscraper.io/how-to-video/element-scroll-selector

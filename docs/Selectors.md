@@ -64,12 +64,20 @@ selectors documentation.
  * parent selectors - configure parent selectors for this selector to make the
 selector tree.
 
-Note! A common mistake when using multiple configuration option is to create
+**Note!** A common mistake when using multiple configuration option is to create
 two selectors alongside with multiple checked and expect that the scraper will
 join selector values in pairs. For example if you selected pagination links and
 navigation links these links couldn't be logically joined in pairs. The correct
 way is to select a wrapper element with Element selector and add data selectors
 as child selectors to the element selector with multiple option not checked.
+
+## Related videos
+
+* [How to select elements without clicking on them]
+* [How to select elements that contain specific text]
+* [How to select elements that have a specific element]
+* [How to select elements that don’t contain specific text]
+* [How to select elements that don’t have a specific element]
 
  [text-selector]: Selectors/Text%20selector.md
  [link-selector]: Selectors/Link%20Selector.md
@@ -82,3 +90,13 @@ as child selectors to the element selector with multiple option not checked.
  [element-selector]: Selectors/Element%20selector.md
  [element-click-selector]: Selectors/Element%20click%20selector.md
  [element-scroll-selector]: Selectors/Element%20scroll%20down%20selector.md
+[How to select elements without clicking on them]: 
+https://www.webscraper.io/how-to-video/action-keys
+[How to select elements that contain specific text]: 
+https://www.webscraper.io/how-to-video/jquery-contains-selector
+[How to select elements that have a specific element]: 
+https://www.webscraper.io/how-to-video/jquery-has-selector
+[How to select elements that don’t contain specific text]: 
+https://www.webscraper.io/how-to-video/jquery-not-contains-selector
+[How to select elements that don’t have a specific element]: 
+https://www.webscraper.io/how-to-video/jquery-not-has-selector

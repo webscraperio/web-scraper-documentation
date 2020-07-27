@@ -6,7 +6,7 @@ the href attribute of the link. If you add child selectors to *Link selector*
 then these child selectors will be used in the page that this link was leading
 to. If you are selecting multiple links then check *multiple* property.
 
-Note! Link selector works only with `<a>` tags with `href` attribute. If the
+**Note!** Link selector works only with `<a>` tags with `href` attribute. If the
 link selector is not working for you then you can try these workarounds:
 
  1. Check that the link in the url bar changes after clicking an item. If the link doesn't change, then the site is 
@@ -58,9 +58,18 @@ see how pagination links discover more pagination links and more data.
 ![Fig. 2: Sitemap with Link selector for pagination][pagination-link-selectors]
 ![Fig. 3: Selector graph with pagination][pagination-selector-graph]
 
+## Related videos
+
+* [How to set up pagination with page numbers using Link selector]
+* [How to set up pagination with "Next" button using Link selector]
+
  [multiple-level-link-selectors]: ../images/selectors/link/multiple-level-link-selectors.png?raw=true
  [pagination-link-selectors]: ../images/selectors/link/pagination-link-selectors.png?raw=true
  [pagination-selector-graph]: ../images/selectors/link/pagination-selector-graph.png?raw=true
  [element-click]: Element%20click%20selector.md
  [link-popup]: Link%20popup%20selector.md
  [css-selector]: ../CSS%20selector.md
+[How to set up pagination with page numbers using Link selector]:
+https://www.webscraper.io/how-to-video/link-button-pagination
+[How to set up pagination with "Next" button using Link selector]:
+https://www.webscraper.io/how-to-video/link-button-pagination-next

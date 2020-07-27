@@ -7,7 +7,7 @@ difference is that *Element click selector* can interact with the web page by
 clicking on buttons to load new elements. For example a page might use
 JavaScript and AJAX for pagination or item loading.
 
-Note! when selecting clickable elements you should select them by moving the
+**Note!** when selecting clickable elements you should select them by moving the
 mouse over the element and pressing "S". This kind of selection will avoid
 events triggered by the button.
 
@@ -99,8 +99,28 @@ Due to the fact that the scraper will collect data before and after the click, b
 scraping a page with multiple variations available, the scraper will extract information before initiating the click 
 and during the clicking process, resulting in duplicate or unusable row of data.
 
+## Related videos
+
+* [How to scrape products using "Load More" button]
+* [How to set up pagination with page numbers using Element Click selector]
+* [How to set up pagination with "Next" button using Element Click selector]
+* [How to iterate through item drop-down variations]
+* [How to iterate through item button variations]
+* [How to iterate through two or more item variation selects]
 
  [image-click-more]: ../images/selectors/element-click/click-more.png?raw=true
  [image-click-once]: ../images/selectors/element-click/click-once.png?raw=true
  [element-selector]: Element%20selector.md
  [css-selector]: ../CSS%20selector.md
+[How to scrape products using "Load More" button]:
+https://www.webscraper.io/how-to-video/load-more-button
+[How to set up pagination with page numbers using Element Click selector]:
+https://www.webscraper.io/how-to-video/element-click-pagination-buttons
+[How to set up pagination with "Next" button using Element Click selector]:
+https://www.webscraper.io/how-to-video/element-click-pagination-next
+[How to iterate through item drop-down variations]:
+https://www.webscraper.io/how-to-video/dropdown-variation
+[How to iterate through item button variations]:
+https://www.webscraper.io/how-to-video/button-variation
+[How to iterate through two or more item variation selects]:
+https://www.webscraper.io/how-to-video/product-with-multiple-variations

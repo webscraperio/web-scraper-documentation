@@ -8,7 +8,12 @@ The first thing you need to do when creating a *sitemap* is specifying the
 start url. This is the url from which the scraping will start. You can also
 specify multiple start urls if the scraping should start from multiple places.
 For example if you want to scrape multiple search results then you could create
-a separate start url for each search result.
+a separate start url for each search result. More URL input fields can be added 
+by pressing `+` next to the URL input. Once the sitemap is created, start URL 
+tab can be found by selecting `Edit metadata` in `Sitemap sitemap_name` 
+dropdown.
+
+![Fig. 1: Import start URLs][import-start-urls]
 
 ### Specify multiple urls with ranges
 
@@ -50,7 +55,7 @@ structure. For example there is a news site and you want to scrape all articles
 whose links are available on the first page. In image 1 you can see this
 example site.
 
-![Fig. 1: News site][image-news-site]
+![Fig. 2: News site][image-news-site]
 
 To scrape this site you can create a *Link selector* which will extract all
 article links in the first page. Then as a child selector you can add a
@@ -58,7 +63,7 @@ article links in the first page. Then as a child selector you can add a
 *Link selector* found links to. Image below illustrates how the *sitemap*
 should be built for the news site.
 
-![Fig. 2: News site sitemap][image-news-site-sitemap]
+![Fig. 3: News site sitemap][image-news-site-sitemap]
 
 Note that when creating selectors use Element preview and Data preview features
 to ensure that you have selected the correct elements with the correct data.
@@ -76,17 +81,24 @@ After you have created selectors for the *sitemap* you can inspect the tree
 structure of selectors in the Selector graph panel. Image below shows an
 example selector graph.
 
-![Fig. 3: News site selector graph][image-news-site-selector-graph]
+![Fig. 4: News site selector graph][image-news-site-selector-graph]
 
 ## Scrape the site
 
 After you have created selectors for the *sitemap* you can start scraping. Open
-*Scrape* panel and start scraping. A new popup window will open in which the
-scraper will load pages and extract data from them. After the scraping is done
-the popup window will close and you will be notified with a popup message. You can view
-the scraped data by opening *Browse* panel and export it by opening the
-*Export data as CSV* panel.
+*Scrape* panel and start scraping. Optionally, you can change request interval 
+and page load delay. A new popup window will open in which the scraper will 
+load pages and extract data from them. After the scraping is done the popup 
+window will close and you will be notified with a popup message. You can view 
+the scraped data by opening *Browse* panel and export it by opening the *Export 
+data as CSV* panel.
 
+![Fig. 5: Start scraping][start-scraping]
+
+## Related videos
+
+* [How to create a sitemap]
+* [How to add multiple start URLs]
 
 [image-news-site]: images/scraping-a-site/news-site.png?raw=true
 [image-news-site-sitemap]: images/scraping-a-site/news-site-sitemap.png?raw=true
@@ -94,3 +106,9 @@ the scraped data by opening *Browse* panel and export it by opening the
 [text-selector]: Selectors/Text%20selector.md
 [link-selector]: Selectors/Link%20selector.md
 [element-selector]: Selectors/Element%20selector.md
+[import-start-urls]: images/scraping-a-site/import-start-urls.png
+[start-scraping]: images/scraping-a-site/start-scraping.png
+[How to create a sitemap]: 
+https://www.webscraper.io/how-to-video/create-a-sitemap
+[How to add multiple start URLs]: 
+https://www.webscraper.io/how-to-video/add-multiple-start-urls

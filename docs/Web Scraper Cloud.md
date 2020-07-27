@@ -39,6 +39,7 @@ stopped and continued to free up a parallel task or change the order in which th
 ## Drivers
 
 Web Scraper Cloud has 2 types of drivers to run scraping jobs on:
+
 * `Full` driver - loads the page the same way as Web Scraper browser extension. All assets are loaded and JavaScript is executed before data extraction starts;
 * `Fast` driver - doesn't execute JavaScript in the page. Data is extracted from raw HTML. The page loads faster than 
 with `Full` driver or Web Scraper browser extension.
@@ -46,6 +47,7 @@ with `Full` driver or Web Scraper browser extension.
 ## Progress monitoring
 
 In the scraping job table views you can track the progress of each scraping job:
+
 * Scraped pages - scraped page count and total scheduled page count.
 * Scraped record count - data rows extracted.
 * Failed pages - pages that loaded with 4xx or 5xx response code or didn't load at all.
