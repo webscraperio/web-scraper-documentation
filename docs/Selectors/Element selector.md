@@ -6,7 +6,7 @@ e-commerce site. The selector will return each selected element as a parent
 element to its child selectors. Element selectors child selectors will be
 extracting data only within the element that the element selector gave them.
 
-Note! If the page dynamically loads new items after scrolling down or clicking
+**Note!** If the page dynamically loads new items after scrolling down or clicking
 on a button then you should try these selectors:
 
  * [Element scroll down selector] [element-scroll-selector]
@@ -36,8 +36,14 @@ Similarly to e-commerce item selection you can also select table rows and add
 child selectors for data extraction from table cells.
 Though [Table selector] [table-selector] might be much better solution.
 
+## Related videos
+
+* [How to scrape multiple items within a listings page]
+
  [css-selector]: ../CSS%20selector.md
  [element-scroll-selector]: Element%20scroll%20down%20selector.md
  [element-click-selector]: Element%20click%20selector.md
  [table-selector]: Table%20selector.md
  [multiple-elements-with-text-selectors]: ../images/selectors/text/text-selector-multiple-elements-with-text-selectors.png?raw=true
+[How to scrape multiple items within a listings page]:
+https://www.webscraper.io/how-to-video/multiple-items

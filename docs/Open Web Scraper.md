@@ -1,14 +1,20 @@
 # Open Web Scraper
 
-Web Scraper is integrated into chrome Developer tools. Figure 1 shows how you
-can open it. You can also use these shortcuts to open Developer tools. After
-opening Developer tools open *Web Scraper* tab.
+Web Scraper is integrated into browser Developer tools. Figure 1 shows how you 
+can open it on Chrome. You can also use keyboard shortcuts to open Developer 
+tools. After opening Developer tools open *Web Scraper* tab.
 
-Shourtcuts:
+Shortcuts:
 
- * windows, linux: `Ctrl+Shift+I`, `f12`, open `Tools / Developer tools`
- * mac `Cmd+Opt+I`, open `Tools / Developer tools`
+ * Windows, Linux: `Ctrl+Shift+I`, `F12`
+ * Mac `Cmd+Opt+I`
 
-![Fig. 1: Open Web Scraper][open-web-scraper]
+![Fig. 1: Open Web Scraper on Chrome][open-web-scraper]
 
- [open-web-scraper]: images/open-web-scraper/open-web-scraper.png?raw=true
+## Related videos
+
+* [How to open Web Scraper extension for the first time]
+
+[open-web-scraper]: images/open-web-scraper/open-web-scraper-chrome.png?raw=true
+[How to open Web Scraper extension for the first time]: 
+https://www.webscraper.io/how-to-video/open-web-scraper

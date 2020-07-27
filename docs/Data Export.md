@@ -21,7 +21,7 @@ Set up automated data export to `Dropbox` via `Data Export` section. Currently e
 
 ### Data export via API
 
-Additionally you can download data via Web Scraper Cloud API in CSV or JSON formats.
+Additionally, you can download data via Web Scraper Cloud API in CSV or JSON formats.
 
 ## Data format file structure and limitations
 
@@ -40,14 +40,14 @@ In case data set contains more than 1 million rows, the data will be split into 
 JSON file format contains one JSON record per line. 
 New line characters found in data will be escaped as `"\n"` so `\n` character can be safely used as a record separator.
 
-Note! Parsing the entire file as a JSON string will not work since all records are not wrapped in a JSON array.
+**Note!** Parsing the entire file as a JSON string will not work since all records are not wrapped in a JSON array.
 This was a design decision to make it easier to parse large files.
 
 ![Fig. 4: JSON Data format] [web-scraper-export-format-json]
 
 ### CSV
 
-`Comma Seperated Values` files format is formatted as described in RFC 4180 standard. 
+`Comma Separated Values` files format is formatted as described in RFC 4180 standard. 
 Values are quoted in double quotes `"` and in case when a double quote character is in text it is escaped with another double quote character.
 Lines are separated with `CR+LF` `\r\n` characters.
 Additionally CSV files include byte order mark (BOM) `U+FEFF` characters at the beginning of the file to hint that the file will be in UTF-8 format.

@@ -15,7 +15,7 @@ foreach($sitemaps as $sitemap) {
 	var_dump($sitemap);
 }
 
-// iterate throuh all sitemaps while manually handling pagination
+// iterate through all sitemaps while manually handling pagination
 $iterator = $client->getSitemaps();
 $page = 1;
 do {

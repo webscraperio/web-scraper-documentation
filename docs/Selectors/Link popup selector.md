@@ -8,7 +8,7 @@ new tab. This selector will catch the popup creation event and extract the URL.
 If the site creates a visual popup but not a real window then you should try
 [Element click selector] [element-click-selector]
 
-Note! when selecting these link elements you can move the mouse over the 
+**Note!** when selecting these link elements you can move the mouse over the 
 element and press "S" to select it to prevent it from opening a popup.
 
 ## Use cases

@@ -37,6 +37,21 @@ First select the shadow root parent element and then add `:shadow-root` to
 the selector.
 For example: `.shadow-root-parent-element:shadow-root .selector-within-shadow-root`
 
+## Related videos
+
+* [How to select elements that contain specific text]
+* [How to select elements that have a specific element]
+* [How to select elements that don’t contain specific text]
+* [How to select elements that don’t have a specific element]
+
  [css-selectors-wikipedia]: http://en.wikipedia.org/wiki/Cascading_Style_Sheets#Selector
  [css-selectors-jquery]: http://api.jquery.com/category/selectors/
  [w3schools-css-selector-reference]: http://www.w3schools.com/cssref/css_selectors.asp
+[How to select elements that contain specific text]:
+https://www.webscraper.io/how-to-video/jquery-contains-selector
+[How to select elements that have a specific element]:
+https://www.webscraper.io/how-to-video/jquery-has-selector
+[How to select elements that don’t contain specific text]:
+https://www.webscraper.io/how-to-video/jquery-not-contains-selector
+[How to select elements that don’t have a specific element]:
+https://www.webscraper.io/how-to-video/jquery-not-has-selector

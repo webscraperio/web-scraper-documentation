@@ -64,6 +64,9 @@ attribute should be checked because you will be extracting multiple records.
 
 ![Fig. 3: Text selector selects multiple comments][text-selector-multiple-per-page]
 
+## Related videos
+
+* [How to scrape multiple items within a listings page]
 
  [regex-site]: http://www.regexr.com/
  [text-selector-multiple-single-text-selectors-in-one-page]: ../images/selectors/text/text-selector-multiple-single-text-selectors-in-one-page.png?raw=true
@@ -71,3 +74,5 @@ attribute should be checked because you will be extracting multiple records.
  [text-selector-multiple-per-page]: ../images/selectors/text/text-selector-multiple-per-page.png?raw=true
  [element-selector]: Element%20selector.md
  [css-selector]: ../CSS%20selector.md
+[How to scrape multiple items within a listings page]:
+https://www.webscraper.io/how-to-video/multiple-items

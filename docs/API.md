@@ -2,7 +2,7 @@
 
 [Web Scraper Cloud][cloud] can be managed via an HTTPS JSON API.
 The API allows to manage sitemaps, scraping jobs and download data.
-Use our [PHP SDK][sdk] when developing you application in PHP.
+Use our [PHP SDK][sdk] when developing your application in PHP.
 
 API access token can be found in [Web Scraper Cloud API page][api-page].
 

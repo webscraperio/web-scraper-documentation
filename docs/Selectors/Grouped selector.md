@@ -22,4 +22,10 @@ serialize all these reference links into one record. To do that select all
 reference links and set attribute name to `href` to also extract links to these
 sites.
 
+## Related videos
+
+* [How to scrape multiple values in one row]
+
  [css-selector]: ../CSS%20selector.md
+[How to scrape multiple values in one row]:
+https://www.webscraper.io/how-to-video/group-selector

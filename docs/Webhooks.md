@@ -9,6 +9,7 @@ Web Scraper will send the notification only once the job has completed.
 After receiving the notification you can start or queue data import.
 No other notifications will be sent. 
 A webhook notification will be resent only in cases:
+
 * Response from your server isn't received within 10 seconds
 * Your server responds with HTTP status code error (>=400)
 * When data extraction from empty and failed urls has been rescheduled. ("Continue" button in website)
