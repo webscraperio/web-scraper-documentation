@@ -46,12 +46,12 @@ These parsers can be used for data post processing:
  
  [append/prepend-parser]: Parser/Append%20and%20prepend%20text.md
  [convertts-parser]: Parser/Convert%20UNIX%20timestamp.md
- [regex-parser]: Parsers/Regex%20parser.md
- [replace-parser]: Parsers/Replace%20parser.md
- [whitespace-parser]: Parsers/Remove%20whitespaces.md
- [strip-html]: Parsers/Strip%20HTML.md
- [remove-column]: Parsers/Remove%20column.md
- [virtual-column]: Parsers/Virtual%20column.md
+ [regex-parser]: Parser/Regex%20match.md
+ [replace-parser]: Parser/Replace%20text.md
+ [whitespace-parser]: Parser/Remove%20whitespaces.md
+ [strip-html]: Parser/Strip%20HTML.md
+ [remove-column]: Parser/Remove%20column.md
+ [virtual-column]: Parser/Virtual%20column.md
  [drag-n-drop]: images/parsers/drag-n-drop.gif
  [cloud]: https://cloud.webscraper.io/
  
