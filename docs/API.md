@@ -40,6 +40,8 @@ it finished with empty or failed pages. This status will be removed in a future 
 
 @include 'API/get-sitemaps.*' as 'Get Sitemaps'
 
+@include 'API/update-sitemap.*' as 'Update Sitemap'
+
 @include 'API/delete-sitemap.*' as 'Delete Sitemap'
 
 @include 'API/create-scraping-job.*' as 'Create Scraping Job'
