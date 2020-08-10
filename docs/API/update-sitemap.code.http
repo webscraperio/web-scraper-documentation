@@ -1,0 +1,22 @@
+Method: PUT
+URL: https://api.webscraper.io/api/v1/sitemap/<Sitemap ID>?api_token=<YOUR API TOKEN>
+JSON:
+{
+    "_id": "webscraper-io-landing",
+    "startUrl": [
+        "http://webscraper.io/"
+    ],
+    "selectors": [
+        {
+            "parentSelectors": [
+                "_root"
+            ],
+            "type": "SelectorText",
+            "multiple": false,
+            "id": "title",
+            "selector": "h1",
+            "regex": "",
+            "delay": ""
+        }
+    ]
+}

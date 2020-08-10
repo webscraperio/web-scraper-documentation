@@ -17,8 +17,18 @@ X-RateLimit-Remaining: 199
 X-RateLimit-Reset: 1609372800   // returned only when limit is reached
 ```
 
+### Handle API request limit
+
 [PHP SDK][sdk] has built-in backoff mechanism in case of reaching the limit. If 
-more API calls are required, please contact support.
+API request limit is reached and 429 response code is returned, client will 
+be automatically put to sleep and will make request again when API request 
+limits are restored.
+
+This behavior can be disabled and throw exception instead of sleep.
+
+@include 'API/handle-api-limit'
+                                                                             
+If more API calls are required, please contact support.
 
 ## Scraping job status
 
@@ -36,30 +46,69 @@ it finished with empty or failed pages. This status will be removed in a future 
 
 ## API calls
 
-@include 'API/create-sitemap.*' as 'Create Sitemap'
+### Create Sitemap
 
-@include 'API/get-sitemap.*' as 'Get Sitemap'
+@include 'API/create-sitemap'
 
-@include 'API/get-sitemaps.*' as 'Get Sitemaps'
+### Get Sitemap
 
-@include 'API/update-sitemap.*' as 'Update Sitemap'
+@include 'API/get-sitemap'
 
-@include 'API/delete-sitemap.*' as 'Delete Sitemap'
+### Get Sitemaps
 
-@include 'API/create-scraping-job.*' as 'Create Scraping Job'
+@include 'API/get-sitemaps'
 
-@include 'API/get-scraping-job.*' as 'Get Scraping Job'
+### Update Sitemap
 
-@include 'API/get-scraping-jobs.*' as 'Get Scraping Jobs'
+@include 'API/update-sitemap'
 
-@include 'API/download-scraped-data-in-json-format.*' as 'Download scraped data in JSON format'
+### Delete Sitemap
 
-@include 'API/download-scraped-data-in-csv-format.*' as 'Download scraped data in CSV format'
+@include 'API/delete-sitemap'
 
-@include 'API/delete-scraping-job.*' as 'Delete Scraping Job'
+### Create Scraping Job
 
-@include 'API/account-info.*' as 'Account info'
+@include 'API/create-scraping-job'
+
+### Get Scraping Job
+
+**Note!** You can also receive a push notification once the scraping job has 
+finished. Pinging the API until the scraping job has finished isn't a good 
+practice.
+
+@include 'API/get-scraping-job'
+
+### Get Scraping Jobs
+
+@include 'API/get-scraping-jobs'
+
+### Download scraped data in JSON format
+
+**Note!** A good practice would be to move the download/import task to a queue 
+job. A good example of [queue system].
+
+@include 'API/download-scraped-data-in-json-format'
+
+### Download scraped data in CSV format
+
+**Note!** We recommend using JSON format since multiple CSV notations are being 
+used by different products. For example:
+
+* CSV Standard: https://tools.ietf.org/html/rfc4180
+* MS Excel cannot handle escape sequences from the CSV standard
+* PHP has incorrect default implementation. See https://wiki.php.net/rfc/kill-csv-escaping
+
+@include 'API/download-scraped-data-in-csv-format'
+
+### Delete Scraping Job
+
+@include 'API/delete-scraping-job'
+
+### Account info
+
+@include 'API/account-info'
 
 [cloud]: https://www.webscraper.io/cloud-scraper
 [sdk]: https://github.com/webscraperio/api-client-php
 [api-page]: https://cloud.webscraper.io/api
+[queue system]: https://laravel.com/docs/7.x/queues
