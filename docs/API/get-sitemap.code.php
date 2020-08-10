@@ -1,0 +1,1 @@
+$sitemap = $client->getSitemap($sitemapId);

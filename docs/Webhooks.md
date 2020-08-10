@@ -33,7 +33,7 @@ In case data import is being handled *on the fly* (in the webhook handler),
 send a success response immediately after receiving the request 
 otherwise notification sender could timeout and resend the notification which could generate unexpected results.
 
-@include 'Webhooks/example-handler*' as 'Example handlers'
+@include 'Webhooks/example-handler'
 
 [cloud]: https://www.webscraper.io/cloud-scraper
 [api-page]: https://cloud.webscraper.io/api
