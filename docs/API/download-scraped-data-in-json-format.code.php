@@ -10,3 +10,6 @@ $rows = $reader->fetchRows();
 foreach ($rows as $row) {
 	echo "ROW: " . json_encode($row) . "\n";
 }
+
+// remove temporary file
+unlink($outputFile);
