@@ -10,3 +10,6 @@ foreach($records as $record) {
 	// Import records into database. Importing records in bulk will speed up
 	// the process.
 }
+
+// remove temporary file
+unlink($outputFile);
