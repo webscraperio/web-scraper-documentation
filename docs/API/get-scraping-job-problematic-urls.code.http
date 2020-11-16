@@ -1,0 +1,4 @@
+Method: GET
+URL: https://api.webscraper.io/api/v1/scraping-job/<SCRAPING JOB ID>/problematic-urls?api_token=<YOUR API TOKEN>
+Optional query parameters:
+- page: &page=2

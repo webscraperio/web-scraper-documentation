@@ -100,6 +100,12 @@ used by different products. For example:
 
 @include 'API/download-scraped-data-in-csv-format'
 
+### Get Scraping Job Problematic Urls
+
+Returns **empty** and **failed** urls for specific scraping job.
+
+@include 'API/get-scraping-job-problematic-urls'
+
 ### Delete Scraping Job
 
 @include 'API/delete-scraping-job'
