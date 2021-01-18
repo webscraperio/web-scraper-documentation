@@ -8,4 +8,4 @@ parser beforehand.
  * Decode HTML entities - decode all [HTML entities][html-entities].
 
 [html-entities]: https://www.w3schools.com/html/html_entities.asp
-[replace-text]: Replace%20parser.md
+[replace-text]: Replace%20text.md
