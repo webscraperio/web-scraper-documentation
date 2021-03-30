@@ -1,13 +1,13 @@
 # Notifications
 
-Web scraper has multiple notification types to notify users about their activities or
+Web Scraper has multiple notification types to notify users about their activities or
 other related information about their account.
 
 ### Notification types
 
 * All credits have been spent
 * Scraping job fails
-* Data quality fails for scraping job
+* Data quality fails for a scraping job
 * API misuse noticed
 
 ### Notification channels
@@ -17,9 +17,9 @@ other related information about their account.
 
 ### Notification settings
 
-Notification settings page can be found by clicking on your profile and choose
-**Notification settings** option. Here you can configure notification channels
-for each notification type.
+Notification settings page can be found by clicking on your name on the 
+top-right corner of the screen and choosing **Notification settings** option. 
+Notification channels can be configured separately for each notification type.
 
 ![Fig. 3: Notification Settings][notification-settings-image]
 
@@ -29,7 +29,7 @@ for each notification type.
 |-------- |-------- |-------- |
 | All credits have been spent | Once in a day | Once in a day |
 | Scraping job fails | Once in 6 hours for sitemap | Unlimited |
-| Data quality fails for scraping job | Once in 6 hours for sitemap | Unlimited |
+| Data quality fails for a scraping job | Once in 6 hours for sitemap | Unlimited |
 | API misuse noticed | Once in 6 hours | Unlimited |
 
 ### Notification examples
