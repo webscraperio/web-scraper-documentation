@@ -6,4 +6,4 @@ The parser allows you to remove whitespaces and new lines. It is useful for clea
  of the text.
  * Remove new lines - replaces all new line groups with a single space.
  
- [text-selector]: ../Selectors/Text%20selector.md
+ [text-selector]: ../../Selectors/Text%20selector.md

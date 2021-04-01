@@ -45,6 +45,6 @@ value. In order to do this:
     * Use Regex: `checked`
 5. Save your parser and download the data file with the new column.
 
-[replace-parser]: Replace%20parser.md
-[selectors]: ../Selectors.md
-[regex-parser]: Regex%20parser.md
+[replace-parser]: Replace%20text.md
+[selectors]: ../../Selectors.md
+[regex-parser]: Regex%20match.md

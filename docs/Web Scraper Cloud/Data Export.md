@@ -75,11 +75,11 @@ In case when a CSV file is incorrectly opened by Microsoft Excel try using data 
      ![Fig. 7: Excel Import CSV Data] [excel-import-csv-data]
  6. Load data
 
- [web-scraper-data-export-from-browser-extension]: ./images/data-export/web-scraper-data-export-from-browser-extension.png?raw=true
- [web-scraper-cloud-data-download]: ./images/data-export/web-scraper-cloud-data-download.png?raw=true
- [web-scraper-export-format-csv]: ./images/data-export/web-scraper-export-format-csv.png?raw=true
- [web-scraper-export-format-xlsx-excel]: ./images/data-export/web-scraper-export-format-xlsx-excel.png?raw=true
- [web-scraper-export-format-json]: ./images/data-export/web-scraper-export-format-json.png?raw=true
- [excel-import-csv-data]: ./images/data-export/excel-import-csv-data.png?raw=true
- [excel-load-data-from-text-csv]: ./images/data-export/excel-load-data-from-text-csv.png?raw=true
+ [web-scraper-data-export-from-browser-extension]: ../images/data-export/web-scraper-data-export-from-browser-extension.png?raw=true
+ [web-scraper-cloud-data-download]: ../images/data-export/web-scraper-cloud-data-download.png?raw=true
+ [web-scraper-export-format-csv]: ../images/data-export/web-scraper-export-format-csv.png?raw=true
+ [web-scraper-export-format-xlsx-excel]: ../images/data-export/web-scraper-export-format-xlsx-excel.png?raw=true
+ [web-scraper-export-format-json]: ../images/data-export/web-scraper-export-format-json.png?raw=true
+ [excel-import-csv-data]: ../images/data-export/excel-import-csv-data.png?raw=true
+ [excel-load-data-from-text-csv]: ../images/data-export/excel-load-data-from-text-csv.png?raw=true
  [libre-office-calc]: https://www.libreoffice.org/discover/calc/

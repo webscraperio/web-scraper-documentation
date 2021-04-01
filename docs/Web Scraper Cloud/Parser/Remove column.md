@@ -14,7 +14,7 @@ them.
 
 ![Fig. 1: Remove virtual column][remove-virtual-column]
 
-[link-selector]: ../Selectors/Link%20selector.md
+[link-selector]: ../../Selectors/Link%20selector.md
 [virtual-column]: Virtual%20column.md
-[remove-columns]: ../images/parsers/remove-column.gif
-[remove-virtual-column]: ../images/parsers/remove-virtual-column.gif
+[remove-columns]: ../../images/parsers/remove-column.gif
+[remove-virtual-column]: ../../images/parsers/remove-virtual-column.gif
