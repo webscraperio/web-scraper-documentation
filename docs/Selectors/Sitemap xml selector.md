@@ -14,10 +14,10 @@ If multiple sitemap.xml URLs are used, scraping job might fail due to exceeding 
 To work around this, try splitting the sitemap into multiple sitemaps, where each sitemap has only one sitemap.xml.
 
 **Note!** Sites that have `sitemap.xml` files are sometimes quite large.
-We recommend using [Cloud Web Scraper][cloud-web-scraper] for large volume scraping.
+We recommend using [Web Scraper Cloud][cloud-web-scraper] for large volume scraping.
 
 <!-- Scraping large `sitemap.xml` files might result with performance issues in the browser extension, this can be resolved -->
-<!-- by running the sitemap on [Cloud Web Scraper][cloud-web-scraper] as it doesn't store scraper queue in RAM while -->
+<!-- by running the sitemap on [Web Scraper Cloud][cloud-web-scraper] as it doesn't store scraper queue in RAM while -->
 <!-- scraping. -->
 
 ## Configuration options

@@ -1,6 +1,6 @@
 # Parser
 
-Parser is a feature which is solely exclusive for the [Cloud Web Scraper][cloud]. It is used to automatize data post processing that
+Parser is a feature which is solely exclusive for the [Web Scraper Cloud][cloud]. It is used to automatize data post processing that
 usually would be done by a custom user written script or manually in a spreadsheet software. 
 
 Its modular design allows you to create and further on configure multiple parsers for each column to easily create the most suitable post processing methods, 
@@ -13,7 +13,7 @@ If parser is set, data will always be parsed when downloaded.
 
 ## Getting started
  
-To set up a parser for a sitemap, go to `Sitemap details` page in your [Cloud Web Scraper][cloud] account and open 
+To set up a parser for a sitemap, go to `Sitemap details` page in your [Web Scraper Cloud][cloud] account and open 
 `Parser` tab. A table with 2 columns - `Column name` and `Parsers` will be visible. If there is some data already scraped for the selected sitemap, 
 another table below with data preview containing the first 10 scraped records will show. To add a parser - click 
 `Add parser` dropdown for the relevant row and then select a parser type to set up. Information of how each parser type works and how to configure each, check one of the related documentation pages listed in [Parser types](#parser-types) section. 
