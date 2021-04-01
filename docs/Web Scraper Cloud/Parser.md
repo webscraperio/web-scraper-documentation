@@ -52,6 +52,6 @@ These parsers can be used for data post processing:
  [strip-html]: Parser/Strip%20HTML.md
  [remove-column]: Parser/Remove%20column.md
  [virtual-column]: Parser/Virtual%20column.md
- [drag-n-drop]: images/parsers/drag-n-drop.gif
+ [drag-n-drop]: ../images/parsers/drag-n-drop.gif
  [cloud]: https://cloud.webscraper.io/
  
