@@ -26,7 +26,7 @@ limits are restored.
 
 This behavior can be disabled and throw exception instead of sleep.
 
-@include 'API/handle-api-limit'
+@include '../API/handle-api-limit'
                                                                              
 If more API calls are required, please contact support.
 
@@ -48,27 +48,27 @@ it finished with empty or failed pages. This status will be removed in a future 
 
 ### Create Sitemap
 
-@include 'API/create-sitemap'
+@include '../API/create-sitemap'
 
 ### Get Sitemap
 
-@include 'API/get-sitemap'
+@include '../API/get-sitemap'
 
 ### Get Sitemaps
 
-@include 'API/get-sitemaps'
+@include '../API/get-sitemaps'
 
 ### Update Sitemap
 
-@include 'API/update-sitemap'
+@include '../API/update-sitemap'
 
 ### Delete Sitemap
 
-@include 'API/delete-sitemap'
+@include '../API/delete-sitemap'
 
 ### Create Scraping Job
 
-@include 'API/create-scraping-job'
+@include '../API/create-scraping-job'
 
 ### Get Scraping Job
 
@@ -76,18 +76,18 @@ it finished with empty or failed pages. This status will be removed in a future 
 finished. Pinging the API until the scraping job has finished isn't a good 
 practice.
 
-@include 'API/get-scraping-job'
+@include '../API/get-scraping-job'
 
 ### Get Scraping Jobs
 
-@include 'API/get-scraping-jobs'
+@include '../API/get-scraping-jobs'
 
 ### Download scraped data in JSON format
 
 **Note!** A good practice would be to move the download/import task to a queue 
 job. A good example of [queue system].
 
-@include 'API/download-scraped-data-in-json-format'
+@include '../API/download-scraped-data-in-json-format'
 
 ### Download scraped data in CSV format
 
@@ -98,21 +98,21 @@ used by different products. For example:
 * MS Excel cannot handle escape sequences from the CSV standard
 * PHP has incorrect default implementation. See https://wiki.php.net/rfc/kill-csv-escaping
 
-@include 'API/download-scraped-data-in-csv-format'
+@include '../API/download-scraped-data-in-csv-format'
 
 ### Get Scraping Job Problematic Urls
 
 Returns **empty** and **failed** urls for specific scraping job.
 
-@include 'API/get-scraping-job-problematic-urls'
+@include '../API/get-scraping-job-problematic-urls'
 
 ### Delete Scraping Job
 
-@include 'API/delete-scraping-job'
+@include '../API/delete-scraping-job'
 
 ### Account info
 
-@include 'API/account-info'
+@include '../API/account-info'
 
 [cloud]: https://www.webscraper.io/cloud-scraper
 [sdk]: https://github.com/webscraperio/api-client-php
