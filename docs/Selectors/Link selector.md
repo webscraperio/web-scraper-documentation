@@ -38,34 +38,12 @@ selector.
 
 ![Fig. 1: Multiple link selectors for category navigation][multiple-level-link-selectors]
 
-**Handle pagination**
-
-For example an e-commerce site has multiple categories. Each category has a
-list of items and pagination links. Also some pages are not directly available
-from the category but are available from pagination pages (you can see
-pagination links 1-5, but not 6-8). You can start by building a sitemap that
-visits each category and extract items from category page. This sitemap will
-extract items only from the first pagination page. To extract items from all of
-the pagination links including the ones that are not visible at the beginning
-you need to create another *Link selector* that selects the pagination links.
-Figure 2 shows how the link selector should be created in the sitemap. When
-the scraper opens a category link it will extract items that are available in
-the page. After that it will find the pagination links and also visit those. If
-the pagination link selector is made a child to itself it will recursively
-discover all pagination pages. Figure 3 shows a selector graph where you can
-see how pagination links discover more pagination links and more data.
-
-![Fig. 2: Sitemap with Link selector for pagination][pagination-link-selectors]
-![Fig. 3: Selector graph with pagination][pagination-selector-graph]
-
 ## Related videos
 
 * [How to set up pagination with page numbers using Link selector]
 * [How to set up pagination with "Next" button using Link selector]
 
  [multiple-level-link-selectors]: ../images/selectors/link/multiple-level-link-selectors.png?raw=true
- [pagination-link-selectors]: ../images/selectors/link/pagination-link-selectors.png?raw=true
- [pagination-selector-graph]: ../images/selectors/link/pagination-selector-graph.png?raw=true
  [element-click]: Element%20click%20selector.md
  [link-popup]: Link%20popup%20selector.md
  [css-selector]: ../CSS%20selector.md
