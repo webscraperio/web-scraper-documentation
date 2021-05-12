@@ -23,6 +23,7 @@ enabled, scraper changes the IP address and retries to scrape the page.
 * [Data export][data-export]
 * [Data quality control][data-quality-control]
 * [Notifications][notifications]
+* [Sitemap sync][sitemap-sync]
 
 ## Page credits
 
@@ -114,3 +115,4 @@ element click selector. If the timeout is reached, no data will be scraped from 
 https://cloud.webscraper.io/subscription-manager
 [data-quality-control]: Web%20Scraper%20Cloud/Data%20quality%20control.md
 [notifications]: Web%20Scraper%20Cloud/Notifications.md
+[sitemap-sync]: Web%20Scraper%20Cloud/Sitemap%20sync.md
