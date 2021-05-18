@@ -16,7 +16,8 @@
 		'page_load_delay' => 2000,
 		'driver' => 'fast',
 		'scheduled' => 0, // scraping job was started by scheduler
-		'time_created' => '1493370624', // unix timestamp
+		'time_created' => 1493370624, // unix timestamp
+		'scraping_duration' => 60, // seconds
 	],
 	[
 	...
