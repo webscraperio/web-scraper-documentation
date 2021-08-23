@@ -17,9 +17,9 @@ See [Text selector] [text-selector] use cases.
 
 Image downloader script finds image urls scraped by Image Selector in a csv file and downloads them. 
 It will try to download images from all URLs that are stored in columns that 
-names end with `-src`. `web-scraper-oder` and `web-scraper-start-url` columns are 
+names end with `-src`. `web-scraper-order` and `web-scraper-start-url` columns are 
 required in order for script to work. Images are renamed to 
-`<web-scraper-oder>-<selector-name>.ext`. 
+`<web-scraper-order>-<selector-name>.ext`. 
 
 ### Windows usage
 

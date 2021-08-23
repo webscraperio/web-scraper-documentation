@@ -15,7 +15,7 @@ infinitely then this selector will be stuck in an infinite loop.
  * delay - delay before element selection and delay between scrolling. This
  should usually be specified because the data won't be loaded immediately from
  the server after scrolling down. More than 2000 ms might be a good choice if
- you you don't want to loose data because the server did not respond fast enough.
+ you don't want to lose data because the server did not respond fast enough.
 
 ## Use cases
 See [Element selector] [element-selector] use cases.
