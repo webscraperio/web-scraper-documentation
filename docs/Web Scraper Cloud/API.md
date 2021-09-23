@@ -106,6 +106,10 @@ Returns **empty** and **failed** urls for specific scraping job.
 
 @include '../API/get-scraping-job-problematic-urls'
 
+### Get Scraping Job Data Quality
+
+@include '../API/get-scraping-job-data-quality'
+
 ### Delete Scraping Job
 
 @include '../API/delete-scraping-job'
