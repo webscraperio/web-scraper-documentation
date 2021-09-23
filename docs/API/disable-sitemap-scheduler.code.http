@@ -1,0 +1,2 @@
+Method: POST
+URL: https://api.webscraper.io/api/v1/sitemap/<Sitemap ID>/disable-scheduler?api_token=<YOUR API TOKEN>
