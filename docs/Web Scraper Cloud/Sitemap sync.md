@@ -46,3 +46,7 @@ downloaded in extension will be discarded from the sitemap list.
 [sync-extension]: ../images/cloud/sitemap-sync/sync-extension.svg
 [sign-in]: ../images/cloud/sitemap-sync/sign-in-to-cloud.png
 [logout]: ../images/cloud/sitemap-sync/logout-from-cloud.png
+
+## Sync limitations
+
+User has a limit of 50 sitemap sync actions per 15 minutes.
