@@ -1,0 +1,2 @@
+Method: GET
+URL: https://api.webscraper.io/api/v1/sitemap/<Sitemap ID>/scheduler?api_token=<YOUR API TOKEN>
