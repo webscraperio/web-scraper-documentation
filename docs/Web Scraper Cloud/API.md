@@ -78,6 +78,10 @@ it finished with empty or failed pages. This status will be removed in a future 
 
 @include '../API/disable-sitemap-scheduler'
 
+### Get Sitemap Scheduler
+
+@include '../API/get-sitemap-scheduler'
+
 ### Get Scraping Job
 
 **Note!** You can also receive a push notification once the scraping job has 
