@@ -1,4 +1,4 @@
-import fs = require("fs");
+import * as fs from "fs";
 
 const scrapingJobId = 500;
 const outputFile = `/tmp/scrapingjob${scrapingJobId}.json`;
