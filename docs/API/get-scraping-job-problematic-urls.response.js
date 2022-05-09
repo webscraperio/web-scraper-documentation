@@ -1,12 +1,12 @@
 // response (generator)
 [
 	{
-		"url": "https://webscraper.io/empty",
-		"type": "empty",
+		url: "https://webscraper.io/empty",
+		type: "empty",
 	},
 	{
-		"url": "https://webscraper.io/failed",
-		"type": "failed",
+		url: "https://webscraper.io/failed",
+		type: "failed",
 	},
 	{
 		...
