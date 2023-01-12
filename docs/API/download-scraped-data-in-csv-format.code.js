@@ -1,7 +1,7 @@
 import * as fs from "fs";
 
 const scrapingJobId = 500;
-const outputFile = `/tmp/scrapingjob-data${scrapingJobId}.csv`;
+const outputFile = `/tmp/scrapingjob-${scrapingJobId}.csv`;
 await client.downloadScrapingJobCSV(scrapingJobId, outputFile);
 
 // Use a library that supports RFC 4180 standard to parse the csv file.

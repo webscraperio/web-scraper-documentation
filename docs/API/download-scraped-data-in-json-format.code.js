@@ -1,7 +1,7 @@
 import * as fs from "fs";
 
 const scrapingJobId = 500;
-const outputFile = `/tmp/scrapingjob${scrapingJobId}.json`;
+const outputFile = `/tmp/scrapingjob-${scrapingJobId}.json`;
 await client.downloadScrapingJobJSON(scrapingJobId, outputFile);
 
 // read data from file with built in JSON reader

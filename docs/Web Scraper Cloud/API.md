@@ -2,7 +2,9 @@
 
 [Web Scraper Cloud][cloud] can be managed via an HTTPS JSON API.
 The API allows to manage sitemaps, scraping jobs and download data.
-Use our [PHP SDK][sdk] when developing your application in PHP.
+
+* Use our [Node.js package][node] when developing your application in JS.
+* Use our [PHP SDK][sdk] when developing your application in PHP.
 
 API access token can be found in [Web Scraper Cloud API page][api-page].
 
@@ -64,7 +66,7 @@ stopped and scraping job marked as failed; however, the user can continue it man
 
 @include '../API/delete-sitemap'
 
-### Create Scraping Job
+### Create Scraping Job (Scrape Sitemap)
 
 @include '../API/create-scraping-job'
 
@@ -130,5 +132,6 @@ Returns **empty** and **failed** urls for specific scraping job.
 
 [cloud]: https://www.webscraper.io/cloud-scraper
 [sdk]: https://github.com/webscraperio/api-client-php
+[node]: https://github.com/webscraperio/api-client-nodejs
 [api-page]: https://cloud.webscraper.io/api
 [queue system]: https://laravel.com/docs/7.x/queues
