@@ -21,7 +21,7 @@ X-RateLimit-Reset: 1609372800   // returned only when limit is reached
 
 ### Handle API request limit
 
-[PHP SDK][sdk] has built-in backoff mechanism in case of reaching the limit. If 
+[PHP SDK][sdk] and [API SDK][node] has built-in backoff mechanism in case of reaching the limit. If 
 API request limit is reached and 429 response code is returned, client will 
 be automatically put to sleep and will make request again when API request 
 limits are restored.
