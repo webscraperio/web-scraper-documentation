@@ -7,5 +7,5 @@ const Client = api.Client;
 
 const client = new Client({
 	token: "your api token",
-	use_backoff_sleep: false
+	useBackoffSleep: false
 });
