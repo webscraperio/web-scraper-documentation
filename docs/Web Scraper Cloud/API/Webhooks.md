@@ -31,7 +31,7 @@ When your server receives the notification, it has to respond with 2xx HTTP stat
 In case of an error code or a timeout the notification will be resent after a 5 second delay for the first retry and 10 second delay for the second retry.
 
 We recommend using a queue system for deferred data import to improve data import handling.
-Here is a good example of a queue system - https://laravel.com/docs/8.x/queues.
+Here is a good example of a queue system - https://laravel.com/docs/10.x/queues.
 In case data import is being handled *on the fly* (in the webhook handler), 
 send a success response immediately after receiving the request 
 otherwise notification sender could timeout and resend the notification which could generate unexpected results.
