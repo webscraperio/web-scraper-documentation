@@ -134,4 +134,4 @@ Returns **empty** and **failed** urls for specific scraping job.
 [sdk]: https://github.com/webscraperio/api-client-php
 [node]: https://github.com/webscraperio/api-client-nodejs
 [api-page]: https://cloud.webscraper.io/api
-[queue system]: https://laravel.com/docs/7.x/queues
+[queue system]: https://laravel.com/docs/10.x/queues
