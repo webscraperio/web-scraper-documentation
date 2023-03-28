@@ -95,6 +95,12 @@ data as CSV* panel.
 
 ![Fig. 5: Start scraping][start-scraping]
 
+**Request Interval** - the minimal amount of time between the requests.
+
+**Page Load Delay** - the amount of time the scraper will wait before starting to execute selectors once a page has rendered.
+
+![Fig. 6: Delay definition][delay-definition]
+
 ## Related videos
 
 * [How to create a sitemap]
@@ -108,6 +114,7 @@ data as CSV* panel.
 [element-selector]: Selectors/Element%20selector.md
 [import-start-urls]: images/scraping-a-site/import-start-urls.png
 [start-scraping]: images/scraping-a-site/start-scraping.png
+[delay-definition]: images/scraping-a-site/delay-definition.png
 [How to create a sitemap]: 
 https://www.webscraper.io/how-to-video/create-a-sitemap
 [How to add multiple start URLs]: 
