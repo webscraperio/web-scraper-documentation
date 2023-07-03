@@ -6,22 +6,23 @@ the href attribute of the link. If you add child selectors to *Link selector*
 then these child selectors will be used in the page that this link was leading
 to. If you are selecting multiple links then check *multiple* property.
 
-**Note!** Link selector works only with `<a>` tags with `href` attribute. If the
-link selector is not working for you then you can try these workarounds:
+**Note!** Check that the link in the url bar changes after clicking an item. If the link doesn't change, then the site is
+probably using ajax for data loading. Instead of using link selector you
+should use [Element click selector] [element-click].
 
- 1. Check that the link in the url bar changes after clicking an item. If the link doesn't change, then the site is 
- probably using ajax for data loading. Instead of using link selector you
- should use [Element click selector] [element-click].
- 2. If the site opens a popup then you should use
- [Link popup selector] [link-popup]
- 3. The site might be using JavaScript `window.location` to change the URL. Web
- Scraper cannot handle this kind of navigation right now.
+The *Link selector* can extract links from 4 types of sources:
+
+1. **Link** - reads the `href` attribute of an element. E.g. `<a href="https://example.com">`;
+2. **Text** - reads the text content of an element. E.g. `<span>https://example.com</span>`;
+3. **Attribute** - reads the attributes of an element and finds the link. E.g. `<a data-link="https://example.com">`;
+4. **Script** - reads the scripted link in an attribute. E.g. `<a onclick="window.location='https://example.com'">`;
 
 ## Configuration options
 
  * selector - [CSS selector] [css-selector] for the link element from which the
  link for navigation will be extracted.
  * multiple - multiple records are being extracted. Usually should be checked.
+ * link type - the source of the link. See above for more information.
 
 ## Use cases
 
