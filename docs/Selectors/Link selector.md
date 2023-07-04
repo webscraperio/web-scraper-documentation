@@ -6,8 +6,8 @@ the href attribute of the link. If you add child selectors to *Link selector*
 then these child selectors will be used in the page that this link was leading
 to. If you are selecting multiple links then check *multiple* property.
 
-**Note!** Check that the link in the url bar changes after clicking an item. If the link doesn't change, then the site is
-probably using ajax for data loading. Instead of using link selector you
+**Note!** Check that the link in the URL bar changes after clicking on an item. If it does not, then, most likely, the site is
+using AJAX for data loading. Instead of using a link selector, you
 should use [Pagination selector] [pagination-selector].
 
 The *Link selector* can extract links from 4 types of sources:
