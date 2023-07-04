@@ -8,7 +8,7 @@ to. If you are selecting multiple links then check *multiple* property.
 
 **Note!** Check that the link in the url bar changes after clicking an item. If the link doesn't change, then the site is
 probably using ajax for data loading. Instead of using link selector you
-should use [Pagination selector (Beta)] [pagination-selector].
+should use [Pagination selector] [pagination-selector].
 
 The *Link selector* can extract links from 4 types of sources:
 
@@ -52,4 +52,4 @@ selector.
 https://www.webscraper.io/how-to-video/link-button-pagination
 [How to set up pagination with "Next" button using Link selector]:
 https://www.webscraper.io/how-to-video/link-button-pagination-next
-[pagination-selector]: Pagination%20selector%20(Beta).md
+[pagination-selector]: Pagination%20selector.md

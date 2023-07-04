@@ -1,4 +1,4 @@
-# Pagination selector (Beta)
+# Pagination selector
 
 Pagination selector is used to navigate through all pagination pages or to load
 all items with the `Load more` button. Pagination selector is always recursive, 
