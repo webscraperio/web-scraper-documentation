@@ -46,7 +46,6 @@ selector.
 
  [multiple-level-link-selectors]: ../images/selectors/link/multiple-level-link-selectors.png?raw=true
  [element-click]: Element%20click%20selector.md
- [link-popup]: Link%20popup%20selector.md
  [css-selector]: ../CSS%20selector.md
 [How to set up pagination with page numbers using Link selector]:
 https://www.webscraper.io/how-to-video/link-button-pagination
