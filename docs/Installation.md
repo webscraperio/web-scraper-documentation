@@ -10,7 +10,7 @@ installation.
 
 Browser version requirements:
 
-* Chrome: `60+`
+* Chrome: `100+`
 * Firefox: `69+`
 
  [1]: https://chrome.google.com/webstore/detail/web-scraper/jnhgnonknehpejjnehehllkliplmbmhn  "Install web scraper from Chrome store"
