@@ -14,20 +14,18 @@ selector.
   on pagination buttons.
 
 ### Pagination type
-* auto - automatically uses one of these pagination types: `link`,
-  `scripted link`, `attribute link` or `click multiple times on next/more
-  button`. For a better scraper performance, it is better to select a specific
-  pagination type instead.
-* link - extracts pagination URL from anchor `href` attribute.
-* scripted link - extracts URL from javascript statement within `href` or
+* **Auto** - automatically uses one of these pagination types. The auto option is 
+  recommended by default, with additional configuration needed when the auto 
+  option does not recognize the element correctly by default.
+* **Link** - extracts pagination URL from anchor `href` attribute.
+* **Scripted link** - extracts URL from javascript statement within `href` or
   `onclick` attribute.
-* attribute link - extracts URL from HTML element attribute.
-* text link - extracts URL from plain text.
-* scripted link click simulation - extracts URL by clicking on the element and
-  capturing URL that would be loaded by javascript.
-* click multiple times on next/more button - navigates through pagination pages
+* **Attribute link** - extracts URL from HTML element attribute.
+* **Text link** - extracts URL from plain text.
+* **Link from any script** - reads link from a script (window.location=, window.open).
+* **Click multiple times on next/more button** - navigates through pagination pages
   by clicking on a button multiple times until no new records are scraped.
-* click once on multiple buttons - navigates through pagination pages by
+* **Click once on multiple buttons** - navigates through pagination pages by
   clicking on each unique button once.
 
 ## Use cases
