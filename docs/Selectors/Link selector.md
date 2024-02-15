@@ -10,12 +10,16 @@ to. If you are selecting multiple links then check *multiple* property.
 using AJAX for data loading. Instead of using a link selector, you
 should use [Pagination selector] [pagination-selector].
 
-The *Link selector* can extract links from 4 types of sources:
+The *Link selector* can extract links from 5 types of sources:
 
 1. **Link** - reads the `href` attribute of an element. E.g. `<a href="https://example.com">`;
 2. **Text** - reads the text content of an element. E.g. `<span>https://example.com</span>`;
 3. **Attribute** - reads the attributes of an element and finds the link. E.g. `<a data-link="https://example.com">`;
-4. **Script** - reads the scripted link in an attribute. E.g. `<a onclick="window.location='https://example.com'">`;
+4. **Scripted link in attribute** - reads the scripted link in an attribute. E.g. `<a onclick="window.location='https://example.com'">`;
+5. **Link from any script** - reads link from a script. E.g. `<a(window.location=, window.open)>`;
+
+The Link Selector is only recognizing <a> elements using the point-and-click interface to be a selector, 
+but other elements can be selected by manually entering the CSS selector value as a selector.
 
 ## Configuration options
 
@@ -29,7 +33,7 @@ The *Link selector* can extract links from 4 types of sources:
 **Navigate through multiple levels of navigation**
 
 For example an e-commerce site has multi level navigation -
-`categories -> subcategories`. To scrape data from all categories and
+`categories -> subcategories`. To scrape data from all categories and 
 subcategories you can create two *Link selectors*. One selector would select
 category links and the other selector would select subcategory links that are
 available in the category pages. The subcategory *Link selector* should be made
