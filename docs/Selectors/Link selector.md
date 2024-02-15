@@ -18,8 +18,10 @@ The *Link selector* can extract links from 5 types of sources:
 4. **Scripted link in attribute** - reads the scripted link in an attribute. E.g. `<a onclick="window.location='https://example.com'">`;
 5. **Link from any script** - reads link from a script. E.g. `<a(window.location=, window.open)>`;
 
-The Link Selector is only recognizing <a> elements using the point-and-click interface to be a selector, 
-but other elements can be selected by manually entering the CSS selector value as a selector.
+All Link Selector types except for 'Link from any script' only allow selecting elements using the point-and-click interface
+although other elements can be selected by manually entering the CSS selector value as a selector.
+
+The 'Link from any script' type allows any element to be selected using the point-and-click interface.
 
 ## Configuration options
 
