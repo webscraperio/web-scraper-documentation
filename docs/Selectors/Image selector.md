@@ -26,7 +26,7 @@ required in order for script to work. Images are renamed to
 1. Download and install python 3.x from here:
 [https://www.python.org/downloads/](https://www.python.org/downloads/)
 2. Download image downloader script from here:
-[https://github.com/webscraperio/image-downloader][image-downloader]
+[https://github.com/webscraperio/image-downloader/tags][image-downloader]
 3. Scrape the target site and export data in CSV format
 4. Drag and drop the CSV file on top of the `image-downloader.py`
 ![Fig. 1: windows image download][windows-image-download-script]
@@ -35,7 +35,7 @@ required in order for script to work. Images are renamed to
 
 1. Install python if necessary through your package manager. Most likely you already have it pre-installed.
 2. Download image downloader script from here:
-[https://github.com/webscraperio/image-downloader][image-downloader]
+[https://github.com/webscraperio/image-downloader/tags][image-downloader]
 3. Move `image-downloader.py` to `Downloads` directory
 4. Scrape the target site and export data in CSV format
 5. Save the CSV file in `Downloads` directory
@@ -55,4 +55,4 @@ required in order for script to work. Images are renamed to
  [css-selector]: ../CSS%20selector.md
  [windows-image-download-script]: ../images/selectors/image/win-image-downloader.gif?raw=true
  [osx-image-download-script]: ../images/selectors/image/osx-image-downloader.gif?raw=true
- [image-downloader]: https://github.com/webscraperio/image-downloader/releases
+ [image-downloader]: https://github.com/webscraperio/image-downloader/tags
