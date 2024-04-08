@@ -101,9 +101,6 @@ and during the clicking process, resulting in duplicate or unusable row of data.
 
 ## Related videos
 
-* [How to scrape products using "Load More" button]
-* [How to set up pagination with page numbers using Element Click selector]
-* [How to set up pagination with "Next" button using Element Click selector]
 * [How to iterate through item drop-down variations]
 * [How to iterate through item button variations]
 * [How to iterate through two or more item variation selects]
@@ -112,12 +109,6 @@ and during the clicking process, resulting in duplicate or unusable row of data.
  [image-click-once]: ../images/selectors/element-click/click-once.png?raw=true
  [element-selector]: Element%20selector.md
  [css-selector]: ../CSS%20selector.md
-[How to scrape products using "Load More" button]:
-https://www.webscraper.io/how-to-video/load-more-button
-[How to set up pagination with page numbers using Element Click selector]:
-https://www.webscraper.io/how-to-video/element-click-pagination-buttons
-[How to set up pagination with "Next" button using Element Click selector]:
-https://www.webscraper.io/how-to-video/element-click-pagination-next
 [How to iterate through item drop-down variations]:
 https://www.webscraper.io/how-to-video/dropdown-variation
 [How to iterate through item button variations]:

@@ -16,7 +16,6 @@ selected element. These selectors can be used as data extraction selectors:
 
  * [Text selector] [text-selector]
  * [Link selector] [link-selector]
- * [Link popup selector] [link-popup-selector]
  * [Image selector] [image-selector]
  * [Table selector] [table-selector]
  * [Element attribute selector] [element-attribute-selector]
@@ -34,7 +33,6 @@ selectors then these child *Link selectors* would be used for further page
 navigation. These are currently available *Link selectors*:
 
  * [Link selector] [link-selector]
- * [Link popup selector] [link-popup-selector]
 
 ### Element selectors
 
@@ -115,9 +113,8 @@ selectors on [CSS selector][css-selectors] page.
 
  [text-selector]: Selectors/Text%20selector.md
  [link-selector]: Selectors/Link%20Selector.md
- [link-popup-selector]: Selectors/Link%20Popup%20Selector.md
  [image-selector]: Selectors/Image%20selector.md
- [element-attribute-selector]: Selectors/Table%20selector.md
+ [element-attribute-selector]: Selectors/Element%20attribute%20selector.md
  [table-selector]: Selectors/Table%20selector.md
  [grouped-selector]: Selectors/Grouped%20selector.md
  [html-selector]: Selectors/HTML%20selector.md
