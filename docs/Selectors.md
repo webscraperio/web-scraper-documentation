@@ -8,6 +8,8 @@ be divided in three groups:
  * Link selectors for site navigation.
  * Element selectors for element selection that separate multiple records
 
+## Selector types
+
 ### Data extraction selectors
 
 Data extraction selectors simply return data from the selected element. 

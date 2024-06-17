@@ -96,12 +96,12 @@ element click selector. If the timeout is reached, no data will be scraped from 
 
 ## Difference between scraping on Web Scraper Cloud and Web Scraper browser extension
 
-| Web Scraper Cloud | Web Scraper browser extension |
-|------------------ |------------------------------ |
-| **Consistent site accessibility** while <br>scraping. Automatic failover, IP address rotation<br> and data extraction retry mechanisms decreases the <br>chance of the scraper access getting blocked. | **Limited access.** Only sites that you can access <br> via your browser can be scraped. For small data<br> extraction volumes this is good enough. |
-| Scraped data is stored in **cloud storage** for all <br>scraping jobs within data retention period. | Only data from the latest scraping job is stored in <br>browsers's **local storage**. |
-| **Images are not loaded** while scraping. This <br>decreases page load time as well as decreases <br>transferred data for custom proxy users. | **Images are loaded** while scraping. |
-| URLs are traversed in **pseudo random** order. <br>This ensures the most recent data is being <br>scraped when crawling larger sites. | URLs are traversed in **last in first out** order on <br>how they were discovered. This will discover the initial <br>records sooner but won't decrease the total time <br>required to scrape the site. |
+| Web Scraper Cloud                                                                                                                                                                          | Web Scraper Browser Extension                                                                                                                                                                      |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Consistent site accessibility** while scraping. Automatic failover, IP address rotation, and data extraction retry mechanisms decrease the chance of the scraper access getting blocked. | **Limited access.** Only sites that you can access via your browser can be scraped. For small data extraction volumes, this is good enough.                                                        |
+| Scraped data is stored in **cloud storage** for all scraping jobs within the data retention period.                                                                                        | Only data from the latest scraping job is stored in the browser's **local storage**.                                                                                                               |
+| **Images are not loaded** while scraping. This decreases page load time as well as transferred data for custom proxy users.                                                                | **Images are loaded** while scraping.                                                                                                                                                              |
+| URLs are traversed in **pseudo-random** order. This ensures the most recent data is being scraped when crawling larger sites.                                                              | URLs are traversed in **last in, first out** order based on how they were discovered. This will discover the initial records sooner but won't decrease the total time required to scrape the site. |
 
 
 [cloud]: https://cloud.webscraper.io/

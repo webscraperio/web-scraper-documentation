@@ -3,46 +3,46 @@
 Web Scraper has multiple notification types to notify users about their activities or
 other related information about their account.
 
-### Notification types
+## Notification types
 
 * All credits have been spent
 * Scraping job fails
 * Data quality fails for a scraping job
 * API misuse noticed
 
-### Notification channels
+## Notification channels
 
 * Email
 * Web Scraper Cloud notifications
 
-### Notification settings
+## Notification settings
 
-Notification settings page can be found by clicking on your name on the 
+Notification settings page can be found by clicking on your name in the 
 top-right corner of the screen and choosing **Notification settings** option. 
 Notification channels can be configured separately for each notification type.
 
 ![Fig. 3: Notification Settings][notification-settings-image]
 
-### Notification frequency
+## Notification frequency
 
-| Notification type | Email | Cloud notification  |
-|-------- |-------- |-------- |
-| All credits have been spent | Once in a day | Once in a day |
-| Scraping job fails | Once in 6 hours for sitemap | Unlimited |
-| Data quality fails for a scraping job | Once in 6 hours for sitemap | Unlimited |
-| API misuse noticed | Once in 6 hours | Unlimited |
+| Notification type                     | Email                       | Cloud notification |
+|---------------------------------------|-----------------------------|--------------------|
+| All credits have been spent           | Once in a day               | Once in a day      |
+| Scraping job fails                    | Once in 6 hours for sitemap | Unlimited          |
+| Data quality fails for a scraping job | Once in 6 hours for sitemap | Unlimited          |
+| API misuse noticed                    | Once in 6 hours             | Unlimited          |
 
-### Notification examples
+## Notification examples
 
-**Email**
+### Email
 
 ![Fig. 1: Email notification][email-notification-image]
 
-**Web Scraper Cloud notification popup**
+### Web Scraper Cloud notification popup
 
 ![Fig. 2: Web Scraper Cloud notification popup][cloud-notification-popup-image]
 
-**Web Scraper Cloud notification list**
+### Web Scraper Cloud notification list
 
 ![Fig. 3: Web Scraper Cloud notifications list][cloud-notification-image]
 

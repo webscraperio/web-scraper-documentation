@@ -16,14 +16,14 @@ documentation links that might help you:
 It is possible to add new pseudo CSS selectors to Web Scraper. Right now there
 is only one CSS selector added.
 
-#### Parent selector
+### Parent selector
 
 CSS Selector `_parent_` allows a child selector of an
 *Element selector* to select the element that was returned by the *Element selector*. For
 example this CSS selector could be used in a case where you need to extract an
 attribute from the element that the *Element selector* returned.
 
-#### Selecting elements within iframe or shadow root
+### Selecting elements within iframe or shadow root
 
 A custom written CSS selector can be used to select elements within an iframe or
 shadow-root.

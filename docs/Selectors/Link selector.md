@@ -26,7 +26,7 @@ The *Link selector* can extract links from 4 types of sources:
 
 ## Use cases
 
-**Navigate through multiple levels of navigation**
+### Navigate through multiple levels of navigation
 
 For example an e-commerce site has multi level navigation -
 `categories -> subcategories`. To scrape data from all categories and

@@ -18,7 +18,7 @@ A fresh webhook notification for the same scraping job can be sent:
 * When data extraction from empty and failed urls has been rescheduled. ("Continue" button in website)
 
 Notification FORM data content example:
-```
+```sh
 "scrapingjob_id": 1234
 "status": "finished"
 "sitemap_id": 12

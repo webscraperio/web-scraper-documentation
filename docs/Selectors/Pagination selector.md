@@ -32,7 +32,7 @@ selector.
 
 ## Use cases
 
-**Handle pagination**
+### Handle pagination
 
 For example, an e-commerce site has multiple categories. Each category has a
 list of items and pagination links. Some pages are not directly available

@@ -11,19 +11,19 @@ determined by several criteria:
 
 ![Fig. 1: Data quality control][data-quality-control-image]
 
-### How to detect whether data quality control has failed
+## How to detect whether data quality control has failed
 
 Data quality control fails if one of the configured criteria is not met.
 
-**1. Data quality control tab in sitemap details page**
+1. **Data quality control tab in sitemap details page**
 
-If last scraping job value for the specific criteria is lower than configured, 
-slider indicator will be in **red**.
+    If last scraping job value for the specific criteria is lower than configured, 
+    slider indicator will be in **red**.
 
-**2. Notifications**
+2. **Notifications**
 
-Notifications about failed data quality control can be received via Cloud or 
-e-mail. More information can be found in [Notifications page][notifications].
+    Notifications about failed data quality control can be received via Cloud or 
+    e-mail. More information can be found in [Notifications page][notifications].
 
 ### Set data quality control with suggested values
 

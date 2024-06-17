@@ -66,7 +66,7 @@ When using *Click Once* only unique buttons will be clicked. When using
 
 ## Use cases
 
-#### Navigate pagination using "Click once" selector type
+### Navigate pagination using "Click once" selector type
 
 For example there is a site that displays a list of items and there are some
 pagination buttons that reload these items dynamically (after clicking a button
@@ -79,7 +79,7 @@ the *Element click selector* to extract data from the described site.
 
  ![Fig. 1: Sitemap when using Click once type][image-click-once]
 
-#### Load more items in an e-commerce site by clicking "More" button
+### Load more items in an e-commerce site by clicking "More" button
 
 This example is similar to the one above. The only difference is that in this
 site items are loaded by clicking a single button multiple times. In this case
@@ -89,7 +89,7 @@ to extract data from this site.
 
  ![Fig. 2: Sitemap when using Click more type][image-click-more]
 
-#### When to select the *Discard when click element exists* option
+### When to select the *Discard when click element exists* option
 
 The *Discard when click element exists* option is picked when, for example, product pages, of an e-commerce website, 
 that are being scraped have an almost identical structure, with the only differentiator being the presence of a 
