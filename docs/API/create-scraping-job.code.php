@@ -3,7 +3,7 @@ $response = $client->createScrapingJob([
 	'driver' => 'fast', // 'fast' or 'fulljs'
 	'page_load_delay' => 2000,
 	'request_interval' => 2000,
-	'proxy' => 0, // optional. 0 - no proxy, 1 - use proxy. Or proxy id for Scale plan users
+	'proxy' => 0, // 0: No proxy, 1: Use proxy, 123: Custom proxy id, 'residential-*': Use residential proxy, replace * with country code, for example, 'residential-us'
 	'start_urls' => [   // optional, if set, will overwrite sitemap start URLs
 		'https://www.webscraper.io/test-sites/e-commerce/allinone/computers',
 		'https://www.webscraper.io/test-sites/e-commerce/allinone/phones'
