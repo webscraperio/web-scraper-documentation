@@ -11,6 +11,7 @@
 		'jobs_executed' => 0,
 		'jobs_failed' => 0,
 		'jobs_empty' => 0,
+		'jobs_no_value' => 0,
 		'stored_record_count' => 0,
 		'request_interval' => 2000,
 		'page_load_delay' => 2000,

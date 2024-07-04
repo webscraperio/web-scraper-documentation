@@ -9,6 +9,10 @@
 		type: "failed",
 	},
 	{
+		url: "https://webscraper.io/no-value",
+		type: "no_value",
+	},
+	{
 		...
 	},
 ]
