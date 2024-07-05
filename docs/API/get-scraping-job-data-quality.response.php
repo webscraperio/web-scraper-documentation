@@ -14,6 +14,11 @@
 		'expected' => 5,
 		'success' => true, // Specific data quality control indication
 	],
+	'max_no_value_pages_percent' => [
+		'got' => 0,
+		'expected' => 5,
+		'success' => true, // Specific data quality control indication
+	],
 	'min_column_records' => [
 		'title' => [
 			'got' => 100,
