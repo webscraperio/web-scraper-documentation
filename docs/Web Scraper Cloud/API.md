@@ -41,7 +41,7 @@ Scraping job can have one of these statuses:
 * `started` - the scraping job is in motion;
 * `failed` - the website returned more than 50% 4xx or 50xx responses or there were network errors, which means that job execution was 
 stopped and scraping job marked as failed; however, the user can continue it manually;
-* `finished` - the scraping job has completed successfully without any failed or empty pages;
+* `finished` - the scraping job has been completed;
 * `stopped` - the scraping job has been stopped manually by the user;
 
 ## API calls
