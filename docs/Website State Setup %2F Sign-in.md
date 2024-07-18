@@ -75,5 +75,5 @@ input, and click actions.
 [selected-element]: images/website-state-setup/selected-element.png?raw=true
 
 [CSS selectors]: https://webscraper.io/documentation/css-selector
-[jQuery contains selector]:
+[jQuery Contains Selector]:
 https://webscraper.io/how-to-video/jquery-contains-selector
