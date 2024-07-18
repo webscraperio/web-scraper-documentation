@@ -105,13 +105,10 @@ and during the clicking process, resulting in duplicate or unusable row of data.
 * [How to iterate through item button variations]
 * [How to iterate through two or more item variation selects]
 
- [image-click-more]: ../images/selectors/element-click/click-more.png?raw=true
- [image-click-once]: ../images/selectors/element-click/click-once.png?raw=true
- [element-selector]: Element%20selector.md
- [css-selector]: ../CSS%20selector.md
-[How to iterate through item drop-down variations]:
-https://www.webscraper.io/how-to-video/dropdown-variation
-[How to iterate through item button variations]:
-https://www.webscraper.io/how-to-video/button-variation
-[How to iterate through two or more item variation selects]:
-https://www.webscraper.io/how-to-video/product-with-multiple-variations
+[image-click-more]: ../images/selectors/element-click/click-more.png?raw=true
+[image-click-once]: ../images/selectors/element-click/click-once.png?raw=true
+[element-selector]: Element%20selector.md
+[css-selector]: ../CSS%20selector.md
+[How to iterate through item drop-down variations]: https://www.webscraper.io/how-to-video/dropdown-variation
+[How to iterate through item button variations]: https://www.webscraper.io/how-to-video/button-variation
+[How to iterate through two or more item variation selects]: https://www.webscraper.io/how-to-video/product-with-multiple-variations

@@ -111,26 +111,21 @@ selectors on [CSS selector][css-selectors] page.
 * [How to select elements that don’t contain specific text]
 * [How to select elements that don’t have a specific element]
 
- [text-selector]: Selectors/Text%20selector.md
- [link-selector]: Selectors/Link%20Selector.md
- [image-selector]: Selectors/Image%20selector.md
- [element-attribute-selector]: Selectors/Element%20attribute%20selector.md
- [table-selector]: Selectors/Table%20selector.md
- [grouped-selector]: Selectors/Grouped%20selector.md
- [html-selector]: Selectors/HTML%20selector.md
- [element-selector]: Selectors/Element%20selector.md
- [element-click-selector]: Selectors/Element%20click%20selector.md
- [element-scroll-selector]: Selectors/Element%20scroll%20down%20selector.md
-[How to select elements without clicking on them]: 
-https://www.webscraper.io/how-to-video/action-keys
-[How to select elements that contain specific text]: 
-https://www.webscraper.io/how-to-video/jquery-contains-selector
-[How to select elements that have a specific element]: 
-https://www.webscraper.io/how-to-video/jquery-has-selector
-[How to select elements that don’t contain specific text]: 
-https://www.webscraper.io/how-to-video/jquery-not-contains-selector
-[How to select elements that don’t have a specific element]: 
-https://www.webscraper.io/how-to-video/jquery-not-has-selector
+[text-selector]: Selectors/Text%20selector.md
+[link-selector]: Selectors/Link%20Selector.md
+[image-selector]: Selectors/Image%20selector.md
+[element-attribute-selector]: Selectors/Element%20attribute%20selector.md
+[table-selector]: Selectors/Table%20selector.md
+[grouped-selector]: Selectors/Grouped%20selector.md
+[html-selector]: Selectors/HTML%20selector.md
+[element-selector]: Selectors/Element%20selector.md
+[element-click-selector]: Selectors/Element%20click%20selector.md
+[element-scroll-selector]: Selectors/Element%20scroll%20down%20selector.md
+[How to select elements without clicking on them]: https://www.webscraper.io/how-to-video/action-keys
+[How to select elements that contain specific text]: https://www.webscraper.io/how-to-video/jquery-contains-selector
+[How to select elements that have a specific element]: https://www.webscraper.io/how-to-video/jquery-has-selector
+[How to select elements that don’t contain specific text]: https://www.webscraper.io/how-to-video/jquery-not-contains-selector
+[How to select elements that don’t have a specific element]: https://www.webscraper.io/how-to-video/jquery-not-has-selector
 [select-tool]: images/selectors/select-tool.png
 [select-tool-hotkeys]: images/selectors/select-tool-hotkeys.png
 [css-selectors]: CSS%20selector.md

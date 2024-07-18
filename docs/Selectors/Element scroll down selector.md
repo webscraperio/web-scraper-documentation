@@ -24,7 +24,6 @@ See [Element selector] [element-selector] use cases.
 
 * [How to scrape products using scroll selector]
 
- [element-selector]: Element%20selector.md
- [css-selector]: ../CSS%20selector.md
-[How to scrape products using scroll selector]:
-https://www.webscraper.io/how-to-video/element-scroll-selector
+[element-selector]: Element%20selector.md
+[css-selector]: ../CSS%20selector.md
+[How to scrape products using scroll selector]: https://www.webscraper.io/how-to-video/element-scroll-selector
