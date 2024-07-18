@@ -22,7 +22,7 @@ These configuration options will be applied for all scheduled scraping jobs, for
 
 There are 3 types of scheduler configuration options available: 
 
-#### Daily scheduler
+### Daily scheduler
 
 Select the weekdays and the time for which the scraping jobs should be started. 
 
@@ -31,7 +31,7 @@ Select the weekdays and the time for which the scraping jobs should be started.
 Interval can be set either by hours or minutes. If the interval is set by hours, scheduler will start scraping jobs on the 
 round hours.
 
-#### Custom Cron expression scheduler
+### Custom Cron expression scheduler
 
 If a very customized and specific scheduler is needed, for which the previous scheduler types are not fit for, set up a [custom Cron expression][cron].
 

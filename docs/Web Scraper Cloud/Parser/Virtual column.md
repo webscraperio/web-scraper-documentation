@@ -11,7 +11,8 @@ columns and vice versa. Virtual column parser can not be swapped with another pa
  * Separator - used if multiple `Source columns` are selected. Escape sequences as `\n\r\t` can be used.
  
 ## Use cases
-**Split fields into multiple columns**  
+
+### Split fields into multiple columns
 
 Sometimes data points like street address, city, ZIP code and state are contained in one HTML element and can't be 
 scraped in separate fields by using [selectors][selectors]. This is where Virtual column parser and [Regex match]
@@ -31,7 +32,7 @@ Regular expression to extract `state`: `, ([^\s]+)` - return capture group `1`.
 Regular expression to extract `ZIP code`: `\d+$`
 
 
-**Create columns with default values**  
+### Create columns with default values
 
 Virtual column in combination with [Replace text][replace-parser] parser can be used to create a column with a default 
 value. In order to do this:  

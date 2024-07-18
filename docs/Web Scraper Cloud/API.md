@@ -13,7 +13,7 @@ API access token can be found in [Web Scraper Cloud API page][api-page].
 By default, each user has a limit of 200 API calls per 15 minutes. Limit can be 
 tracked by API call response headers:
 
-```
+```sh
 X-RateLimit-Limit: 200
 X-RateLimit-Remaining: 199
 X-RateLimit-Reset: 1609372800   // returned only when limit is reached

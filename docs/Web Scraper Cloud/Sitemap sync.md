@@ -30,14 +30,15 @@ downloaded in extension will be discarded from the sitemap list.
 
 ## Synchronization states
 
-| icon | state | description |
-| ---- | ----- | ----------- |
-| ![Sitemap is not synced][not-synced] | latest sitemap version can't be determined | sitemap names match between Cloud and extension<br>but latest sitemap version can't be determined by<br>looking at both sitemap editing history |
-| ![Sitemap is not synced][not-synced] | latest sitemap is in Cloud | last update was made to sitemap in Cloud |
-| ![Sitemap is not synced][not-synced] | latest sitemap is in extension | last update was made to sitemap in extension |
-| ![Sitemap is synced][synced] | sitemaps are synchronized | Cloud and extension have the same sitemap |
-| ![Sitemap is only in Cloud][sync-cloud] | sitemap is only in Cloud | sitemap is only in Cloud but can be downloaded in<br>extension for editing. Sitemap will download<br>automatically if opened
-| ![Sitemap is only in extension][sync-extension] | sitemap is only in extension | sitemap is only in extension but can be uploaded to<br>Cloud
+| Icon                                            | State                                      | Description                                                                                                                                       |
+|-------------------------------------------------|--------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![Sitemap is not synced][not-synced]            | Latest sitemap version can't be determined | Sitemap names match between Cloud and extension, but the latest sitemap version can't be determined by looking at both sitemap editing histories. |
+| ![Sitemap is not synced][not-synced]            | Latest sitemap is in Cloud                 | Last update was made to sitemap in Cloud.                                                                                                         |
+| ![Sitemap is not synced][not-synced]            | Latest sitemap is in extension             | Last update was made to sitemap in extension.                                                                                                     |
+| ![Sitemap is synced][synced]                    | Sitemaps are synchronized                  | Cloud and extension have the same sitemap.                                                                                                        |
+| ![Sitemap is only in Cloud][sync-cloud]         | Sitemap is only in Cloud                   | Sitemap is only in Cloud but can be downloaded in the extension for editing. Sitemap will download automatically if opened.                       |
+| ![Sitemap is only in extension][sync-extension] | Sitemap is only in extension               | Sitemap is only in the extension but can be uploaded to Cloud.                                                                                    |
+
 
 [cloud]: ../Web%20Scraper%20Cloud.md
 [not-synced]: ../images/cloud/sitemap-sync/not-synced.svg

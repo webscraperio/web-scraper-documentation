@@ -34,7 +34,8 @@ Here are some examples that you might find useful:
 | date: 2014-08-20 	| `[0-9]{4}\-[0-9]{2}\-[0-9]{2}` 	| 2014-08-20 	|
 
 ## Use cases
-**Extract one record per page with multiple text selectors**
+
+### Extract one record per page with multiple text selectors
 
 For example you are scraping news site that has one article per page. The page
 might contain the article, its title, date published and the author. A
@@ -45,7 +46,7 @@ is extracting only one record.
 
 ![Fig. 1: Multiple text selectors per page][text-selector-multiple-single-text-selectors-in-one-page]
 
-**Extract multiple items with multiple text selectors per page**
+### Extract multiple items with multiple text selectors per page
 
 E-commerce sites usually have multiple items per page. If you want to scrape
 these items you will need an *Element selector* that selects item wrapper
@@ -54,7 +55,7 @@ element.
 
 ![Fig. 2: Multiple elements with text selectors. Some arrows are skipped.][text-selector-multiple-elements-with-text-selectors]
 
-**Extract multiple text records per page**
+### Extract multiple text records per page
 
 For example you want to extract comments for an article. There are multiple
 comments in a single page and you only need the comment text (If you would need

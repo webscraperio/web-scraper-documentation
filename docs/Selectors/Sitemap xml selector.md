@@ -43,7 +43,7 @@ Best way to scrape the whole site is by using Sitemap.xml link selector. It remo
 with pagination, categories and search forms/queries. Some sites don't display category tree(breadcrumbs) if the page is 
 opened directly. In these cases site has to be traversed through category pages to scrape the category tree.
 
-**Making sure that only specific pages are scraped**
+### Making sure that only specific pages are scraped
 
 As in most cases, sitemap.xml contains all pages of the site, it is possible to limit the scraper so it scrapes only
 the pages that contain the required data. For example, e-commerce sites `sitemap.xml` will contain of product pages,

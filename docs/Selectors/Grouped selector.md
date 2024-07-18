@@ -12,7 +12,7 @@ The extracted data will be stored as JSON.
 
 ## Use cases
 
-#### Extract article references
+### Extract article references
 
 For example you are extracting a news article that might have multiple
 reference links. If you are selecting these links with link selector with

@@ -41,11 +41,11 @@ required in order for script to work. Images are renamed to
 5. Save the CSV file in `Downloads` directory
 6. Open `Terminal` application. You should have one pre-installed
 7. Change working to `Downloads` directory by typing:
-    ```
+    ```sh
     cd Downloads
     ```
 8. Run image downloader script by typing:
-    ```
+    ```sh
     python image-downloader.py scraped_data.csv
     ```
     

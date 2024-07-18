@@ -20,7 +20,7 @@ on a button then you should try these selectors:
 
 ## Use cases
 
-#### Select multiple e-commerce items from a page
+### Select multiple e-commerce items from a page
 
 For example an e-commerce site has a page with a list of items. With element
 selector you can select the elements that wrap these items and then add
@@ -30,7 +30,7 @@ situation.
 
 ![Fig. 1: Multiple items selected with element selector] [multiple-elements-with-text-selectors]
 
-#### Extract data from tables
+### Extract data from tables
 
 Similarly to e-commerce item selection you can also select table rows and add
 child selectors for data extraction from table cells.

@@ -32,7 +32,7 @@ The 'Link from any script' type allows any element to be selected using the poin
 
 ## Use cases
 
-**Navigate through multiple levels of navigation**
+### Navigate through multiple levels of navigation
 
 For example an e-commerce site has multi level navigation -
 `categories -> subcategories`. To scrape data from all categories and 
