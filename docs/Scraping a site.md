@@ -115,7 +115,5 @@ data as CSV* panel.
 [import-start-urls]: images/scraping-a-site/import-start-urls.png
 [start-scraping]: images/scraping-a-site/start-scraping.png
 [delay-definition]: images/scraping-a-site/delay-definition.png
-[How to create a sitemap]: 
-https://www.webscraper.io/how-to-video/create-a-sitemap
-[How to add multiple start URLs]: 
-https://www.webscraper.io/how-to-video/add-multiple-start-urls
+[How to create a sitemap]: https://www.webscraper.io/how-to-video/create-a-sitemap
+[How to add multiple start URLs]: https://www.webscraper.io/how-to-video/add-multiple-start-urls

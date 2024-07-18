@@ -46,7 +46,7 @@ selector.
 ![Fig. 1: Multiple link selectors for category navigation][multiple-level-link-selectors]
 
 
- [multiple-level-link-selectors]: ../images/selectors/link/multiple-level-link-selectors.png?raw=true
- [element-click]: Element%20click%20selector.md
- [css-selector]: ../CSS%20selector.md
+[multiple-level-link-selectors]: ../images/selectors/link/multiple-level-link-selectors.png?raw=true
+[element-click]: Element%20click%20selector.md
+[css-selector]: ../CSS%20selector.md
 [pagination-selector]: Pagination%20selector.md

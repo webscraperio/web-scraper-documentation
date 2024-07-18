@@ -40,10 +40,9 @@ Though [Table selector] [table-selector] might be much better solution.
 
 * [How to scrape multiple items within a listings page]
 
- [css-selector]: ../CSS%20selector.md
- [element-scroll-selector]: Element%20scroll%20down%20selector.md
- [element-click-selector]: Element%20click%20selector.md
- [table-selector]: Table%20selector.md
- [multiple-elements-with-text-selectors]: ../images/selectors/text/text-selector-multiple-elements-with-text-selectors.png?raw=true
-[How to scrape multiple items within a listings page]:
-https://www.webscraper.io/how-to-video/multiple-items
+[css-selector]: ../CSS%20selector.md
+[element-scroll-selector]: Element%20scroll%20down%20selector.md
+[element-click-selector]: Element%20click%20selector.md
+[table-selector]: Table%20selector.md
+[multiple-elements-with-text-selectors]: ../images/selectors/text/text-selector-multiple-elements-with-text-selectors.png?raw=true
+[How to scrape multiple items within a listings page]: https://www.webscraper.io/how-to-video/multiple-items

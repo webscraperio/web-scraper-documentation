@@ -111,8 +111,7 @@ element click selector. If the timeout is reached, no data will be scraped from 
 [data-export]: Web%20Scraper%20Cloud/Data%20Export.md
 [scraping-job-performance-graph]: ./images/cloud/scraping-job-performance-graph.png?raw=true
 [parallel-tasks]: images/cloud/parallel-tasks.png
-[Subscription manager]:
-https://cloud.webscraper.io/subscription-manager
+[Subscription manager]: https://cloud.webscraper.io/subscription-manager
 [data-quality-control]: Web%20Scraper%20Cloud/Data%20quality%20control.md
 [notifications]: Web%20Scraper%20Cloud/Notifications.md
 [sitemap-sync]: Web%20Scraper%20Cloud/Sitemap%20sync.md

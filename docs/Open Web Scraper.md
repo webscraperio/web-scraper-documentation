@@ -16,5 +16,4 @@ Shortcuts:
 * [How to open Web Scraper extension for the first time]
 
 [open-web-scraper]: images/open-web-scraper/open-web-scraper-chrome.png?raw=true
-[How to open Web Scraper extension for the first time]: 
-https://www.webscraper.io/how-to-video/open-web-scraper
+[How to open Web Scraper extension for the first time]: https://www.webscraper.io/how-to-video/open-web-scraper

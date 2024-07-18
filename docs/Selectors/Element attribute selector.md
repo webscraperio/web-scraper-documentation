@@ -16,7 +16,6 @@ See [Text selector] [text-selector] use cases.
 
 * [How to extract data from element attribute]
 
- [text-selector]: Text%20selector.md
- [css-selector]: ../CSS%20selector.md
-[How to extract data from element attribute]:
-https://www.webscraper.io/how-to-video/element-attribute
+[text-selector]: Text%20selector.md
+[css-selector]: ../CSS%20selector.md
+[How to extract data from element attribute]: https://www.webscraper.io/how-to-video/element-attribute
