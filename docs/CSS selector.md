@@ -44,9 +44,9 @@ For example: `.shadow-root-parent-element:shadow-root .selector-within-shadow-ro
 * [How to select elements that don’t contain specific text]
 * [How to select elements that don’t have a specific element]
 
-[css-selectors-wikipedia]: http://en.wikipedia.org/wiki/Cascading_Style_Sheets#Selector
-[css-selectors-jquery]: http://api.jquery.com/category/selectors/
-[w3schools-css-selector-reference]: http://www.w3schools.com/cssref/css_selectors.asp
+[css-selectors-wikipedia]: https://en.wikipedia.org/wiki/Cascading_Style_Sheets#Selector
+[css-selectors-jquery]: https://api.jquery.com/category/selectors/
+[w3schools-css-selector-reference]: https://www.w3schools.com/cssref/css_selectors.asp
 [How to select elements that contain specific text]: https://www.webscraper.io/how-to-video/jquery-contains-selector
 [How to select elements that have a specific element]: https://www.webscraper.io/how-to-video/jquery-has-selector
 [How to select elements that don’t contain specific text]: https://www.webscraper.io/how-to-video/jquery-not-contains-selector
