@@ -54,10 +54,9 @@ execute** within the page.
   selector. For example, to execute Website State Setup when an element is
   found -  `div.nav-bar:not(:contains('Log In'))`.
 
-  Additional information regarding jQuery selectors can be found here:
-
-* [CSS selectors]
-* [jQuery Contains Selector]
+* **Additional information regarding jQuery selectors can be found here:**
+  * [CSS selectors]
+  * [jQuery Contains Selector]
 
 * **Actions**
   * **Open Url** -  Set a specific URL to open. This action is only required
