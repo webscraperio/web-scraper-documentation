@@ -37,7 +37,7 @@ input, and click actions.
 * **1+** - the element is present and Website State Setup action **will not
 execute** within the page.
 
-    ![Fig. 2: Selected Element][selected-element]
+  ![Fig. 2: Selected Element][selected-element]
 
   ### Important Note:
 
@@ -56,8 +56,8 @@ execute** within the page.
 
   Additional information regarding jQuery selectors can be found here:
 
-* [CSS selectors]
-* [jQuery Contains Selector]
+  * [CSS selectors]
+  * [jQuery Contains Selector]
 
 * **Actions**
   * **Open Url** -  Set a specific URL to open. This action is only required
