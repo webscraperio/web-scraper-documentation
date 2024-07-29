@@ -23,7 +23,7 @@ An additional, custom column, using and combining data from other columns, calle
 For more complex data processing some knowledge of RegEx is useful; however, it is not obligatory as only one of the parser types are solely for 
 using RegEx.
 
-The data preview will be updated automatically everytime a parser is configured, showing a comparison of the applied changes. 
+The data preview will be updated automatically every time a parser is configured, showing a comparison of the applied changes. 
 Fields with more than 1000 characters will be abbreviated in the data preview. 
 
 It is possible to set multiple parsers of the same type for one column, this is extremely helpful for using [Replace text]
@@ -35,7 +35,7 @@ only one parser with a more complicated configuration.
 These parsers can be used for data post processing:
 
  * [Append and prepend text] [append/prepend-parser]
- * [Convert UNIX timestamp] [convertts-parser]
+ * [Convert UNIX timestamp] [converts-parser]
  * [Regex match] [regex-parser]
  * [Replace text] [replace-parser]
  * [Remove whitespaces] [whitespace-parser]
@@ -45,7 +45,7 @@ These parsers can be used for data post processing:
 
  
  [append/prepend-parser]: Parser/Append%20and%20prepend%20text.md
- [convertts-parser]: Parser/Convert%20UNIX%20timestamp.md
+ [converts-parser]: Parser/Convert%20UNIX%20timestamp.md
  [regex-parser]: Parser/Regex%20match.md
  [replace-parser]: Parser/Replace%20text.md
  [whitespace-parser]: Parser/Remove%20whitespaces.md
