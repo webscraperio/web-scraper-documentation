@@ -69,7 +69,7 @@ attribute should be checked because you will be extracting multiple records.
 
 * [How to scrape multiple items within a listings page]
 
-[regex-site]: http://www.regexr.com/
+[regex-site]: https://www.regexr.com/
 [text-selector-multiple-single-text-selectors-in-one-page]: ../images/selectors/text/text-selector-multiple-single-text-selectors-in-one-page.png?raw=true
 [text-selector-multiple-elements-with-text-selectors]: ../images/selectors/text/text-selector-multiple-elements-with-text-selectors.png?raw=true
 [text-selector-multiple-per-page]: ../images/selectors/text/text-selector-multiple-per-page.png?raw=true

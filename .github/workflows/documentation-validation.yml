@@ -18,3 +18,28 @@ jobs:
         with:
           args: '**/*.md'
           fix: true
+      - name: Create markdown-link-check config file
+        run: |
+          cat > .mlc_config.json << EOF
+          {
+             "ignorePatterns": [
+               {
+                 "pattern": "^Parser.md"
+               },
+               {
+                 "pattern": "^Selectors/Link%20Selector.md"
+               },
+               {
+                 "pattern": "^https://regexr.com/"
+               }
+             ]
+           }
+          EOF
+      - name: Markdown link check
+        uses: gaurav-nelson/github-action-markdown-link-check@v1
+        with:
+          use-quiet-mode: 'yes'
+          use-verbose-mode: 'yes'
+          config-file: '.mlc_config.json'
+          folder-path: '.'
+          max-depth: -1

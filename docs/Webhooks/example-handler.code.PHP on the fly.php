@@ -15,7 +15,7 @@ $customId = $_POST['custom_id'];
 // continue working on it. This speeds up notification delivery on web scraper
 // part and the script won't be stopped after web scraper closes connection.
 // More information here:
-// http://stackoverflow.com/questions/15273570/continue-processing-php-after-sending-http-response
+// https://stackoverflow.com/questions/15273570/continue-processing-php-after-sending-http-response
 ignore_user_abort(true);
 header('Connection: close');
 header('Content-Length: '.ob_get_length());

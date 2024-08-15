@@ -24,25 +24,25 @@ definition - `[1-100]`. If the site uses zero padding in urls then add zero
 padding to the range definition - `[001-100]`. If you want to skip some urls
 then you can also specify incremental like this `[0-100:10]`.
 
-Use range url like this `http://example.com/page/[1-3]` for links like these:
+Use range url like this `https://example.com/page/[1-3]` for links like these:
 
- * `http://example.com/page/1`
- * `http://example.com/page/2`
- * `http://example.com/page/3`
+ * `https://example.com/page/1`
+ * `https://example.com/page/2`
+ * `https://example.com/page/3`
 
-Use range url with zero padding like this `http://example.com/page/[001-100]`
+Use range url with zero padding like this `https://example.com/page/[001-100]`
 for links like these:
 
- * `http://example.com/page/001`
- * `http://example.com/page/002`
- * `http://example.com/page/003`
+ * `https://example.com/page/001`
+ * `https://example.com/page/002`
+ * `https://example.com/page/003`
 
-Use range url with increment like this `http://example.com/page/[0-100:10]` for
+Use range url with increment like this `https://example.com/page/[0-100:10]` for
 links like these:
 
- * `http://example.com/page/0`
- * `http://example.com/page/10`
- * `http://example.com/page/20`
+ * `https://example.com/page/0`
+ * `https://example.com/page/10`
+ * `https://example.com/page/20`
 
 ## Create selectors
 
