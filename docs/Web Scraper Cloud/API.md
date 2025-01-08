@@ -37,6 +37,7 @@ If more API calls are required, please contact support.
 Scraping job can have one of these statuses:
 
 * `waiting-to-be-scheduled` - the scraping job is waiting in a queue to be scraped;
+* `scheduling` - the scraping job is currently being scheduled;
 * `scheduled` - the scraping job is waiting for the scraper server and will start in a moment;
 * `started` - the scraping job is in motion;
 * `failed` - the website returned more than 50% 4xx or 50xx responses or there were network errors, which means that job execution was 
