@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Bump version and push tag
         id: tag_version
-        uses: martinsbalodis/github-tag-action@7663a7697b99c62632f0701bfe422aeb2ea48f8c
+        uses: mathieudutour/github-tag-action@v6.2
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           release_branches: documentation
