@@ -46,7 +46,6 @@ extract data only within the element that the element selector gave them.
 These are currently available Element selectors:
 
  * [Element selector] [element-selector]
- * [Element scroll down selector] [element-scroll-selector]
  * [Element click selector] [element-click-selector]
 
 ## Selector configuration options
@@ -122,7 +121,6 @@ selectors on [CSS selector][css-selectors] page.
 [html-selector]: Selectors/HTML%20selector.md
 [element-selector]: Selectors/Element%20selector.md
 [element-click-selector]: Selectors/Element%20click%20selector.md
-[element-scroll-selector]: Selectors/Element%20scroll%20down%20selector.md
 [How to select elements without clicking on them]: https://www.webscraper.io/how-to-video/action-keys
 [How to select elements that contain specific text]: https://www.webscraper.io/how-to-video/jquery-contains-selector
 [How to select elements that have a specific element]: https://www.webscraper.io/how-to-video/jquery-has-selector
