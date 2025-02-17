@@ -16,9 +16,9 @@ on a button then you should try these selectors:
  be used as parent elements for child selectors.
  * multiple - multiple records are being extracted (almost always should be
  checked). Multiple option for child selectors usually should not be checked.
- * scroll - should website be scrolled to load more elements in
- * element limit (only visible when scroll enabled) - limits the amount of
- elements data is extracted from while scrolling. Defaults to unlimited
+ * scroll - should website be scrolled to load more elements
+ * element limit (only visible when scroll enabled) - limits the number of
+ elements extracted while scrolling - defaults to unlimited
 
 ## Use cases
 
