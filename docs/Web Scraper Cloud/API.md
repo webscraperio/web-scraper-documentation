@@ -45,6 +45,61 @@ stopped and scraping job marked as failed; however, the user can continue it man
 * `finished` - the scraping job has been completed;
 * `stopped` - the scraping job has been stopped manually by the user;
 
+## Proxies
+
+Datacenter:
+
+* `datacenter-de` - Datacenter Germany;
+* `datacenter-gb` - Datacenter United Kingdom;
+* `datacenter-us` - Datacenter United States;
+
+Residential:
+
+* `residential-ae` - Residential United Arab Emirates;
+* `residential-at` - Residential Austria;
+* `residential-au` - Residential Australia;
+* `residential-be` - Residential Belgium;
+* `residential-br` - Residential Brazil;
+* `residential-ca` - Residential Canada;
+* `residential-ch` - Residential Switzerland;
+* `residential-cn` - Residential China;
+* `residential-cy` - Residential Cyprus;
+* `residential-cz` - Residential Czechia;
+* `residential-de` - Residential Germany;
+* `residential-dk` - Residential Denmark;
+* `residential-es` - Residential Spain;
+* `residential-fi` - Residential Finland;
+* `residential-fr` - Residential France;
+* `residential-gb` - Residential United Kingdom;
+* `residential-gr` - Residential Greece;
+* `residential-hk` - Residential Hong Kong;
+* `residential-hu` - Residential Hungary;
+* `residential-id` - Residential Indonesia;
+* `residential-ie` - Residential Ireland;
+* `residential-il` - Residential Israel;
+* `residential-in` - Residential India;
+* `residential-it` - Residential Italy;
+* `residential-jp` - Residential Japan;
+* `residential-kr` - Residential South Korea;
+* `residential-mx` - Residential Mexico;
+* `residential-nl` - Residential Netherlands;
+* `residential-no` - Residential Norway;
+* `residential-nz` - Residential New Zealand;
+* `residential-ph` - Residential Philippines;
+* `residential-pl` - Residential Poland;
+* `residential-pt` - Residential Portugal;
+* `residential-py` - Residential Paraguay;
+* `residential-ru` - Residential Russia;
+* `residential-sa` - Residential Saudi Arabia;
+* `residential-se` - Residential Sweden;
+* `residential-sg` - Residential Singapore;
+* `residential-sk` - Residential Slovakia;
+* `residential-tr` - Residential Turkey;
+* `residential-tw` - Residential Taiwan;
+* `residential-ua` - Residential Ukraine;
+* `residential-us` - Residential United States;
+* `residential-vn` - Residential Vietnam;
+
 ## API calls
 
 ### Create Sitemap
