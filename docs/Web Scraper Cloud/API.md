@@ -94,6 +94,7 @@ Residential:
 * `residential-se` - Residential Sweden;
 * `residential-sg` - Residential Singapore;
 * `residential-sk` - Residential Slovakia;
+* `residential-th` - Residential Thailand;
 * `residential-tr` - Residential Turkey;
 * `residential-tw` - Residential Taiwan;
 * `residential-ua` - Residential Ukraine;
