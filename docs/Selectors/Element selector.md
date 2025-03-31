@@ -9,7 +9,7 @@ extracting data only within the element that the element selector gave them.
 **Note!** If the page dynamically loads new items after clicking
 on a button then you should try these selectors:
 
- * [Element click selector] [element-click-selector]
+ * [Pagination] [pagination-selector]
 
 ## Configuration options
  * selector - [CSS selector] [css-selector] for the wrapper elements that will
@@ -43,7 +43,7 @@ Though [Table selector] [table-selector] might be much better solution.
 * [How to scrape multiple items within a listings page]
 
 [css-selector]: ../CSS%20selector.md
-[element-click-selector]: Element%20click%20selector.md
+[pagination-selector]: Pagination%20selector.md
 [table-selector]: Table%20selector.md
 [multiple-elements-with-text-selectors]: ../images/selectors/text/text-selector-multiple-elements-with-text-selectors.png?raw=true
 [How to scrape multiple items within a listings page]: https://www.webscraper.io/how-to-video/multiple-items
