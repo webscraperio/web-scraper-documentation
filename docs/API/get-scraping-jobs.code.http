@@ -3,3 +3,4 @@ URL: https://api.webscraper.io/api/v1/scraping-jobs?api_token=<YOUR API TOKEN>
 Optional query parameters:
 - page: &page=2
 - sitemap: &sitemap_id=123
+- tag: &tag=name

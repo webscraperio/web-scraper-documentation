@@ -1,4 +1,5 @@
 Method: GET
 URL: https://api.webscraper.io/api/v1/sitemaps?api_token=<YOUR API TOKEN>
 Optional query parameters:
--page: &page=2
+- page: &page=2
+- tag: &tag=name
