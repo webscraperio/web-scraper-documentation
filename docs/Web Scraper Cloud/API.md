@@ -100,6 +100,7 @@ Residential:
 * `residential-ua` - Residential Ukraine;
 * `residential-us` - Residential United States;
 * `residential-vn` - Residential Vietnam;
+* `residential-za` - Residential South Africa;
 
 ## API calls
 
