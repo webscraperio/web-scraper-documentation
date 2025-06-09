@@ -56,6 +56,7 @@ Datacenter:
 Residential:
 
 * `residential-ae` - Residential United Arab Emirates;
+* `residential-ar` - Residential Argentina;
 * `residential-at` - Residential Austria;
 * `residential-au` - Residential Australia;
 * `residential-be` - Residential Belgium;
