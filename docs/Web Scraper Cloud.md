@@ -9,8 +9,8 @@ Scraper browser extension to run scraping jobs.
 
 Proxy is used in order to prevent scraper of being blocked by the target site or to access the site from a 
 non-restricted location. By the default, the proxy uses IP addresses located in the US. 
-Other location IP addresses can be requested by contacting support. 
-Scale plan users can integrate third party proxy providers and configure proxy locations as needed.
+Other location IP addresses can be requested by contacting support.
+Additional residential proxy locations can be seen by expanding the proxy dropdown.
 
 When the proxy is enabled, the scraper will rotate IP addresses every 5 minutes. If the page fails to load with proxy 
 enabled, scraper changes the IP address and retries to scrape the page. 
