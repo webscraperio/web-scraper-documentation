@@ -60,6 +60,7 @@ In the scraping job table views you can track the progress of each scraping job:
 * Scraped record count - data rows extracted.
 * Failed pages - pages that loaded with 4xx or 5xx response code or didn't load at all.
 * Empty pages - pages that loaded successfully but selectors didn't extract any data.
+* No value pages - pages where the scraper found matching elements but extracted no actual values within the final dataset.
 
 Our built-in fail-over system automatically re-scrapes any empty and failed pages. If empty and/or failed pages are 
 still present after the scraping job has finished, it can be continued manually 
