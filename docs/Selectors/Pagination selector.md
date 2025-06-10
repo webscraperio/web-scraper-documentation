@@ -43,14 +43,11 @@ you need to create a `Pagination selector` that selects the pagination links.
 Figure 1 shows how the pagination selector should be created in the sitemap.
 When the scraper opens a category link, it will extract items that are available
 on the page. After that, it will find the pagination links and also extract
-data from those. Figure 2 shows a selector graph where you can see how
-pagination links discover more pagination links and more data.
+data from those. 
 
 ![Fig. 1: Sitemap with Pagination selector][pagination-selector]
-![Fig. 2: Selector graph with pagination][pagination-selector-graph]
 
 
 [css-selector]: ../CSS%20selector.md
 [pagination-selector]: ../images/selectors/pagination/pagination-selector.png?raw=true
-[pagination-selector-graph]: ../images/selectors/pagination/pagination-selector-graph.png?raw=true
  

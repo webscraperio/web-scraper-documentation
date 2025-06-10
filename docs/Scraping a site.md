@@ -75,14 +75,6 @@ documentation. You should at least read about these core selectors:
  * [Link selector][link-selector]
  * [Element selector][element-selector]
 
-### Inspect selector tree
-
-After you have created selectors for the *sitemap* you can inspect the tree
-structure of selectors in the Selector graph panel. Image below shows an
-example selector graph.
-
-![Fig. 4: News site selector graph][image-news-site-selector-graph]
-
 ## Scrape the site
 
 After you have created selectors for the *sitemap* you can start scraping. Open
@@ -108,7 +100,6 @@ data as CSV* panel.
 
 [image-news-site]: images/scraping-a-site/news-site.png?raw=true
 [image-news-site-sitemap]: images/scraping-a-site/news-site-sitemap.png?raw=true
-[image-news-site-selector-graph]: images/scraping-a-site/news-site-selector-graph.png?raw=true
 [text-selector]: Selectors/Text%20selector.md
 [link-selector]: Selectors/Link%20selector.md
 [element-selector]: Selectors/Element%20selector.md
