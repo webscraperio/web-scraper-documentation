@@ -92,7 +92,7 @@ The graph shows these values in 5-minute intervals:
 
 * **Start URL limit** - 20'000.
 * **Selector limit** - 100.
-* **Data extraction execution time from a single URL** - 15 minutes. Can be reached by using scroll down selector on infinite scroll down or 
+* **Data extraction execution time from a single URL** - 10 minutes. Can be reached by using scroll down selector on infinite scroll down or 
 element click selector. If the timeout is reached, no data will be scraped from that page.
 
 ## Difference between scraping on Web Scraper Cloud and Web Scraper browser extension
