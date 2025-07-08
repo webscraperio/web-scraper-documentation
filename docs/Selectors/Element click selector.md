@@ -4,8 +4,7 @@ Element click selector works similarly to
 [Element selector] [element-selector]. It's main purpose also is element 
 selection that could be given as parent elements to its child selectors. The only
 difference is that *Element click selector* can interact with the web page by
-clicking on buttons to load new elements. For example a page might use
-JavaScript and AJAX for pagination or item loading.
+clicking on buttons.
 
 **Note!** when selecting clickable elements you should select them by moving the
 mouse over the element and pressing "S". This kind of selection will avoid
@@ -34,9 +33,7 @@ events triggered by the button.
 #### Click Once
 
 Click Once type will click on the buttons only once. If a new button appears
-that can be selected it will be also clicked. For example pagination links
-might show pages 1 to 5 but pages 6 to 10 would appear some time later. The
-selector will also click on those buttons.
+that can be selected it will be also clicked.
 
 #### Click More
 
@@ -66,28 +63,11 @@ When using *Click Once* only unique buttons will be clicked. When using
 
 ## Use cases
 
-### Navigate pagination using "Click once" selector type
+### Item variations clicks
 
-For example there is a site that displays a list of items and there are some
-pagination buttons that reload these items dynamically (after clicking a button
-the url doesn't change. changes after hash tag # doesn't count). Using *Element
-click selector* you can select these items and buttons that need to be clicked.
-The scraper during scraping phase will click these buttons to extract all
-elements. Also you need to add child selectors for the *Element click selector*
-that select data within each element. In figure 1 you can see how to configure
-the *Element click selector* to extract data from the described site.
-
- ![Fig. 1: Sitemap when using Click once type][image-click-once]
-
-### Load more items in an e-commerce site by clicking "More" button
-
-This example is similar to the one above. The only difference is that in this
-site items are loaded by clicking a single button multiple times. In this case
-the *Element click selector* should be configured to use "Click more" click
-type. In figure 2 you can see how to configure the *Element click selector*
-to extract data from this site.
-
- ![Fig. 2: Sitemap when using Click more type][image-click-more]
+Iterate through item variations (size, colour, material, etc.) by selecting all clickable variation elements 
+(e.g., swatches, buttons, or dropdown items). This allows the scraper to click each variation one by one, 
+triggering any dynamic content updates (like price or availability) tied to that option.
 
 ### When to select the *Discard when click element exists* option
 
