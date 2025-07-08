@@ -15,23 +15,6 @@ resulting data.
  checked. If you want to use multiple text selectors within one page with
  multiple checked then you might actually need
  [Element selector] [element-selector].
- * regex - regular expression to extract a substring from the result.
-
-### Regex
-
-The regular expression attribute can be used to extract a substring of the text
-that the selector extracts. When a regular expression is used the whole match
-(group 0) will be returned as a result.
-  
-[www.regexr.com] [regex-site] is a great site where you can learn about regular expressions and try them out.
-
-Here are some examples that you might find useful:
-
-| text             	| regex                          	| result     	|
-|------------------	|--------------------------------	|------------	|
-| price: 14.99$    	| `[0-9]+\.[0-9]+`               	| 14.99      	|
-| id: H83JKDX4     	| `[A-Z0-9]{8}`                  	| H83JKDX4   	|
-| date: 2014-08-20 	| `[0-9]{4}\-[0-9]{2}\-[0-9]{2}` 	| 2014-08-20 	|
 
 ## Use cases
 
@@ -69,7 +52,6 @@ attribute should be checked because you will be extracting multiple records.
 
 * [How to scrape multiple items within a listings page]
 
-[regex-site]: https://www.regexr.com/
 [text-selector-multiple-single-text-selectors-in-one-page]: ../images/selectors/text/text-selector-multiple-single-text-selectors-in-one-page.png?raw=true
 [text-selector-multiple-elements-with-text-selectors]: ../images/selectors/text/text-selector-multiple-elements-with-text-selectors.png?raw=true
 [text-selector-multiple-per-page]: ../images/selectors/text/text-selector-multiple-per-page.png?raw=true
