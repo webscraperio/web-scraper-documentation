@@ -14,7 +14,7 @@ resulting data.
  * multiple type - multiple records are being extracted. Usually should not be
  checked. If you want to use multiple text selectors within one page with
  multiple checked then you might actually need
- * column count - the amount of columns returned when multiple type is set to
+ * column count - the number of columns returned when multiple type is set to
  `Multiple Records in Multiple Columns`
  [Element selector] [element-selector].
 
@@ -52,9 +52,9 @@ should be selected to enable extracting multiple elements
 
 ### Multiple Type
 
-A specific selector can find multiple items on a single site. To handle this gracefully
-a `Multiple Type` is available when creating the selector. The selected type affects
-how data is returned.
+A specific selector can find multiple items on a single site. To handle this a `Multiple Type`
+is available when creating the selector. The selected type affects
+how data is returned
 
 * `First Record Only` - returns only the first record extracted. Use when only one record expected
 * `Multiple Records in Multiple Columns` - returns multiple records split into up to `Column Count`

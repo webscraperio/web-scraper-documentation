@@ -8,7 +8,7 @@ report it as a bug.
 ## Configuration options
  * selector - [CSS selector] [css-selector] for the image element.
  * multiple type - The way multiple extracted images should be handled.
- * column count - the amount of columns returned when multiple type is set to
+ * column count - the number of columns returned when multiple type is set to
   `Multiple Records in Multiple Columns`
 
 ## Use cases
@@ -54,9 +54,9 @@ required in order for script to work. Images are renamed to
 
 ### Multiple Type
 
-A specific selector can find multiple items on a single site. To handle this gracefully
-a `Multiple Type` is available when creating the selector. The selected type affects
-how data is returned.
+A specific selector can find multiple items on a single site. To handle this a `Multiple Type`
+is available when creating the selector. The selected type affects
+how data is returned
 
 * `First Record Only` - returns only the first record extracted. Use when only one image expected
 * `Multiple Records in Multiple Columns` - returns multiple records split into up to `Column Count` columns.
