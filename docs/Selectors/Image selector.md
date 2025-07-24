@@ -7,8 +7,9 @@ report it as a bug.
 
 ## Configuration options
  * selector - [CSS selector] [css-selector] for the image element.
- * multiple - multiple records are being extracted. Usually should not be
- checked for Image selector.
+ * multiple type - The way multiple extracted images should be handled.
+ * column count - the number of columns returned when multiple type is set to
+  `Multiple Records in Multiple Columns`
 
 ## Use cases
 See [Text selector] [text-selector] use cases.
@@ -50,6 +51,17 @@ required in order for script to work. Images are renamed to
     ```
     
 ![Fig. 2: macOS image download][osx-image-download-script]
+
+### Multiple Type
+
+A specific selector can find multiple items on a single site. To handle this a `Multiple Type`
+is available when creating the selector. The selected type affects
+how data is returned
+
+* `First Record Only` - returns only the first record extracted. Use when only one image expected
+* `Multiple Records in Multiple Columns` - returns multiple records split into up to `Column Count` columns.
+  Enables and Requires filling `Column count` (defaults to 5)
+* `Multiple Records in One Column` - returns all extracted records in a single column joined by newline
 
  [text-selector]: Text%20selector.md
  [css-selector]: ../CSS%20selector.md

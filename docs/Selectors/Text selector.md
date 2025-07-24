@@ -11,9 +11,11 @@ resulting data.
 
  * selector - [CSS selector] [css-selector] for the element from which data
  will be extracted.
- * multiple - multiple records are being extracted. Usually should not be
+ * multiple type - multiple records are being extracted. Usually should not be
  checked. If you want to use multiple text selectors within one page with
  multiple checked then you might actually need
+ * column count - the number of columns returned when multiple type is set to
+ `Multiple Records in Multiple Columns`
  [Element selector] [element-selector].
 
 ## Use cases
@@ -43,10 +45,22 @@ element.
 For example you want to extract comments for an article. There are multiple
 comments in a single page and you only need the comment text (If you would need
 other comment attributes then see the example above). You can use
-*Text selector* to extract these comments. The *Text selectors* multiple
-attribute should be checked because you will be extracting multiple records.
+*Text selector* to extract these comments. The preferred *Text selectors* multiple type
+should be selected to enable extracting multiple elements
 
 ![Fig. 3: Text selector selects multiple comments][text-selector-multiple-per-page]
+
+### Multiple Type
+
+A specific selector can find multiple items on a single site. To handle this a `Multiple Type`
+is available when creating the selector. The selected type affects
+how data is returned
+
+* `First Record Only` - returns only the first record extracted. Use when only one record expected
+* `Multiple Records in Multiple Columns` - returns multiple records split into up to `Column Count`
+  columns. Enables and Requires filling `Column count` (defaults to 5)
+* `Multiple Records in One Column` - returns all extracted records in a single column joined by
+  2 newlines (replaces mulitple newlines in extracted text with one)
 
 ## Related videos
 
