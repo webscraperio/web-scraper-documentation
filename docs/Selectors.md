@@ -22,7 +22,6 @@ selected element. These selectors can be used as data extraction selectors:
  * [Table selector] [table-selector]
  * [Element attribute selector] [element-attribute-selector]
  * [HTML selector] [html-selector]
- * [Grouped selector] [grouped-selector]
 
 ### Link selectors
 
@@ -117,7 +116,6 @@ selectors on [CSS selector][css-selectors] page.
 [image-selector]: Selectors/Image%20selector.md
 [element-attribute-selector]: Selectors/Element%20attribute%20selector.md
 [table-selector]: Selectors/Table%20selector.md
-[grouped-selector]: Selectors/Grouped%20selector.md
 [html-selector]: Selectors/HTML%20selector.md
 [element-selector]: Selectors/Element%20selector.md
 [element-click-selector]: Selectors/Element%20click%20selector.md
