@@ -108,7 +108,7 @@ element click selector. If the timeout is reached, no data will be scraped from 
 [cloud]: https://cloud.webscraper.io/
 [scheduler]: Web%20Scraper%20Cloud/Scheduler.md
 [api]: Web%20Scraper%20Cloud/API.md
-[parser]: Parser.md
+[parser]: Web%20Scraper%20Cloud/Parser.md
 [data-export]: Web%20Scraper%20Cloud/Data%20Export.md
 [scraping-job-performance-graph]: ./images/cloud/scraping-job-performance-graph.png?raw=true
 [parallel-tasks]: images/cloud/parallel-tasks.png
