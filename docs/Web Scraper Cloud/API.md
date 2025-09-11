@@ -194,3 +194,6 @@ Returns **empty** and **failed** urls for specific scraping job.
 [node]: https://github.com/webscraperio/api-client-nodejs
 [api-page]: https://cloud.webscraper.io/api
 [queue system]: https://laravel.com/docs/10.x/queues
+
+description: Web Scraper Cloud API documentation - manage sitemaps, scraping jobs, and download data via REST API with Node.js and PHP SDK support
+keywords: web scraper api, scraping api, rest api, nodejs sdk, php sdk, api documentation, cloud scraping api, sitemap api

@@ -7,3 +7,6 @@ The parser allows you to remove whitespaces and new lines. It is useful for clea
  * Remove new lines - replaces all new line groups with a single space.
  
  [text-selector]: ../../Selectors/Text%20selector.md
+
+description: Remove whitespaces and newlines from scraped data using the Web Scraper Cloud parser to clean up text fields
+keywords: remove whitespaces, parser, text cleaning, web scraper, data processing, newlines removal

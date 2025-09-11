@@ -40,3 +40,6 @@ previous data quality notifications for that exact sitemap will be deleted.
 
 [notifications]: Notifications.md
 [data-quality-control-image]: ../images/cloud/data-quality-control-example.png
+
+description: Web Scraper Cloud Data Quality Control - monitor and validate scraped data quality with automated checks, alerts, and data integrity verification
+keywords: data quality control, data validation, scraped data quality, data integrity, quality monitoring, data quality alerts, scraping validation

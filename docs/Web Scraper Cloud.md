@@ -116,3 +116,6 @@ element click selector. If the timeout is reached, no data will be scraped from 
 [data-quality-control]: Web%20Scraper%20Cloud/Data%20quality%20control.md
 [notifications]: Web%20Scraper%20Cloud/Notifications.md
 [sitemap-sync]: Web%20Scraper%20Cloud/Sitemap%20sync.md
+
+description: Web Scraper Cloud premium service - automated web scraping with proxy support, scheduling, API access, data export, and scalable cloud-based scraping solutions
+keywords: web scraper cloud, cloud scraping, proxy scraping, automated web scraping, scraping api, scheduled scraping, cloud data extraction

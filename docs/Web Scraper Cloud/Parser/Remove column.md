@@ -18,3 +18,6 @@ them.
 [virtual-column]: Virtual%20column.md
 [remove-columns]: ../../images/parsers/remove-column.gif
 [remove-virtual-column]: ../../images/parsers/remove-virtual-column.gif
+
+description: Clean up scraped data by removing unnecessary columns like web-scraper-order and link selector columns using Web Scraper Cloud parser
+keywords: remove column, parser, data cleanup, web scraper, column management, virtual column, scraped data

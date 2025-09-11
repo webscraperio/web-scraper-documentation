@@ -23,3 +23,6 @@ expressions.
 | date: 2014-08-20          | `\d+-\d+-\d+`         | 0                 | 2014-08-20    |
 
 [regexr]: https://regexr.com/
+
+description: Web Scraper Cloud Regex Match Parser - extract specific data patterns from scraped content using regular expressions and capture groups
+keywords: regex parser, regular expressions, pattern matching, data extraction, regex match, capture groups, text parsing

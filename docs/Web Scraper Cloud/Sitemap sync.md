@@ -51,3 +51,6 @@ downloaded in extension will be discarded from the sitemap list.
 ## Sync limitations
 
 User has a limit of 50 sitemap sync actions per 15 minutes.
+
+description: Web Scraper Cloud Sitemap Sync - synchronize sitemaps between browser extension and cloud platform for seamless scraping workflow management
+keywords: sitemap sync, web scraper sync, browser extension sync, cloud sync, sitemap synchronization, scraping workflow sync

@@ -49,3 +49,6 @@ Text to place: `https://website.com/`
 Use Regex: `checked`
 
 [regexr]: https://regexr.com/
+
+description: Web Scraper Cloud Replace Text Parser - find and replace text patterns in scraped data using string matching or regular expressions
+keywords: replace text, text replacement, find replace, string replacement, regex replacement, text substitution, data cleaning

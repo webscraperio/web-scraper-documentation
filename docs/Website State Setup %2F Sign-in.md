@@ -78,3 +78,6 @@ you have explicit written permission to conduct data extraction behind a login.*
 
 [CSS selectors]: https://webscraper.io/documentation/css-selector
 [jQuery Contains Selector]: https://webscraper.io/how-to-video/jquery-contains-selector
+
+description: Website State Setup for Web Scraper - configure conditional actions, website sign-in, location changes, and currency settings for automated web scraping workflows
+keywords: website state setup, web scraper login, sign-in automation, location change, currency change, conditional scraping, scraper authentication

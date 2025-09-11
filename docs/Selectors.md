@@ -127,3 +127,6 @@ selectors on [CSS selector][css-selectors] page.
 [select-tool]: images/selectors/select-tool.png
 [select-tool-hotkeys]: images/selectors/select-tool-hotkeys.png
 [css-selectors]: CSS%20selector.md
+
+description: Comprehensive guide to Web Scraper selectors - learn about data extraction selectors, link selectors, and element selectors for effective web scraping
+keywords: web scraper selectors, data extraction selectors, link selectors, element selectors, text selector, image selector, table selector, web scraping selectors

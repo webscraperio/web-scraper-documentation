@@ -76,3 +76,6 @@ When using Sitemap.xml selector, set the main page of the site as a start URL.
 [cloud-web-scraper]: https://www.webscraper.io/cloud-scraper
 [sitemap-xml-link-selectors]: ../images/selectors/sitemap-xml/sitemap-xml-link-selector.png?raw=true
 [sitemap format]: https://www.sitemaps.org/protocol.html
+
+description: Extract URLs from sitemap.xml files to scrape entire websites without pagination using Web Scraper's Sitemap.xml link selector
+keywords: sitemap xml, link selector, web scraper, URL extraction, site crawling, sitemap.xml, robots.txt, website scraping
