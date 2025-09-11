@@ -92,3 +92,6 @@ and during the clicking process, resulting in duplicate or unusable row of data.
 [How to iterate through item drop-down variations]: https://www.webscraper.io/how-to-video/dropdown-variation
 [How to iterate through item button variations]: https://www.webscraper.io/how-to-video/button-variation
 [How to iterate through two or more item variation selects]: https://www.webscraper.io/how-to-video/product-with-multiple-variations
+
+description: Web Scraper Element Click Selector - interact with clickable elements to load dynamic content and extract data from JavaScript-driven websites
+keywords: element click selector, click selector, dynamic content, interactive scraping, javascript scraping, button clicking, ajax loading

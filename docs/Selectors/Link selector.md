@@ -50,3 +50,6 @@ selector.
 [element-click]: Element%20click%20selector.md
 [css-selector]: ../CSS%20selector.md
 [pagination-selector]: Pagination%20selector.md
+
+description: Web Scraper Link Selector - extract URLs and navigate websites with support for different link types including scripted links and AJAX navigation
+keywords: link selector, url extraction, website navigation, link scraping, web scraper navigation, href extraction, scripted links

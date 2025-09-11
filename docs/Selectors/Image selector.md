@@ -68,3 +68,6 @@ how data is returned
  [windows-image-download-script]: ../images/selectors/image/win-image-downloader.gif?raw=true
  [osx-image-download-script]: ../images/selectors/image/osx-image-downloader.gif?raw=true
  [image-downloader]: https://github.com/webscraperio/image-downloader/tags
+
+description: Extract image URLs and download images from websites using Web Scraper's Image selector with multiple handling options
+keywords: image selector, web scraper, image download, src attribute, CSS selector, image extraction, python image downloader, bulk download

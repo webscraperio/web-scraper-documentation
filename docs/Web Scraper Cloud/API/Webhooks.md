@@ -40,3 +40,6 @@ otherwise notification sender could timeout and resend the notification which co
 
 [cloud]: https://www.webscraper.io/cloud-scraper
 [api-page]: https://cloud.webscraper.io/api
+
+description: Configure webhook notifications in Web Scraper Cloud to receive webhook notifications about scraping jobs' statuses
+keywords: webhook, notifications, API, web scraper cloud, scraping jobs, POST request, job status, automation

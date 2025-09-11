@@ -37,3 +37,6 @@ If a very customized and specific scheduler is needed, for which the previous sc
 
 [cloud]: https://www.webscraper.io/cloud-scraper
 [cron]: https://en.wikipedia.org/wiki/Cron
+
+description: Learn how to use Web Scraper Cloud Scheduler to automate scraping jobs with daily, interval, and custom cron expression scheduling options
+keywords: web scraper, scheduler, automation, scraping jobs, cron expression, daily scheduler, interval scheduler, web scraper cloud

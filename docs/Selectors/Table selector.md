@@ -24,3 +24,6 @@ See [Text selector] [text-selector] use cases.
  [table-selector-selectors]: ../images/selectors/table/selectors.png?raw=true
  [text-selector]: Text%20selector.md
  [css-selector]: ../CSS%20selector.md
+
+description: Web Scraper Table Selector - extract data from tables with automatic header detection and configurable row and column selection
+keywords: table selector, table scraping, table data extraction, html tables, table rows, table columns, structured data extraction

@@ -9,3 +9,6 @@ parser beforehand.
 
 [html-entities]: https://www.w3schools.com/html/html_entities.asp
 [replace-text]: Replace%20text.md
+
+description: Web Scraper Cloud Strip HTML Parser - remove HTML tags and formatting from scraped content to extract clean plain text data
+keywords: strip html, html removal, clean text, html tags removal, text extraction, html parser, plain text conversion

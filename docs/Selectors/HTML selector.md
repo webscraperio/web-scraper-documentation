@@ -12,3 +12,6 @@ See [Text selector] [text-selector] use cases.
 
  [text-selector]: Text%20selector.md
  [css-selector]: ../CSS%20selector.md
+
+description: Web Scraper HTML Selector - extract raw HTML content and inner HTML from selected elements while preserving formatting and structure
+keywords: html selector, html extraction, inner html, raw html, html content extraction, preserve html formatting

@@ -72,3 +72,6 @@ how data is returned
 [element-selector]: Element%20selector.md
 [css-selector]: ../CSS%20selector.md
 [How to scrape multiple items within a listings page]: https://www.webscraper.io/how-to-video/multiple-items
+
+description: Web Scraper Text Selector - extract text content from elements within a web page
+keywords: text selector, text extraction, web scraper selector, content extraction, text scraping

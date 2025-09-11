@@ -15,3 +15,6 @@ Browser version requirements:
 
  [1]: https://chrome.google.com/webstore/detail/web-scraper/jnhgnonknehpejjnehehllkliplmbmhn  "Install web scraper from Chrome store"
  [2]: https://addons.mozilla.org/en-US/firefox/addon/web-scraper/
+
+description: Install Web Scraper browser extension for Chrome and Firefox - step-by-step installation guide
+keywords: web scraper installation, chrome extension, firefox addon, browser extension install, web scraping setup

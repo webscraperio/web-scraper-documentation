@@ -49,3 +49,6 @@ value. In order to do this:
 [replace-parser]: Replace%20text.md
 [selectors]: ../../Selectors.md
 [regex-parser]: Regex%20match.md
+
+description: Web Scraper Cloud Virtual Column Parser - create custom data columns by combining and transforming data from existing columns with dynamic expressions
+keywords: virtual column, data transformation, custom columns, column parser, data manipulation, calculated fields, dynamic columns

@@ -51,3 +51,6 @@ For example: `.shadow-root-parent-element:shadow-root .selector-within-shadow-ro
 [How to select elements that have a specific element]: https://www.webscraper.io/how-to-video/jquery-has-selector
 [How to select elements that don’t contain specific text]: https://www.webscraper.io/how-to-video/jquery-not-contains-selector
 [How to select elements that don’t have a specific element]: https://www.webscraper.io/how-to-video/jquery-not-has-selector
+
+description: Learn CSS selectors for Web Scraper - a comprehensive guide to CSS selectors, jQuery selectors and selecting elements within iframes and shadow-root
+keywords: css selectors, web scraper css, jquery selectors, iframe selectors, shadow-root selectors
