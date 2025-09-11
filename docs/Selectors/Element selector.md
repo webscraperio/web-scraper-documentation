@@ -49,4 +49,4 @@ Though [Table selector] [table-selector] might be much better solution.
 [How to scrape multiple items within a listings page]: https://www.webscraper.io/how-to-video/multiple-items
 
 description: Web Scraper Element Selector - select multiple data elements from lists and containers with scroll support for dynamic content loading
-keywords: element selector, multiple elements, list scraping, container selector, scroll selector, dynamic content, parent selector
+keywords: element selector, multiple elements, list scraping, scroll selector, dynamic content, multiple items scraping

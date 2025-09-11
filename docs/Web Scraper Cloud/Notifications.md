@@ -53,5 +53,5 @@ Notification channels can be configured separately for each notification type.
 [cloud-notification-image]: ../images/cloud/notification-list-example.png
 [notification-settings-image]: ../images/cloud/notification-settings.png
 
-description: Web Scraper Cloud Notifications - configure email alerts and webhooks for scraping job completion, failures, and automated data delivery notifications
-keywords: scraping notifications, email alerts, webhook notifications, scraping job alerts, automated notifications, data delivery alerts
+description: Web Scraper Cloud Notifications - configure email alerts and platform-based notifications for scraping job completion, failures, data quality checks and more.
+keywords: scraping notifications, email alerts, scraping job alerts, automated notifications, data delivery alerts

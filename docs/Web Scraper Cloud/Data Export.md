@@ -104,5 +104,5 @@ import feature:
 
 [libre-office-calc]: https://www.libreoffice.org/discover/calc/
 
-description: Web Scraper Cloud data export options - download scraped data in CSV, JSON, and Excel formats with automated export scheduling and delivery options
+description: Web Scraper Cloud data export options - download scraped data in CSV, JSON, and XLSX formats with automated export delivery options
 keywords: data export, csv export, json export, excel export, scraped data download, automated data delivery, cloud data export
