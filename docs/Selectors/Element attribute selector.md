@@ -30,7 +30,7 @@ how data is returned
 
 [text-selector]: Text%20selector.md
 [css-selector]: ../CSS%20selector.md
-[How to extract data from element attribute]: https://www.webscraper.io/how-to-video/element-attribute
+[How to extract data from element attribute]: https://webscraper.io/tutorials/element-attribute
 
 description: Web Scraper Element Attribute Selector - extract element attributes like title, data attributes, and custom properties from web pages
 keywords: attribute selector, html attributes, element attributes, data attributes, title attribute, custom attributes, attribute extraction

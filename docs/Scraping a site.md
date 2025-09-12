@@ -106,8 +106,8 @@ data as CSV* panel.
 [import-start-urls]: images/scraping-a-site/import-start-urls.png
 [start-scraping]: images/scraping-a-site/start-scraping.png
 [delay-definition]: images/scraping-a-site/delay-definition.png
-[How to create a sitemap]: https://www.webscraper.io/how-to-video/create-a-sitemap
-[How to add multiple start URLs]: https://www.webscraper.io/how-to-video/add-multiple-start-urls
+[How to create a sitemap]: https://webscraper.io/tutorials/create-a-sitemap
+[How to add multiple start URLs]: https://webscraper.io/tutorials/add-multiple-start-urls
 
 description: Complete guide to scraping websites with Web Scraper - learn how to create sitemaps, set start URLs, configure selectors, and extract data from web pages
 keywords: website scraping, sitemap creation, web scraper tutorial, data extraction, start urls, scraping guide, web scraping workflow
