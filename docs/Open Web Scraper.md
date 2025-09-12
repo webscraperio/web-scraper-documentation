@@ -16,7 +16,7 @@ Shortcuts:
 * [How to open Web Scraper extension for the first time]
 
 [open-web-scraper]: images/open-web-scraper/open-web-scraper-chrome.png?raw=true
-[How to open Web Scraper extension for the first time]: https://www.webscraper.io/how-to-video/open-web-scraper
+[How to open Web Scraper extension for the first time]: https://webscraper.io/tutorials/open-web-scraper
 
 description: Learn how to open Web Scraper extension in Chrome and Firefox developer tools - keyboard shortcuts and step-by-step guide to access the scraping interface
 keywords: open web scraper, developer tools, browser extension access, chrome devtools, firefox developer tools, web scraper interface

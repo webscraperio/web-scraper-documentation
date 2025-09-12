@@ -47,10 +47,10 @@ For example: `.shadow-root-parent-element:shadow-root .selector-within-shadow-ro
 [css-selectors-wikipedia]: https://en.wikipedia.org/wiki/Cascading_Style_Sheets#Selector
 [css-selectors-jquery]: https://api.jquery.com/category/selectors/
 [w3schools-css-selector-reference]: https://www.w3schools.com/cssref/css_selectors.asp
-[How to select elements that contain specific text]: https://www.webscraper.io/how-to-video/jquery-contains-selector
-[How to select elements that have a specific element]: https://www.webscraper.io/how-to-video/jquery-has-selector
-[How to select elements that don’t contain specific text]: https://www.webscraper.io/how-to-video/jquery-not-contains-selector
-[How to select elements that don’t have a specific element]: https://www.webscraper.io/how-to-video/jquery-not-has-selector
+[How to select elements that contain specific text]: https://webscraper.io/tutorials/jquery-contains-selector
+[How to select elements that have a specific element]: https://webscraper.io/tutorials/jquery-has-selector
+[How to select elements that don’t contain specific text]: https://webscraper.io/tutorials/jquery-not-contains-selector
+[How to select elements that don’t have a specific element]: https://webscraper.io/tutorials/jquery-not-has-selector
 
 description: Learn CSS selectors for Web Scraper - a comprehensive guide to CSS selectors, jQuery selectors and selecting elements within iframes and shadow-root
 keywords: css selectors, web scraper css, jquery selectors, iframe selectors, shadow-root selectors

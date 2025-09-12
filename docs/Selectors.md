@@ -119,11 +119,11 @@ selectors on [CSS selector][css-selectors] page.
 [html-selector]: Selectors/HTML%20selector.md
 [element-selector]: Selectors/Element%20selector.md
 [element-click-selector]: Selectors/Element%20click%20selector.md
-[How to select elements without clicking on them]: https://www.webscraper.io/how-to-video/action-keys
-[How to select elements that contain specific text]: https://www.webscraper.io/how-to-video/jquery-contains-selector
-[How to select elements that have a specific element]: https://www.webscraper.io/how-to-video/jquery-has-selector
-[How to select elements that don’t contain specific text]: https://www.webscraper.io/how-to-video/jquery-not-contains-selector
-[How to select elements that don’t have a specific element]: https://www.webscraper.io/how-to-video/jquery-not-has-selector
+[How to select elements without clicking on them]: https://webscraper.io/tutorials/action-keys
+[How to select elements that contain specific text]: https://webscraper.io/tutorials/jquery-contains-selector
+[How to select elements that have a specific element]: https://webscraper.io/tutorials/jquery-has-selector
+[How to select elements that don’t contain specific text]: https://webscraper.io/tutorials/jquery-not-contains-selector
+[How to select elements that don’t have a specific element]: https://webscraper.io/tutorials/jquery-not-has-selector
 [select-tool]: images/selectors/select-tool.png
 [select-tool-hotkeys]: images/selectors/select-tool-hotkeys.png
 [css-selectors]: CSS%20selector.md
