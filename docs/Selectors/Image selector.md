@@ -1,5 +1,7 @@
 # Image selector
 Image selector can extract `src` attribute (URL) of an image. 
+If responsive image size configuration is present, the selector will attempt to extract
+the url for the largest image available
 
 **Note!** When selecting CSS selector for image selector all the images within the
 site are moved to the top. If this feature somehow breaks sites layout please
@@ -17,10 +19,10 @@ See [Text selector] [text-selector] use cases.
 ## Image downloader script
 
 Image downloader script finds image urls scraped by Image Selector in a csv file and downloads them. 
-It will try to download images from all URLs that are stored in columns that 
-names end with `-src`. `web-scraper-order` and `web-scraper-start-url` columns are 
+It will try to download images from all extracted image URLs.
+`web_scraper_order` and `web_scraper_start_url` columns are 
 required in order for script to work. Images are renamed to 
-`<web-scraper-order>-<selector-name>.ext`. 
+`<web_scraper_order>_<selector_name>.ext`. 
 
 ### Windows usage
 
