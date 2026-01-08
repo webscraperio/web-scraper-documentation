@@ -1,6 +1,6 @@
 # Image Export
 
-Web Scraper Cloud supports automated image export to `Amazon S3, Google Cloud Storage, and Azure Blob Storage`. This feature is available exclusively for `Scale` plan users.
+Web Scraper Cloud supports automated image export to `Amazon S3, Google Cloud Storage, and Azure Blob Storage`. This feature is available exclusively for `Scale` plan users. Image downloading is performed during the execution of the scraping job. As pages are processed, associated images are downloaded in parallel with data extraction.
 
 ## Image Export Configuration
 
