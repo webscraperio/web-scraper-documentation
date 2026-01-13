@@ -140,3 +140,5 @@ iframes
 webhooks
 unix
 customizable
+subfolder
+SHA
