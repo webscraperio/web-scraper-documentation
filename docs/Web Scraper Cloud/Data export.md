@@ -21,7 +21,7 @@ be also downloaded while the scraper is running.
 ### Automated data export
 
 Set up automated data export to `Dropbox`, `Google Sheets` or `S3`
-via the `Data Export` section. Currently exported data will be in CSV format. Data
+via the `Data export` section. Currently exported data will be in CSV format. Data
 will be exported to `Apps/Web Scraper` in your `Dropbox`
 , `Google Drive/Web Scraper` in `Google Sheets` and `bucket/web-scraper` in
 `S3`.
@@ -69,8 +69,8 @@ using a CSV reader library when reading CSV files programmatically.
 
 ## Opening CSV file with a spreadsheet program
 
-We recommend using [Libre Office Calc] [libre-office-calc] when opening CSV
-files. Microsoft office often is incorrectly interpreting CSV files formatted in
+We recommend using [LibreOffice Calc] [libre-office-calc] when opening CSV
+files. Microsoft Office often is incorrectly interpreting CSV files formatted in
 RFC 4180 standard. Mostly this is related to text including newline characters.
 
 In case when a CSV file is incorrectly opened by Microsoft Excel try using data
