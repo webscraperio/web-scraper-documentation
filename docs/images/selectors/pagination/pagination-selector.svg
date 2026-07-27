@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 782 410" width="782" height="410" fill="none" font-family="Inter, ui-sans-serif, system-ui, -apple-system, &#39;Segoe UI&#39;, Roboto, Arial, sans-serif">
+  
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="5.2" refY="3" orient="auto-start-reverse">
+      <path d="M0.75 0.5 L6 3 L0.75 5.5" fill="none" stroke="#087F8C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    </marker>
+    <symbol id="link-chip" viewBox="0 0 68 26">
+      <rect x="0.75" y="0.75" width="66.5" height="24.5" rx="5" fill="#E8F3F4" stroke="#087F8C" stroke-width="1.5"></rect>
+      <text x="34" y="13" font-size="12.5" font-weight="500" text-anchor="middle" dominant-baseline="central" fill="#087F8C">Link</text>
+    </symbol>
+    <symbol id="page-chip" viewBox="0 0 24 24">
+      <rect x="0.75" y="0.75" width="22.5" height="22.5" rx="6" fill="#EAF2F4" stroke="#B8CBD2" stroke-width="1.5"></rect>
+    </symbol>
+  </defs>
+
+  
+  <rect x="8.75" y="8.75" width="764.5" height="392.5" rx="16" fill="#F8FAFC" stroke="#ECEFF3" stroke-width="1.5"></rect>
+
+  
+  <rect x="24.75" y="40.75" width="330.5" height="96.5" rx="12" fill="#FFFFFF" stroke="#B8C6D8" stroke-width="1.5"></rect>
+  <path d="M24.75 52 A11.25 11.25 0 0 1 36 40.75 L344 40.75 A11.25 11.25 0 0 1 355.25 52 L355.25 80 L24.75 80 Z" fill="#F1F5F9"></path>
+  <line x1="24.75" y1="80" x2="355.25" y2="80" stroke="#B8C6D8" stroke-width="1.5"></line>
+  <circle cx="48" cy="60" r="5" fill="#FF5F57"></circle>
+  <circle cx="68" cy="60" r="5" fill="#FEBC2E"></circle>
+  <circle cx="88" cy="60" r="5" fill="#28C840"></circle>
+
+  <rect x="112.75" y="48.75" width="230.5" height="22.5" rx="8" fill="#FFFFFF" stroke="#C9D3E0" stroke-width="1.5"></rect>
+  <g stroke="#64748B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="124.75" y="57.75" width="9" height="7" rx="2"></rect>
+    <path d="M126.75 57.75 v-2 a2.75 2.75 0 0 1 5.5 0 v2"></path>
+  </g>
+  <text x="144" y="60" font-size="13.5" dominant-baseline="central" fill="#64748B">http://<tspan fill="#0F172A">e-commerce.com</tspan>/</text>
+
+  <use href="#link-chip" x="110" y="100" width="68" height="26"></use>
+  <use href="#link-chip" x="202" y="100" width="68" height="26"></use>
+
+  
+  <rect x="24.75" y="164.75" width="330.5" height="96.5" rx="12" fill="#FFFFFF" stroke="#B8C6D8" stroke-width="1.5"></rect>
+  <path d="M24.75 176 A11.25 11.25 0 0 1 36 164.75 L344 164.75 A11.25 11.25 0 0 1 355.25 176 L355.25 204 L24.75 204 Z" fill="#F1F5F9"></path>
+  <line x1="24.75" y1="204" x2="355.25" y2="204" stroke="#B8C6D8" stroke-width="1.5"></line>
+  <circle cx="48" cy="184" r="5" fill="#FF5F57"></circle>
+  <circle cx="68" cy="184" r="5" fill="#FEBC2E"></circle>
+  <circle cx="88" cy="184" r="5" fill="#28C840"></circle>
+
+  <rect x="112.75" y="172.75" width="230.5" height="22.5" rx="8" fill="#FFFFFF" stroke="#C9D3E0" stroke-width="1.5"></rect>
+  <g stroke="#64748B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="124.75" y="181.75" width="9" height="7" rx="2"></rect>
+    <path d="M126.75 181.75 v-2 a2.75 2.75 0 0 1 5.5 0 v2"></path>
+  </g>
+  <text x="144" y="184" font-size="11.5" dominant-baseline="central" fill="#64748B">http://<tspan fill="#0F172A">e-commerce.com/category</tspan></text>
+
+  
+  <rect x="45.75" y="225.25" width="39" height="21.5" rx="6" fill="#E8F3F4" stroke="#087F8C" stroke-width="1.5"></rect>
+  <text x="65.25" y="236.5" font-size="10.5" font-weight="500" text-anchor="middle" dominant-baseline="central" fill="#087F8C">Prev</text>
+  <use href="#page-chip" x="93" y="224" width="24" height="24"></use>
+  <text x="105" y="236" font-size="12" font-weight="500" text-anchor="middle" dominant-baseline="central" fill="#475569">1</text>
+  <use href="#page-chip" x="127" y="224" width="24" height="24"></use>
+  <text x="139" y="236" font-size="12" font-weight="500" text-anchor="middle" dominant-baseline="central" fill="#475569">2</text>
+  <use href="#page-chip" x="161" y="224" width="24" height="24"></use>
+  <text x="173" y="236" font-size="12" font-weight="500" text-anchor="middle" dominant-baseline="central" fill="#475569">3</text>
+  <text x="207" y="236" font-size="13" font-weight="500" text-anchor="middle" dominant-baseline="central" fill="#94A3B8">…</text>
+  <use href="#page-chip" x="229" y="224" width="24" height="24"></use>
+  <text x="241" y="236" font-size="12" font-weight="500" text-anchor="middle" dominant-baseline="central" fill="#475569">8</text>
+  <use href="#page-chip" x="263" y="224" width="24" height="24"></use>
+  <text x="275" y="236" font-size="12" font-weight="500" text-anchor="middle" dominant-baseline="central" fill="#475569">9</text>
+  <rect x="295.25" y="225.25" width="39" height="21.5" rx="6" fill="#E8F3F4" stroke="#087F8C" stroke-width="1.5"></rect>
+  <text x="314.75" y="236.5" font-size="10.5" font-weight="500" text-anchor="middle" dominant-baseline="central" fill="#087F8C">Next</text>
+
+  
+  <rect x="24.75" y="285.25" width="330.5" height="44" rx="8" fill="#EAF2F4" stroke="#B8CBD2" stroke-width="1.5"></rect>
+  <text x="190" y="307.25" font-size="13" font-weight="500" text-anchor="middle" dominant-baseline="central" fill="#475569">Item</text>
+  <rect x="24.75" y="341.25" width="330.5" height="44" rx="8" fill="#EAF2F4" stroke="#B8CBD2" stroke-width="1.5"></rect>
+  <text x="190" y="363.25" font-size="13" font-weight="500" text-anchor="middle" dominant-baseline="central" fill="#475569">Item</text>
+
+      <rect x="16.75" y="277.25" width="346.5" height="116" rx="12" fill="none" stroke="#B8CBD2" stroke-width="1.5"></rect>
+  
+  <rect x="0" y="0" width="0" height="0" fill="none"></rect>
+
+  
+  <rect x="392.75" y="24.75" width="364.5" height="316" rx="12" fill="#FFFFFF" stroke="#B8C6D8" stroke-width="1.5"></rect>
+  <text x="408" y="48" font-size="14" font-weight="600" fill="#0F172A">Sitemap</text>
+
+  <rect x="408.75" y="64.75" width="331" height="28.5" rx="8" fill="#087F8C"></rect>
+  <text x="420" y="79.5" font-size="13" font-weight="500" dominant-baseline="central" fill="#FFFFFF">Start URL</text>
+
+  <rect x="408.75" y="112.75" width="331" height="212" rx="12" fill="#F8FAFC" stroke="#B8CBD2" stroke-width="1.5" stroke-dasharray="5 4"></rect>
+  <text x="424" y="136" font-size="13" font-weight="500" fill="#475569">Selectors</text>
+
+  
+  <rect x="424.75" y="152.75" width="299" height="28.5" rx="8" fill="#E9F6EC" stroke="#7FC08A" stroke-width="1.5"></rect>
+  <g transform="translate(433,160.4) scale(0.55)" stroke="#2F7D32" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M9 17H7a5 5 0 0 1 0-10h2"></path>
+    <path d="M15 7h2a5 5 0 0 1 0 10h-2"></path>
+    <line x1="8" y1="12" x2="16" y2="12"></line>
+  </g>
+  <text x="452" y="167" font-size="13" font-weight="500" dominant-baseline="central" fill="#2F7D32">Link selector (categories)</text>
+
+  
+  <rect x="448.75" y="195.25" width="275" height="28.5" rx="8" fill="#E9F6EC" stroke="#7FC08A" stroke-width="1.5"></rect>
+  <g transform="translate(457,204.4) scale(0.55)" stroke="#2F7D32" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M20 12a8 8 0 1 1-2.34-5.66"></path>
+    <path d="M20 4v5h-5"></path>
+  </g>
+  <text x="476" y="210" font-size="13" font-weight="500" dominant-baseline="central" fill="#2F7D32">Pagination selector</text>
+  <rect x="625.75" y="200.5" width="56" height="18" rx="5" fill="#FFFFFF" stroke="#7FC08A" stroke-width="1.5"></rect>
+  <text x="653.75" y="209.5" font-size="8" font-weight="600" letter-spacing="0.02em" text-anchor="middle" dominant-baseline="central" fill="#2F7D32">RECURSIVE</text>
+
+  
+  <path d="M436 181.25 L436 210 L448.75 210" fill="none" stroke="#7FC08A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  <path d="M460 223.75 L460 252 L472.75 252" fill="none" stroke="#7FC08A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  <rect x="472.75" y="237.75" width="251" height="28.5" rx="8" fill="#E9F6EC" stroke="#7FC08A" stroke-width="1.5"></rect>
+  <g transform="translate(481,245.4) scale(0.55)" stroke="#2F7D32" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <rect x="3" y="3" width="14" height="14" rx="3"></rect>
+    <rect x="7" y="7" width="14" height="14" rx="3"></rect>
+  </g>
+  <text x="500" y="252" font-size="13" font-weight="500" dominant-baseline="central" fill="#2F7D32">Element selector</text>
+
+  <path d="M488 266.25 L488 294.5 L496.75 294.5" fill="none" stroke="#7FC08A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  <rect x="496.75" y="280.25" width="227" height="28.5" rx="8" fill="#E9F6EC" stroke="#7FC08A" stroke-width="1.5"></rect>
+  <g transform="translate(505,287.5) scale(0.58)" stroke="#2F7D32" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <rect x="3" y="3" width="18" height="18" rx="3"></rect>
+    <line x1="3" y1="9" x2="21" y2="9"></line>
+  </g>
+  <text x="523" y="294.5" font-size="13" font-weight="500" dominant-baseline="central" fill="#2F7D32">Selectors for data extraction</text>
+
+  
+
+  <g stroke="#087F8C" stroke-width="1.5" stroke-linecap="round" marker-end="url(#arrow)">
+    <line x1="408" y1="72" x2="345" y2="60"></line>
+    <line x1="424" y1="167" x2="272" y2="113"></line>
+    <line x1="236" y1="129" x2="236" y2="163"></line>
+    <line x1="448" y1="210" x2="334" y2="236"></line>
+    <line x1="472" y1="252" x2="363" y2="279"></line>
+    <line x1="496" y1="294" x2="355" y2="307"></line>
+    <line x1="496" y1="294" x2="355" y2="363"></line>
+  </g>
+</svg>

@@ -98,8 +98,8 @@ data as CSV* panel.
 * [How to create a sitemap]
 * [How to add multiple start URLs]
 
-[image-news-site]: images/scraping-a-site/news-site.png?raw=true
-[image-news-site-sitemap]: images/scraping-a-site/news-site-sitemap.png?raw=true
+[image-news-site]: images/scraping-a-site/news-site.svg
+[image-news-site-sitemap]: images/scraping-a-site/news-site-sitemap.svg
 [text-selector]: Selectors/Text%20selector.md
 [link-selector]: Selectors/Link%20selector.md
 [element-selector]: Selectors/Element%20selector.md

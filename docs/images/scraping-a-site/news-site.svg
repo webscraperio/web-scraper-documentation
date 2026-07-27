@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 690 492" width="690" height="492" fill="none" font-family="Inter, ui-sans-serif, system-ui, -apple-system, &#39;Segoe UI&#39;, Roboto, Arial, sans-serif">
+  
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="5.2" refY="3" orient="auto-start-reverse">
+      <path d="M0.75 0.5 L6 3 L0.75 5.5" fill="none" stroke="#087F8C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    </marker>
+    
+    <symbol id="link-chip" viewBox="0 0 68 26">
+      <rect x="0.75" y="0.75" width="66.5" height="24.5" rx="5" fill="#E8F3F4" stroke="#087F8C" stroke-width="1.5"></rect>
+      <text x="34" y="13" font-size="12.5" font-weight="500" text-anchor="middle" dominant-baseline="central" fill="#087F8C">Link</text>
+    </symbol>
+  </defs>
+
+  
+  <rect x="8.75" y="8.75" width="672.5" height="474.5" rx="16" fill="#F8FAFC" stroke="#ECEFF3" stroke-width="1.5"></rect>
+
+  
+  <rect x="40.75" y="32.75" width="606.5" height="166.5" rx="12" fill="#FFFFFF" stroke="#B8C6D8" stroke-width="1.5"></rect>
+  <path d="M40.75 44 A11.25 11.25 0 0 1 52 32.75 L636 32.75 A11.25 11.25 0 0 1 647.25 44 L647.25 72 L40.75 72 Z" fill="#F1F5F9"></path>
+  <line x1="40.75" y1="72" x2="647.25" y2="72" stroke="#B8C6D8" stroke-width="1.5"></line>
+  <circle cx="64" cy="52" r="5" fill="#FF5F57"></circle>
+  <circle cx="84" cy="52" r="5" fill="#FEBC2E"></circle>
+  <circle cx="104" cy="52" r="5" fill="#28C840"></circle>
+
+  
+  <rect x="132.75" y="40.75" width="482.5" height="22.5" rx="8" fill="#FFFFFF" stroke="#C9D3E0" stroke-width="1.5"></rect>
+  <g stroke="#64748B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="144.75" y="49.75" width="9" height="7" rx="2"></rect>
+    <path d="M146.75 49.75 v-2 a2.75 2.75 0 0 1 5.5 0 v2"></path>
+  </g>
+  <text x="164" y="52" font-size="14" dominant-baseline="central" fill="#64748B">http://<tspan fill="#0F172A">example-news.com</tspan>/</text>
+
+  
+  <rect x="64" y="96" width="480" height="8" rx="4" fill="#D6DEE8"></rect>
+  <rect x="64" y="116" width="360" height="8" rx="4" fill="#D6DEE8"></rect>
+
+  
+  <use href="#link-chip" x="71" y="150" width="68" height="26"></use>
+  <use href="#link-chip" x="231" y="150" width="68" height="26"></use>
+  <use href="#link-chip" x="391" y="150" width="68" height="26"></use>
+  <use href="#link-chip" x="551" y="150" width="68" height="26"></use>
+
+  
+  <g stroke="#087F8C" stroke-width="1.5" stroke-linecap="round" marker-end="url(#arrow)">
+    <line x1="105" y1="182" x2="105" y2="311"></line>
+    <line x1="265" y1="182" x2="265" y2="311"></line>
+    <line x1="425" y1="182" x2="425" y2="311"></line>
+    <line x1="585" y1="182" x2="585" y2="311"></line>
+  </g>
+
+  
+  <g transform="translate(41,316)">
+    <rect x="0.75" y="0.75" width="126.5" height="150.5" rx="12" fill="#F3F8FA" stroke="#B8CBD2" stroke-width="1.5"></rect>
+    <path d="M0.75 12 A11.25 11.25 0 0 1 12 0.75 L116 0.75 A11.25 11.25 0 0 1 127.25 12 L127.25 30 L0.75 30 Z" fill="#EAF2F4"></path>
+    <line x1="0.75" y1="30" x2="127.25" y2="30" stroke="#B8CBD2" stroke-width="1.5"></line>
+    <circle cx="16" cy="15" r="3" fill="#FF5F57"></circle>
+    <circle cx="26" cy="15" r="3" fill="#FEBC2E"></circle>
+    <circle cx="36" cy="15" r="3" fill="#28C840"></circle>
+    <text x="16" y="52" font-size="13.5" font-weight="500" fill="#475569">Listing</text>
+    <rect x="16" y="76" width="96" height="7" rx="3.5" fill="#C4D3D9"></rect>
+    <rect x="16" y="92" width="80" height="7" rx="3.5" fill="#C4D3D9"></rect>
+    <rect x="16" y="108" width="72" height="7" rx="3.5" fill="#C4D3D9"></rect>
+  </g>
+  <g transform="translate(201,316)">
+    <rect x="0.75" y="0.75" width="126.5" height="150.5" rx="12" fill="#F3F8FA" stroke="#B8CBD2" stroke-width="1.5"></rect>
+    <path d="M0.75 12 A11.25 11.25 0 0 1 12 0.75 L116 0.75 A11.25 11.25 0 0 1 127.25 12 L127.25 30 L0.75 30 Z" fill="#EAF2F4"></path>
+    <line x1="0.75" y1="30" x2="127.25" y2="30" stroke="#B8CBD2" stroke-width="1.5"></line>
+    <circle cx="16" cy="15" r="3" fill="#FF5F57"></circle>
+    <circle cx="26" cy="15" r="3" fill="#FEBC2E"></circle>
+    <circle cx="36" cy="15" r="3" fill="#28C840"></circle>
+    <text x="16" y="52" font-size="13.5" font-weight="500" fill="#475569">Listing</text>
+    <rect x="16" y="74" width="104" height="7" rx="3.5" fill="#C4D3D9"></rect>
+    <rect x="16" y="90" width="96" height="7" rx="3.5" fill="#C4D3D9"></rect>
+    <rect x="16" y="106" width="80" height="7" rx="3.5" fill="#C4D3D9"></rect>
+  </g>
+  <g transform="translate(361,316)">
+    <rect x="0.75" y="0.75" width="126.5" height="150.5" rx="12" fill="#F3F8FA" stroke="#B8CBD2" stroke-width="1.5"></rect>
+    <path d="M0.75 12 A11.25 11.25 0 0 1 12 0.75 L116 0.75 A11.25 11.25 0 0 1 127.25 12 L127.25 30 L0.75 30 Z" fill="#EAF2F4"></path>
+    <line x1="0.75" y1="30" x2="127.25" y2="30" stroke="#B8CBD2" stroke-width="1.5"></line>
+    <circle cx="16" cy="15" r="3" fill="#FF5F57"></circle>
+    <circle cx="26" cy="15" r="3" fill="#FEBC2E"></circle>
+    <circle cx="36" cy="15" r="3" fill="#28C840"></circle>
+    <text x="16" y="52" font-size="13.5" font-weight="500" fill="#475569">Listing</text>
+    <rect x="16" y="78" width="88" height="7" rx="3.5" fill="#C4D3D9"></rect>
+    <rect x="16" y="94" width="96" height="7" rx="3.5" fill="#C4D3D9"></rect>
+    <rect x="16" y="110" width="64" height="7" rx="3.5" fill="#C4D3D9"></rect>
+  </g>
+  <g transform="translate(521,316)">
+    <rect x="0.75" y="0.75" width="126.5" height="150.5" rx="12" fill="#F3F8FA" stroke="#B8CBD2" stroke-width="1.5"></rect>
+    <path d="M0.75 12 A11.25 11.25 0 0 1 12 0.75 L116 0.75 A11.25 11.25 0 0 1 127.25 12 L127.25 30 L0.75 30 Z" fill="#EAF2F4"></path>
+    <line x1="0.75" y1="30" x2="127.25" y2="30" stroke="#B8CBD2" stroke-width="1.5"></line>
+    <circle cx="16" cy="15" r="3" fill="#FF5F57"></circle>
+    <circle cx="26" cy="15" r="3" fill="#FEBC2E"></circle>
+    <circle cx="36" cy="15" r="3" fill="#28C840"></circle>
+    <text x="16" y="52" font-size="13.5" font-weight="500" fill="#475569">Listing</text>
+    <rect x="16" y="76" width="96" height="7" rx="3.5" fill="#C4D3D9"></rect>
+    <rect x="16" y="92" width="72" height="7" rx="3.5" fill="#C4D3D9"></rect>
+    <rect x="16" y="108" width="88" height="7" rx="3.5" fill="#C4D3D9"></rect>
+  </g>
+</svg>

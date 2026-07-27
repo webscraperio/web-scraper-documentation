@@ -45,7 +45,7 @@ Though [Table selector] [table-selector] might be much better solution.
 [css-selector]: ../CSS%20selector.md
 [pagination-selector]: Pagination%20selector.md
 [table-selector]: Table%20selector.md
-[multiple-elements-with-text-selectors]: ../images/selectors/text/text-selector-multiple-elements-with-text-selectors.png?raw=true
+[multiple-elements-with-text-selectors]: ../images/selectors/text/text-selector-multiple-elements-with-text-selectors.svg
 [How to scrape multiple items within a listings page]: https://webscraper.io/tutorials/multiple-items
 
 description: Web Scraper Element Selector - select multiple data elements from lists and containers with scroll support for dynamic content loading

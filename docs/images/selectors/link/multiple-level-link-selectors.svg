@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 752 430" width="752" height="430" fill="none" font-family="Inter, ui-sans-serif, system-ui, -apple-system, &#39;Segoe UI&#39;, Roboto, Arial, sans-serif">
+  
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="5.2" refY="3" orient="auto-start-reverse">
+      <path d="M0.75 0.5 L6 3 L0.75 5.5" fill="none" stroke="#087F8C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    </marker>
+    <symbol id="link-chip" viewBox="0 0 68 26">
+      <rect x="0.75" y="0.75" width="66.5" height="24.5" rx="5" fill="#E8F3F4" stroke="#087F8C" stroke-width="1.5"></rect>
+      <text x="34" y="13" font-size="12.5" font-weight="500" text-anchor="middle" dominant-baseline="central" fill="#087F8C">Link</text>
+    </symbol>
+  </defs>
+
+  
+  <rect x="8.75" y="8.75" width="734.5" height="412.5" rx="16" fill="#F8FAFC" stroke="#ECEFF3" stroke-width="1.5"></rect>
+
+  
+  <rect x="24.75" y="40.75" width="370.5" height="96.5" rx="12" fill="#FFFFFF" stroke="#B8C6D8" stroke-width="1.5"></rect>
+  <path d="M24.75 52 A11.25 11.25 0 0 1 36 40.75 L384 40.75 A11.25 11.25 0 0 1 395.25 52 L395.25 80 L24.75 80 Z" fill="#F1F5F9"></path>
+  <line x1="24.75" y1="80" x2="395.25" y2="80" stroke="#B8C6D8" stroke-width="1.5"></line>
+  <circle cx="48" cy="60" r="5" fill="#FF5F57"></circle>
+  <circle cx="68" cy="60" r="5" fill="#FEBC2E"></circle>
+  <circle cx="88" cy="60" r="5" fill="#28C840"></circle>
+
+  <rect x="112.75" y="48.75" width="270.5" height="22.5" rx="8" fill="#FFFFFF" stroke="#C9D3E0" stroke-width="1.5"></rect>
+  <g stroke="#64748B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="124.75" y="57.75" width="9" height="7" rx="2"></rect>
+    <path d="M126.75 57.75 v-2 a2.75 2.75 0 0 1 5.5 0 v2"></path>
+  </g>
+  <text x="144" y="60" font-size="13.5" dominant-baseline="central" fill="#64748B">http://<tspan fill="#0F172A">e-commerce.com</tspan>/</text>
+
+  <use href="#link-chip" x="130" y="100" width="68" height="26"></use>
+  <use href="#link-chip" x="222" y="100" width="68" height="26"></use>
+
+  
+  <rect x="24.75" y="164.75" width="370.5" height="96.5" rx="12" fill="#FFFFFF" stroke="#B8C6D8" stroke-width="1.5"></rect>
+  <path d="M24.75 176 A11.25 11.25 0 0 1 36 164.75 L384 164.75 A11.25 11.25 0 0 1 395.25 176 L395.25 204 L24.75 204 Z" fill="#F1F5F9"></path>
+  <line x1="24.75" y1="204" x2="395.25" y2="204" stroke="#B8C6D8" stroke-width="1.5"></line>
+  <circle cx="48" cy="184" r="5" fill="#FF5F57"></circle>
+  <circle cx="68" cy="184" r="5" fill="#FEBC2E"></circle>
+  <circle cx="88" cy="184" r="5" fill="#28C840"></circle>
+
+  <rect x="112.75" y="172.75" width="270.5" height="22.5" rx="8" fill="#FFFFFF" stroke="#C9D3E0" stroke-width="1.5"></rect>
+  <g stroke="#64748B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="124.75" y="181.75" width="9" height="7" rx="2"></rect>
+    <path d="M126.75 181.75 v-2 a2.75 2.75 0 0 1 5.5 0 v2"></path>
+  </g>
+  <text x="144" y="184" font-size="12" dominant-baseline="central" fill="#64748B">http://<tspan fill="#0F172A">e-commerce.com/subcategory</tspan></text>
+
+  <use href="#link-chip" x="130" y="224" width="68" height="26"></use>
+  <use href="#link-chip" x="222" y="224" width="68" height="26"></use>
+
+  
+  <rect x="24.75" y="288.75" width="370.5" height="116" rx="12" fill="#F3F8FA" stroke="#B8CBD2" stroke-width="1.5"></rect>
+  <path d="M24.75 300 A11.25 11.25 0 0 1 36 288.75 L384 288.75 A11.25 11.25 0 0 1 395.25 300 L395.25 312.75 L24.75 312.75 Z" fill="#EAF2F4"></path>
+  <line x1="24.75" y1="312.75" x2="395.25" y2="312.75" stroke="#B8CBD2" stroke-width="1.5"></line>
+  <circle cx="40" cy="300.5" r="2.5" fill="#FF5F57"></circle>
+  <circle cx="49" cy="300.5" r="2.5" fill="#FEBC2E"></circle>
+  <circle cx="58" cy="300.5" r="2.5" fill="#28C840"></circle>
+
+  <rect x="40.75" y="324.75" width="338.5" height="28" rx="8" fill="#EAF2F4" stroke="#B8CBD2" stroke-width="1.5"></rect>
+  <text x="210" y="338.75" font-size="13" font-weight="500" text-anchor="middle" dominant-baseline="central" fill="#475569">Item</text>
+  <rect x="40.75" y="364.75" width="338.5" height="28" rx="8" fill="#EAF2F4" stroke="#B8CBD2" stroke-width="1.5"></rect>
+  <text x="210" y="378.75" font-size="13" font-weight="500" text-anchor="middle" dominant-baseline="central" fill="#475569">Item</text>
+
+  
+  <rect x="432.75" y="24.75" width="294.5" height="320" rx="12" fill="#FFFFFF" stroke="#B8C6D8" stroke-width="1.5"></rect>
+  <text x="448" y="48" font-size="14" font-weight="600" fill="#0F172A">Sitemap</text>
+
+  <rect x="448.75" y="64.75" width="261" height="28.5" rx="8" fill="#087F8C"></rect>
+  <text x="460" y="79.5" font-size="13" font-weight="500" dominant-baseline="central" fill="#FFFFFF">Start URL</text>
+
+  <rect x="448.75" y="112.75" width="261" height="216" rx="12" fill="#F8FAFC" stroke="#B8CBD2" stroke-width="1.5" stroke-dasharray="5 4"></rect>
+  <text x="464" y="136" font-size="13" font-weight="500" fill="#475569">Selectors</text>
+
+  
+  <rect x="464.75" y="152.75" width="229" height="44" rx="8" fill="#E9F6EC" stroke="#7FC08A" stroke-width="1.5"></rect>
+  <g transform="translate(473,163) scale(0.55)" stroke="#2F7D32" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M9 17H7a5 5 0 0 1 0-10h2"></path>
+    <path d="M15 7h2a5 5 0 0 1 0 10h-2"></path>
+    <line x1="8" y1="12" x2="16" y2="12"></line>
+  </g>
+  <text x="498" y="166.75" font-size="13" font-weight="500" dominant-baseline="central" fill="#2F7D32">Link selector</text>
+  <text x="498" y="184" font-size="12" font-weight="400" dominant-baseline="central" fill="#2F7D32">(categories)</text>
+
+  
+  <path d="M473 196.75 L473 232.75 L482.75 232.75" fill="none" stroke="#7FC08A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+      <rect x="482.75" y="210.75" width="211" height="44" rx="8" fill="#E9F6EC" stroke="#7FC08A" stroke-width="1.5"></rect>
+  <g transform="translate(491,221) scale(0.55)" stroke="#2F7D32" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M9 17H7a5 5 0 0 1 0-10h2"></path>
+    <path d="M15 7h2a5 5 0 0 1 0 10h-2"></path>
+    <line x1="8" y1="12" x2="16" y2="12"></line>
+  </g>
+  <text x="516" y="224.75" font-size="13" font-weight="500" dominant-baseline="central" fill="#2F7D32">Link selector</text>
+  <text x="516" y="242" font-size="12" font-weight="400" dominant-baseline="central" fill="#2F7D32">(subcategories)</text>
+
+  
+  <path d="M490.75 254.75 L490.75 290.75 L500.75 290.75" fill="none" stroke="#7FC08A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+      <rect x="500.75" y="268.75" width="193" height="44" rx="8" fill="#E9F6EC" stroke="#7FC08A" stroke-width="1.5"></rect>
+  <g transform="translate(510,279) scale(0.58)" stroke="#2F7D32" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <rect x="3" y="3" width="18" height="18" rx="3"></rect>
+    <line x1="3" y1="9" x2="21" y2="9"></line>
+  </g>
+  <text x="534" y="282.75" font-size="13" font-weight="500" dominant-baseline="central" fill="#2F7D32">Selector for data</text>
+  <text x="534" y="300" font-size="12" font-weight="400" dominant-baseline="central" fill="#2F7D32">extraction</text>
+
+  
+  
+  <g stroke="#087F8C" stroke-width="1.5" stroke-linecap="round" marker-end="url(#arrow)">
+    <line x1="448" y1="72" x2="383" y2="60"></line>
+    <line x1="465" y1="174" x2="290" y2="113"></line>
+    <line x1="483" y1="232" x2="290" y2="237"></line>
+    <line x1="501" y1="290" x2="379" y2="339"></line>
+    <line x1="501" y1="290" x2="379" y2="379"></line>
+    <line x1="256" y1="129" x2="256" y2="163"></line>
+    <line x1="256" y1="253" x2="256" y2="287"></line>
+  </g>
+</svg>

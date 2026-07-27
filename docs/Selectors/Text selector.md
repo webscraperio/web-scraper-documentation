@@ -66,9 +66,9 @@ how data is returned
 
 * [How to scrape multiple items within a listings page]
 
-[text-selector-multiple-single-text-selectors-in-one-page]: ../images/selectors/text/text-selector-multiple-single-text-selectors-in-one-page.png?raw=true
-[text-selector-multiple-elements-with-text-selectors]: ../images/selectors/text/text-selector-multiple-elements-with-text-selectors.png?raw=true
-[text-selector-multiple-per-page]: ../images/selectors/text/text-selector-multiple-per-page.png?raw=true
+[text-selector-multiple-single-text-selectors-in-one-page]: ../images/selectors/text/text-selector-multiple-single-text-selectors-in-one-page.svg
+[text-selector-multiple-elements-with-text-selectors]: ../images/selectors/text/text-selector-multiple-elements-with-text-selectors.svg
+[text-selector-multiple-per-page]: ../images/selectors/text/text-selector-multiple-per-page.svg
 [element-selector]: Element%20selector.md
 [css-selector]: ../CSS%20selector.md
 [How to scrape multiple items within a listings page]: https://webscraper.io/tutorials/multiple-items
