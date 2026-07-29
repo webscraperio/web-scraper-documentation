@@ -49,7 +49,7 @@ data from those.
 
 
 [css-selector]: ../CSS%20selector.md
-[pagination-selector]: ../images/selectors/pagination/pagination-selector.png?raw=true
+[pagination-selector]: ../images/selectors/pagination/pagination-selector.svg
 
 description: Web Scraper Pagination Selector - navigate through paginated content and load more buttons to scrape data from multiple pages automatically
 keywords: pagination selector, pagination scraping, load more button, page navigation, multi-page scraping, automatic pagination, next page

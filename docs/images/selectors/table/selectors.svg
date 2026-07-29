@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 712 282" width="712" height="282" fill="none" font-family="Inter, ui-sans-serif, system-ui, -apple-system, &#39;Segoe UI&#39;, Roboto, Arial, sans-serif">
+  
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="5.2" refY="3" orient="auto-start-reverse">
+      <path d="M0.75 0.5 L6 3 L0.75 5.5" fill="none" stroke="#087F8C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    </marker>
+  </defs>
+
+  
+  <rect x="8.75" y="8.75" width="694.5" height="264.5" rx="16" fill="#F8FAFC" stroke="#ECEFF3" stroke-width="1.5"></rect>
+
+  
+  <rect x="12.75" y="44.75" width="474" height="192" rx="12" fill="none" stroke="#7FC08A" stroke-width="1.5" stroke-dasharray="5 4"></rect>
+  <rect x="20.75" y="52.75" width="458" height="44" rx="10" fill="none" stroke="#7FC08A" stroke-width="2.5"></rect>
+  <rect x="20.75" y="96.75" width="458" height="132" rx="10" fill="none" stroke="#7FC08A" stroke-width="1.5"></rect>
+
+  
+  <rect x="24.75" y="56.75" width="450" height="36" rx="8" fill="#F1F5F9" stroke="#B8C6D8" stroke-width="1.5"></rect>
+  <g stroke="#CBD8E4" stroke-width="1.5">
+    <line x1="69.75" y1="56.75" x2="69.75" y2="92.75"></line>
+    <line x1="204.75" y1="56.75" x2="204.75" y2="92.75"></line>
+    <line x1="339.75" y1="56.75" x2="339.75" y2="92.75"></line>
+  </g>
+  <text x="47.25" y="74.75" font-size="13" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="#0F172A">#</text>
+  <text x="81.75" y="74.75" font-size="13" font-weight="600" dominant-baseline="central" fill="#0F172A">First Name</text>
+  <text x="216.75" y="74.75" font-size="13" font-weight="600" dominant-baseline="central" fill="#0F172A">Last Name</text>
+  <text x="351.75" y="74.75" font-size="13" font-weight="600" dominant-baseline="central" fill="#0F172A">Username</text>
+
+  
+  <rect x="24.75" y="100.75" width="450" height="36" rx="8" fill="#FFFFFF" stroke="#ECEFF3" stroke-width="1.5"></rect>
+  <g stroke="#ECEFF3" stroke-width="1.5">
+    <line x1="69.75" y1="100.75" x2="69.75" y2="136.75"></line>
+    <line x1="204.75" y1="100.75" x2="204.75" y2="136.75"></line>
+    <line x1="339.75" y1="100.75" x2="339.75" y2="136.75"></line>
+  </g>
+  <text x="47.25" y="118.75" font-size="13" text-anchor="middle" dominant-baseline="central" fill="#0F172A">1</text>
+  <text x="81.75" y="118.75" font-size="13" dominant-baseline="central" fill="#0F172A">Mark</text>
+  <text x="216.75" y="118.75" font-size="13" dominant-baseline="central" fill="#0F172A">Otto</text>
+  <text x="351.75" y="118.75" font-size="13" dominant-baseline="central" fill="#64748B">@motto</text>
+
+  <rect x="24.75" y="144.75" width="450" height="36" rx="8" fill="#FFFFFF" stroke="#ECEFF3" stroke-width="1.5"></rect>
+  <g stroke="#ECEFF3" stroke-width="1.5">
+    <line x1="69.75" y1="144.75" x2="69.75" y2="180.75"></line>
+    <line x1="204.75" y1="144.75" x2="204.75" y2="180.75"></line>
+    <line x1="339.75" y1="144.75" x2="339.75" y2="180.75"></line>
+  </g>
+  <text x="47.25" y="162.75" font-size="13" text-anchor="middle" dominant-baseline="central" fill="#0F172A">2</text>
+  <text x="81.75" y="162.75" font-size="13" dominant-baseline="central" fill="#0F172A">Jacob</text>
+  <text x="216.75" y="162.75" font-size="13" dominant-baseline="central" fill="#0F172A">Thornton</text>
+  <text x="351.75" y="162.75" font-size="13" dominant-baseline="central" fill="#64748B">@jthornton</text>
+
+  <rect x="24.75" y="188.75" width="450" height="36" rx="8" fill="#FFFFFF" stroke="#ECEFF3" stroke-width="1.5"></rect>
+  <g stroke="#ECEFF3" stroke-width="1.5">
+    <line x1="69.75" y1="188.75" x2="69.75" y2="224.75"></line>
+    <line x1="204.75" y1="188.75" x2="204.75" y2="224.75"></line>
+    <line x1="339.75" y1="188.75" x2="339.75" y2="224.75"></line>
+  </g>
+  <text x="47.25" y="206.75" font-size="13" text-anchor="middle" dominant-baseline="central" fill="#0F172A">3</text>
+  <text x="81.75" y="206.75" font-size="13" dominant-baseline="central" fill="#0F172A">Larry</text>
+  <text x="216.75" y="206.75" font-size="13" dominant-baseline="central" fill="#0F172A">the Bird</text>
+  <text x="351.75" y="206.75" font-size="13" dominant-baseline="central" fill="#64748B">@lbird</text>
+
+  
+  <rect x="520.75" y="40.75" width="166.5" height="216" rx="12" fill="#FFFFFF" stroke="#B8C6D8" stroke-width="1.5"></rect>
+  <text x="536" y="64" font-size="14" font-weight="600" fill="#0F172A">Table selector</text>
+
+  <rect x="536.75" y="80.75" width="134.5" height="32" rx="8" fill="#E9F6EC" stroke="#7FC08A" stroke-width="1.5" stroke-dasharray="5 4"></rect>
+  <g transform="translate(546,89) scale(0.58)" stroke="#2F7D32" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <rect x="3" y="3" width="18" height="18" rx="3"></rect>
+    <line x1="3" y1="9" x2="21" y2="9"></line>
+  </g>
+  <text x="564" y="97" font-size="13" font-weight="500" dominant-baseline="central" fill="#2F7D32">Selector</text>
+
+  <rect x="536.75" y="128.75" width="134.5" height="44" rx="8" fill="#E9F6EC" stroke="#7FC08A" stroke-width="1.5"></rect>
+  <g transform="translate(546,141) scale(0.58)" stroke="#2F7D32" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <rect x="3" y="3" width="18" height="18" rx="3"></rect>
+    <line x1="3" y1="9" x2="21" y2="9"></line>
+  </g>
+  <text x="564" y="146.5" font-size="13" font-weight="500" dominant-baseline="central" fill="#2F7D32">Header row</text>
+  <text x="564" y="163.75" font-size="13" font-weight="500" dominant-baseline="central" fill="#2F7D32">selector</text>
+
+  <rect x="536.75" y="188.75" width="134.5" height="44" rx="8" fill="#E9F6EC" stroke="#7FC08A" stroke-width="1.5"></rect>
+  <g transform="translate(546,201) scale(0.58)" stroke="#2F7D32" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <rect x="3" y="3" width="18" height="18" rx="3"></rect>
+    <line x1="3" y1="9" x2="21" y2="9"></line>
+  </g>
+  <text x="564" y="206.5" font-size="13" font-weight="500" dominant-baseline="central" fill="#2F7D32">Data rows</text>
+  <text x="564" y="223.75" font-size="13" font-weight="500" dominant-baseline="central" fill="#2F7D32">selector</text>
+
+  
+  <g stroke="#087F8C" stroke-width="1.5" stroke-linecap="round" marker-end="url(#arrow)">
+    <line x1="536" y1="97" x2="485" y2="45"></line>
+    <line x1="536" y1="151" x2="479" y2="75"></line>
+    <line x1="536" y1="211" x2="479" y2="119"></line>
+    <line x1="536" y1="211" x2="479" y2="163"></line>
+    <line x1="536" y1="211" x2="479" y2="207"></line>
+  </g>
+</svg>

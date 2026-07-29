@@ -21,7 +21,7 @@ shows what you should select when extracting data from a table.
 ## Use cases
 See [Text selector] [text-selector] use cases.
 
- [table-selector-selectors]: ../images/selectors/table/selectors.png?raw=true
+ [table-selector-selectors]: ../images/selectors/table/selectors.svg
  [text-selector]: Text%20selector.md
  [css-selector]: ../CSS%20selector.md
 
